@@ -1,13 +1,13 @@
 # Glyph
 
-1000+ clean, consistent SVG icons in two styles, **outline** and **solid**, plus a small set of brand logos. They're published on npm as [`glyph-icons`](https://www.npmjs.com/package/glyph-icons).
+1000+ clean, consistent SVG icons in two styles, **outline** and **solid**, plus a small set of brand logos. They're published on npm as [`@themrdev/glyph-icons`](https://www.npmjs.com/package/@themrdev/glyph-icons).
 
 ```bash
-npm install glyph-icons
+npm install @themrdev/glyph-icons
 ```
 
 ```ts
-import { getIcon } from "glyph-icons";
+import { getIcon } from "@themrdev/glyph-icons";
 
 el.innerHTML = getIcon("user");             // outline (default)
 el.innerHTML = getIcon("user", "solid");
