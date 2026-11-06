@@ -1,6 +1,11 @@
-// Renders the browsable icon page (index.html at the repo root).
+// Renders the icon browser and docs page (site/index.html).
 // The icons are embedded, so the page works when opened straight from disk
-// and on any static host (e.g. GitHub Pages) without a build step there.
+// and on any static host (e.g. GitHub Pages).
+
+import { PACKAGE, REPO } from "./endpoints.mjs";
+
+const COPY_ICON =
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.75" y="8.75" width="11.5" height="11.5" rx="2"/><path d="M15.25 8.75V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v7A2.25 2.25 0 0 0 6 15.25h2.75"/></svg>';
 
 const SEARCH_ICON =
   '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.25"/><path d="m15.75 15.75 4 4"/></svg>';
@@ -19,7 +24,8 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Glyph Icons</title>
-<meta name="description" content="Browse and search Glyph SVG icons in outline and solid styles.">
+<meta name="description" content="Glyph: ${Object.keys(icons).length} SVG icons in outline and solid styles, published on npm as ${PACKAGE} with one type-safe getIcon() function.">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
 <link rel="icon" href="data:image/svg+xml,${encodeURIComponent(icons.user?.solid ?? Object.values(icons)[0]?.[variants[0]] ?? "")}">
 <style>
   :root {
@@ -109,7 +115,8 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
 
   .meta { margin: 8px 0 16px; color: var(--muted); font-size: 13px; }
 
-  main { padding-bottom: 64px; }
+  main { padding-bottom: 24px; }
+  .docs-wrap { padding-bottom: 80px; }
   .section + .section { margin-top: 40px; }
   .section-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 12px; }
   .section-head h2 { margin: 0; font-size: 13px; font-weight: 600; }
@@ -169,6 +176,39 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
   }
   .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
+  .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+  nav { display: flex; gap: 16px; font-size: 13px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  nav a { color: var(--muted); }
+  nav a:hover { color: var(--fg); text-decoration: none; }
+  .start { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 12px; margin-top: 20px; }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
+  .panel h3 { margin: 0 0 8px; font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .cmd { display: flex; align-items: center; gap: 8px; }
+  .cmd code { flex: 1; }
+  code, pre { font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  :not(pre) > code { padding: 1px 5px; background: var(--surface-2); border-radius: 6px; font-size: 12.5px; }
+  .cmd code { padding: 6px 10px; background: var(--surface-2); border-radius: 8px; font-size: 13px; overflow-x: auto; white-space: nowrap; }
+  pre.snippet { margin: 0; padding: 10px 12px; overflow-x: auto; background: var(--surface-2); border-radius: 8px; }
+  .muted { color: var(--muted); }
+  .tok-c { color: var(--muted); }
+  .tok-s { color: var(--accent); }
+  .docs { margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--line); max-width: 760px; }
+  .docs h2 { margin: 0 0 12px; font-size: 20px; letter-spacing: -0.01em; }
+  .docs h3 { margin: 28px 0 8px; font-size: 15px; }
+  .docs p, .docs li { color: var(--fg); }
+  .docs p { margin: 8px 0; }
+  .docs ul { margin: 8px 0; padding-left: 20px; }
+  .docs li { margin: 4px 0; }
+  .docs pre { margin: 10px 0; padding: 12px 14px; overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  .docs table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px; }
+  .docs th, .docs td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .docs th { font-weight: 600; color: var(--muted); }
+  .dlg-links { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: -8px 20px 20px; font-size: 13px; }
+  .dlg-links span { color: var(--muted); }
+
+  @media (max-width: 760px) { .start { grid-template-columns: minmax(0, 1fr); } }
   @media (max-width: 560px) {
     header { padding-top: 24px; }
     .size input { width: 96px; }
@@ -179,10 +219,34 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
 </head>
 <body>
 <header class="wrap">
-  <h1>Glyph</h1>
-  <p class="lede">Clean SVG icons in ${variants.join(" and ")} styles${hasBrands ? ", plus brand logos" : ""}. Click an icon to copy or download it.</p>
+  <div class="top">
+    <h1>Glyph</h1>
+    <nav aria-label="Links">
+      <a href="#docs">Docs</a>
+      <a href="llms.txt">llms.txt</a>
+      <a href="https://www.npmjs.com/package/${PACKAGE}">npm</a>
+      <a href="${REPO}">GitHub</a>
+    </nav>
+  </div>
+  <p class="lede">${Object.keys(icons).length} clean SVG icons in ${variants.join(" and ")} styles${hasBrands ? `, plus ${Object.keys(brands).length} brand logos` : ""}. One type-safe function. Click an icon to copy or download it.</p>
+  <div class="start">
+    <div class="panel">
+      <h3>Install</h3>
+      <div class="cmd"><code id="install-cmd">npm install ${PACKAGE}</code><button type="button" class="icon-btn" id="copy-install" aria-label="Copy install command">${COPY_ICON}</button></div>
+      <p class="muted" style="margin:10px 0 0;font-size:13px">ESM and CommonJS, with full TypeScript types. <a href="#docs">Read the docs</a>.</p>
+    </div>
+    <div class="panel">
+      <h3>Use</h3>
+<pre class="snippet"><code>import { getIcon } from <span class="tok-s">"${PACKAGE}"</span>;
+
+el.innerHTML = getIcon(<span class="tok-s">"user"</span>);            <span class="tok-c">// outline</span>
+el.innerHTML = getIcon(<span class="tok-s">"user"</span>, <span class="tok-s">"solid"</span>);
+el.innerHTML = getIcon(<span class="tok-s">"github"</span>, <span class="tok-s">"brand"</span>);</code></pre>
+    </div>
+  </div>
 </header>
 
+<div class="browse">
 <div class="toolbar">
   <div class="wrap">
     <label class="search">
@@ -212,6 +276,68 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
   </section>
   <div class="empty" id="empty" hidden>No icons match <strong id="empty-q"></strong></div>
 </main>
+</div>
+
+<div class="wrap docs-wrap">
+  <section class="docs" id="docs" aria-labelledby="docs-title">
+    <h2 id="docs-title">Docs</h2>
+    <h3>Install</h3>
+<pre><code>npm install ${PACKAGE}</code></pre>
+    <p>The package works with both <code>import</code> and <code>require</code>, and needs Node 18 or later.</p>
+
+    <h3>getIcon(name, variant?)</h3>
+    <p><code>getIcon</code> is the only export. It returns the icon as an SVG string.</p>
+<pre><code>import { getIcon } from <span class="tok-s">"${PACKAGE}"</span>;
+
+getIcon(<span class="tok-s">"arrow-right"</span>);          <span class="tok-c">// outline (default)</span>
+getIcon(<span class="tok-s">"arrow-right"</span>, <span class="tok-s">"solid"</span>); <span class="tok-c">// solid</span>
+getIcon(<span class="tok-s">"github"</span>, <span class="tok-s">"brand"</span>);      <span class="tok-c">// brand logos</span></code></pre>
+    <table>
+      <thead><tr><th>Argument</th><th>Type</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td><code>name</code></td><td><code>IconName</code> | <code>BrandName</code></td><td>Kebab-case, e.g. <code>chevron-down</code>. Autocompletes every icon.</td></tr>
+        <tr><td><code>variant</code></td><td>${variants.map((v) => `<code>"${v}"</code>`).join(" | ")} | <code>"brand"</code></td><td>Defaults to <code>"${variants[0]}"</code>. <code>"brand"</code> only accepts brand names.</td></tr>
+      </tbody>
+    </table>
+    <p>A name or variant that doesn't exist is a TypeScript error, and throws at runtime. The types <code>IconName</code>, <code>BrandName</code> and <code>IconVariant</code> are exported for your own components:</p>
+<pre><code>import { getIcon, <span class="tok-c">type</span> IconName } from <span class="tok-s">"${PACKAGE}"</span>;
+
+function Icon({ name }: { name: IconName }) {
+  return &lt;span className=<span class="tok-s">"icon"</span> dangerouslySetInnerHTML={{ __html: getIcon(name) }} /&gt;;
+}</code></pre>
+
+    <h3>Size and colour</h3>
+    <p>Icons have a <code>0 0 24 24</code> viewBox and no fixed size. Set the size with CSS. The colour follows <code>currentColor</code>, so icons take on the surrounding text colour.</p>
+<pre><code>.icon svg { width: 20px; height: 20px; }
+.icon { color: #4f46e5; }</code></pre>
+
+    <h3>Styles</h3>
+    <ul>
+      <li><strong>Outline:</strong> 1.5px strokes with round caps and joins, on a 24px grid.</li>
+      <li><strong>Solid:</strong> the same shapes, filled. The silhouette matches the outline, so swapping styles never shifts the layout.</li>
+      <li><strong>Brand:</strong> ${Object.keys(brands).length} logos for common tools, single colour. Path data comes from Simple Icons (CC0), and the logos are trademarks of their owners.</li>
+    </ul>
+
+    <h3>Endpoints</h3>
+    <p>Every icon is also available as a static file next to this page, which is handy for <code>&lt;img&gt;</code> tags, scripts and LLMs:</p>
+    <table>
+      <thead><tr><th>Path</th><th>Returns</th></tr></thead>
+      <tbody>
+        <tr><td><a href="llms.txt"><code>/llms.txt</code></a></td><td>An overview for LLMs: usage, rules and an index of every icon</td></tr>
+        <tr><td><a href="user.svg"><code>/&lt;icon&gt;.svg</code></a></td><td>The outline SVG</td></tr>
+        <tr><td>${variants.map((v) => `<a href="${v}/user.svg"><code>/${v}/&lt;icon&gt;.svg</code></a>`).join("<br>")}</td><td>A specific style</td></tr>
+        <tr><td><a href="user.md"><code>/&lt;icon&gt;.md</code></a></td><td>Markdown: usage, keywords and both SVGs</td></tr>
+        <tr><td><a href="user.txt"><code>/&lt;icon&gt;.txt</code></a></td><td>The same as plain text</td></tr>
+        <tr><td><a href="brands/github.svg"><code>/brands/&lt;name&gt;.(svg|md|txt)</code></a></td><td>Brand logos</td></tr>
+      </tbody>
+    </table>
+<pre><code>&lt;img src=<span class="tok-s">"https://lassejlv.github.io/glyph/user.svg"</span> width=<span class="tok-s">"24"</span> height=<span class="tok-s">"24"</span> alt=<span class="tok-s">""</span>&gt;</code></pre>
+    <p class="muted">An SVG loaded through <code>&lt;img&gt;</code> can't inherit <code>currentColor</code>, so it renders black. Inline the string from <code>getIcon</code> when the icon needs to change colour.</p>
+
+    <h3>Contributing</h3>
+    <p>The icons, design guidelines and build scripts are on <a href="${REPO}">GitHub</a>.</p>
+  </section>
+</div>
 
 <dialog id="dlg" aria-labelledby="dlg-title">
   <div class="dlg-head">
@@ -223,6 +349,7 @@ export function renderSite({ icons, tags, variants, brands = {}, brandTags = {} 
   </div>
   <div class="variants" id="dlg-variants"></div>
   <pre class="code" id="dlg-code"></pre>
+  <div class="dlg-links" id="dlg-links"></div>
 </dialog>
 
 <div class="toast" id="toast" role="status"></div>
@@ -238,7 +365,7 @@ const $ = (id) => document.getElementById(id);
 const q = $("q"), sizeInput = $("size");
 const names = Object.keys(ICONS);
 const brandNames = Object.keys(BRANDS);
-const camel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
+const PKG = ${json(PACKAGE)};
 
 const params = new URLSearchParams(location.search);
 let variant = VARIANTS.includes(params.get("style")) ? params.get("style") : VARIANTS[0];
@@ -345,7 +472,8 @@ function download(svg, file) {
 }
 
 // panels: [{ label, svg, file, copyLabel }]
-function openDialog(name, tags, panels, importLine) {
+// links: [[label, href], …]
+function openDialog(name, tags, panels, importLine, links) {
   $("dlg-title").textContent = name;
   const tagBox = $("dlg-tags");
   tagBox.replaceChildren(...(tags || []).map((t) => Object.assign(document.createElement("span"), { textContent: t })));
@@ -360,6 +488,8 @@ function openDialog(name, tags, panels, importLine) {
     return el;
   }));
   $("dlg-code").textContent = importLine;
+  $("dlg-links").replaceChildren(Object.assign(document.createElement("span"), { textContent: "Files:" }),
+    ...links.map(([label, href]) => Object.assign(document.createElement("a"), { textContent: label, href })));
   $("dlg").showModal();
 }
 
@@ -369,15 +499,19 @@ function openIcon(name) {
     svg: ICONS[name][v],
     file: name + (VARIANTS.length > 1 ? "-" + v : "") + ".svg",
     copyLabel: name + " (" + v + ")",
-  })), "import { " + VARIANTS.map((v) => camel(name + "-" + v)).join(", ") + ' } from "glyph";');
+  })),
+    'import { getIcon } from "' + PKG + '";\\n\\n' + VARIANTS.map((v, i) => "getIcon(" + JSON.stringify(name) + (i ? ", " + JSON.stringify(v) : "") + ");").join("\\n"),
+    [[name + ".svg", name + ".svg"], ...VARIANTS.map((v) => [v + "/" + name + ".svg", v + "/" + name + ".svg"]), [name + ".md", name + ".md"], [name + ".txt", name + ".txt"]]);
 }
 
 function openBrand(name) {
   openDialog(name, BRAND_TAGS[name], [{ label: "brand", svg: BRANDS[name], file: name + ".svg", copyLabel: name }],
-    "import { " + camel(name) + 'Brand } from "glyph";');
+    'import { getIcon } from "' + PKG + '";\\n\\ngetIcon(' + JSON.stringify(name) + ', "brand");',
+    ["svg", "md", "txt"].map((ext) => ["brands/" + name + "." + ext, "brands/" + name + "." + ext]));
 }
 
 $("dlg-close").addEventListener("click", () => $("dlg").close());
+$("copy-install").addEventListener("click", () => copy($("install-cmd").textContent, "install command"));
 $("dlg").addEventListener("click", (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
 for (const b of document.querySelectorAll("[data-variant]")) b.addEventListener("click", () => setVariant(b.dataset.variant));
 q.addEventListener("input", render);

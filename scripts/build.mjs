@@ -5,22 +5,28 @@
 // Outputs:
 //   dist/index.js, dist/index.cjs      the package: a single getIcon() function
 //   dist/index.d.ts, dist/index.d.cts  its types (IconName, BrandName, IconVariant)
-//   index.html                         searchable icon browser (repo root, committed)
+//   site/                              the website (git-ignored, deployed by CI):
+//     index.html                       icon browser + docs
+//     llms.txt                         overview and icon index for LLMs
+//     <icon>.svg|.md|.txt              outline SVG, markdown and text per icon
+//     outline/<icon>.svg, solid/<icon>.svg
+//     brands/<name>.svg|.md|.txt
 //
 // Search keywords live in icons/tags.json ({ "user": ["person", …] }) and
 // icons/brands/tags.json ({ "x": ["twitter"] }).
-// Run with --check to validate the sources and confirm index.html is current,
+// Run with --check to validate the sources
 // without writing anything.
 
 import { readdir, readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { renderSite } from "./site.mjs";
+import { llmsTxt, iconMarkdown, iconText } from "./endpoints.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(ROOT, "icons");
 const DIST = join(ROOT, "dist");
-const SITE = join(ROOT, "index.html");
+const SITE = join(ROOT, "site");
 const CHECK_ONLY = process.argv.includes("--check");
 
 // Every icon must ship in each of these variants. Add a new folder under
@@ -193,11 +199,6 @@ if (errors.length) {
 const count = Object.keys(icons).length;
 const brandCount = Object.keys(brands).length;
 if (CHECK_ONLY) {
-  const current = await readFile(SITE, "utf8").catch(() => "");
-  if (current !== site) {
-    console.error("✖ index.html is out of date — run `npm run build` and commit it");
-    process.exit(1);
-  }
   console.log(`✔ ${count} icon(s) × ${VARIANTS.length} variants and ${brandCount} brand(s) valid`);
   process.exit(0);
 }
@@ -210,6 +211,21 @@ await Promise.all([
   writeFile(join(DIST, "index.cjs"), runtime(icons, brands, "cjs")),
   writeFile(join(DIST, "index.d.ts"), types),
   writeFile(join(DIST, "index.d.cts"), types),
-  writeFile(SITE, site),
 ]);
-console.log(`✔ Built ${count} icon(s) × ${VARIANTS.length} variants and ${brandCount} brand(s) → dist/ and index.html`);
+// The website: browser, llms.txt and per-icon endpoints.
+await rm(SITE, { recursive: true, force: true });
+await Promise.all([...VARIANTS, "brands"].map((d) => mkdir(join(SITE, d), { recursive: true })));
+const files = [
+  ["index.html", site],
+  ["llms.txt", llmsTxt({ icons, tags, variants: VARIANTS, brands, brandTags })],
+];
+for (const [name, v] of Object.entries(icons)) {
+  files.push([`${name}.svg`, v[VARIANTS[0]] + "\n"], [`${name}.md`, iconMarkdown(name, v, tags[name])], [`${name}.txt`, iconText(name, v, tags[name])]);
+  for (const variant of VARIANTS) files.push([`${variant}/${name}.svg`, v[variant] + "\n"]);
+}
+for (const [name, svg] of Object.entries(brands)) {
+  const v = { brand: svg }, opts = { brand: true };
+  files.push([`brands/${name}.svg`, svg + "\n"], [`brands/${name}.md`, iconMarkdown(name, v, brandTags[name], opts)], [`brands/${name}.txt`, iconText(name, v, brandTags[name], opts)]);
+}
+await Promise.all(files.map(([f, body]) => writeFile(join(SITE, f), body)));
+console.log(`✔ Built ${count} icon(s) × ${VARIANTS.length} variants and ${brandCount} brand(s) → dist/ and site/ (${files.length} files)`);

@@ -85,7 +85,7 @@ if (read("git tag --list").split("\n").includes(`v${version}`)) die(`Tag v${vers
 step("Building and checking");
 run("npm run --silent build");
 run("npm run --silent check");
-if (read("git status --porcelain")) die("The build changed tracked files (e.g. index.html). Commit them, then run the release again.");
+if (read("git status --porcelain")) die("The build changed tracked files. Commit them, then run the release again.");
 
 if (DRY) {
   step("Dry run: package contents");

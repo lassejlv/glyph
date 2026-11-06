@@ -22,9 +22,22 @@ el.innerHTML = getIcon("github", "brand");  // brand logos
 
 At runtime an unknown name throws.
 
-## Browse the icons
+## Website
 
-Open `index.html` in a browser, or serve the repo with GitHub Pages. You can search by name or keyword, switch between outline and solid, change the preview size, and click an icon to copy its SVG or download it. Press `/` to jump to the search box.
+The site lives at [lassejlv.github.io/glyph](https://lassejlv.github.io/glyph/). It's an icon browser with search, outline/solid switching and copy/download, plus the docs.
+
+It also serves every icon as a static file, for `<img>` tags, scripts and LLMs:
+
+| Path | Returns |
+| --- | --- |
+| `/llms.txt` | Overview for LLMs: usage, rules and an index of every icon |
+| `/<icon>.svg` | The outline SVG |
+| `/outline/<icon>.svg`, `/solid/<icon>.svg` | A specific style |
+| `/<icon>.md` | Markdown: usage, keywords and both SVGs |
+| `/<icon>.txt` | The same, as plain text |
+| `/brands/<name>.(svg\|md\|txt)` | Brand logos |
+
+`npm run build` generates the site into `site/`, which is git-ignored. Open `site/index.html` to preview it locally. `.github/workflows/pages.yml` builds and deploys it on every push to `main`. It needs a one-time setup: in the repo settings, go to Settings → Pages → Source and choose "GitHub Actions".
 
 ## Using the icons
 
@@ -48,10 +61,12 @@ icons/
   solid/<name>.svg     source icons, filled
   tags.json            search keywords per icon
 scripts/
-  build.mjs            validates icons, generates the package (dist/) and index.html
-  site.mjs             the icon browser page template
+  build.mjs            validates icons, generates the package (dist/) and the website (site/)
+  site.mjs             the icon browser and docs page
+  endpoints.mjs        llms.txt and the per-icon .md/.txt pages
+  release.mjs          npm run release
   new.mjs              scaffolds a new icon in every variant
-index.html             generated icon browser (committed)
+site/                  the website, generated (git-ignored)
 dist/                  the npm package, generated (git-ignored)
   index.js, index.cjs, index.d.ts, index.d.cts
 ```
@@ -68,7 +83,7 @@ This creates `icons/outline/arrow-right.svg` and `icons/solid/arrow-right.svg` f
 npm run build
 ```
 
-This regenerates `dist/` and `index.html`. Commit `index.html` together with the new icon.
+This regenerates `dist/` and `site/`.
 
 `npm run check` validates the icons without building. It fails when:
 
@@ -78,7 +93,6 @@ This regenerates `dist/` and `index.html`. Commit `index.html` together with the
 - the file contains `style`, `class` or `id` attributes, or no shapes
 - the file name is not kebab-case
 - `icons/tags.json` names an icon that doesn't exist
-- `index.html` is out of date
 
 ## Brand icons
 
