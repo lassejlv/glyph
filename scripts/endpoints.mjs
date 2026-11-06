@@ -1,6 +1,6 @@
 // Text endpoints for the site: llms.txt and one .md / .txt per icon and brand.
 // Links are relative, so the site works at a domain root or under a subpath
-// (e.g. GitHub Pages at /glyph/).
+// (e.g. a project page under /glyph/).
 
 export const PACKAGE = "glyph-svg";
 export const REPO = "https://github.com/lassejlv/glyph";

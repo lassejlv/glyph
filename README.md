@@ -24,7 +24,7 @@ At runtime an unknown name throws.
 
 ## Website
 
-The site lives at [lassejlv.github.io/glyph](https://lassejlv.github.io/glyph/). It's an icon browser with search, outline/solid switching and copy/download, plus the docs.
+The site lives at [glyph.lassejlv.dk](https://glyph.lassejlv.dk/). It's an icon browser with search, outline/solid switching and copy/download, plus the docs.
 
 It also serves every icon as a static file, for `<img>` tags, scripts and LLMs:
 
@@ -37,7 +37,7 @@ It also serves every icon as a static file, for `<img>` tags, scripts and LLMs:
 | `/<icon>.txt` | The same, as plain text |
 | `/brands/<name>.(svg\|md\|txt)` | Brand logos |
 
-`npm run build` generates the site into `site/`, which is git-ignored. Open `site/index.html` to preview it locally. `.github/workflows/pages.yml` builds and deploys it on every push to `main`. It needs a one-time setup: in the repo settings, go to Settings → Pages → Source and choose "GitHub Actions".
+`npm run build` generates the site into `site/`, which is git-ignored. Open `site/index.html` to preview it locally. The host builds it on every push to `main`. In Cloudflare, the build command is `npm run build` and the output directory is `site`.
 
 ## Using the icons
 

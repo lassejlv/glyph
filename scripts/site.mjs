@@ -1,6 +1,6 @@
 // Renders the icon browser and docs page (site/index.html).
 // The icons are embedded, so the page works when opened straight from disk
-// and on any static host (e.g. GitHub Pages).
+// and on any static host (e.g. Cloudflare Pages).
 
 import { PACKAGE, REPO } from "./endpoints.mjs";
 
@@ -331,7 +331,7 @@ function Icon({ name }: { name: IconName }) {
         <tr><td><a href="brands/github.svg"><code>/brands/&lt;name&gt;.(svg|md|txt)</code></a></td><td>Brand logos</td></tr>
       </tbody>
     </table>
-<pre><code>&lt;img src=<span class="tok-s">"https://lassejlv.github.io/glyph/user.svg"</span> width=<span class="tok-s">"24"</span> height=<span class="tok-s">"24"</span> alt=<span class="tok-s">""</span>&gt;</code></pre>
+<pre><code>&lt;img src=<span class="tok-s">"https://glyph.lassejlv.dk/user.svg"</span> width=<span class="tok-s">"24"</span> height=<span class="tok-s">"24"</span> alt=<span class="tok-s">""</span>&gt;</code></pre>
     <p class="muted">An SVG loaded through <code>&lt;img&gt;</code> can't inherit <code>currentColor</code>, so it renders black. Inline the string from <code>getIcon</code> when the icon needs to change colour.</p>
 
     <h3>Contributing</h3>
