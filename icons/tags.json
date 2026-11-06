@@ -535,6 +535,13 @@
     "nba",
     "game"
   ],
+  "bath": [
+    "bathtub",
+    "tub",
+    "bathroom",
+    "wash",
+    "spa"
+  ],
   "battery": [
     "power",
     "energy",
@@ -565,6 +572,13 @@
     "measure",
     "science",
     "liquid"
+  ],
+  "bed": [
+    "bedroom",
+    "sleep",
+    "hotel",
+    "rest",
+    "furniture"
   ],
   "beer": [
     "mug",
@@ -769,6 +783,13 @@
     "transmit",
     "on air"
   ],
+  "broom": [
+    "sweep",
+    "clean",
+    "cleaning",
+    "chores",
+    "housework"
+  ],
   "browser": [
     "browser",
     "web",
@@ -782,6 +803,13 @@
     "art",
     "draw",
     "style"
+  ],
+  "bucket": [
+    "pail",
+    "cleaning",
+    "water",
+    "mop",
+    "container"
   ],
   "bug": [
     "debug",
@@ -948,6 +976,13 @@
     "no camera",
     "privacy"
   ],
+  "candle": [
+    "flame",
+    "light",
+    "wax",
+    "candlelight",
+    "relax"
+  ],
   "candy": [
     "sweet",
     "sweets",
@@ -1044,6 +1079,12 @@
     "credential",
     "license",
     "document"
+  ],
+  "chair": [
+    "seat",
+    "dining",
+    "sit",
+    "furniture"
   ],
   "chart-area": [
     "area chart",
@@ -1855,6 +1896,13 @@
     "storage",
     "search"
   ],
+  "desk": [
+    "table",
+    "workspace",
+    "office",
+    "drawers",
+    "furniture"
+  ],
   "desktop": [
     "computer",
     "all-in-one",
@@ -2095,12 +2143,26 @@
     "production",
     "warehouse"
   ],
+  "fan": [
+    "ventilation",
+    "cooling",
+    "air",
+    "propeller",
+    "blades"
+  ],
   "fast-forward": [
     "fast forward",
     "seek",
     "speed",
     "media",
     "player"
+  ],
+  "fence": [
+    "picket fence",
+    "yard",
+    "garden",
+    "boundary",
+    "property"
   ],
   "file": [
     "document",
@@ -2470,6 +2532,13 @@
     "arrow",
     "redirect"
   ],
+  "fridge": [
+    "refrigerator",
+    "freezer",
+    "kitchen",
+    "appliance",
+    "cold"
+  ],
   "fuel": [
     "gas station",
     "petrol",
@@ -2504,6 +2573,13 @@
     "console",
     "play",
     "gaming"
+  ],
+  "garage": [
+    "car port",
+    "parking",
+    "roll-up door",
+    "storage",
+    "building"
   ],
   "gauge": [
     "meter",
@@ -2758,6 +2834,34 @@
     "start",
     "main"
   ],
+  "home-heart": [
+    "favorite home",
+    "family",
+    "love",
+    "shelter",
+    "house"
+  ],
+  "home-lock": [
+    "home security",
+    "secure house",
+    "locked",
+    "alarm",
+    "property"
+  ],
+  "home-plus": [
+    "add home",
+    "new property",
+    "add house",
+    "real estate",
+    "create"
+  ],
+  "home-search": [
+    "find home",
+    "house hunting",
+    "property search",
+    "real estate",
+    "browse"
+  ],
   "hospital": [
     "medical",
     "clinic",
@@ -2932,6 +3036,13 @@
     "toy",
     "play"
   ],
+  "lamp": [
+    "table lamp",
+    "light",
+    "lampshade",
+    "bedside",
+    "furniture"
+  ],
   "landmark": [
     "monument",
     "museum",
@@ -3007,6 +3118,20 @@
     "eco",
     "green",
     "organic"
+  ],
+  "lightbulb": [
+    "idea",
+    "light",
+    "bulb",
+    "electricity",
+    "tip"
+  ],
+  "lightbulb-off": [
+    "light off",
+    "dark",
+    "no idea",
+    "bulb",
+    "disabled"
   ],
   "link": [
     "url",
@@ -3310,6 +3435,13 @@
     "magnify",
     "science"
   ],
+  "microwave": [
+    "kitchen",
+    "heat",
+    "reheat",
+    "appliance",
+    "cooking"
+  ],
   "milk": [
     "carton",
     "dairy",
@@ -3342,6 +3474,13 @@
     "collapse",
     "delete",
     "less"
+  ],
+  "mirror": [
+    "reflection",
+    "vanity",
+    "dresser",
+    "makeup",
+    "decor"
   ],
   "monitor": [
     "screen",
@@ -3451,6 +3590,13 @@
     "unindent",
     "paragraph",
     "format"
+  ],
+  "oven": [
+    "stove",
+    "cooker",
+    "bake",
+    "kitchen",
+    "appliance"
   ],
   "package": [
     "parcel",
@@ -3628,6 +3774,13 @@
     "geometry",
     "circle"
   ],
+  "picture-frame": [
+    "photo frame",
+    "painting",
+    "art",
+    "wall",
+    "decor"
+  ],
   "piggy-bank": [
     "savings",
     "save",
@@ -3689,6 +3842,13 @@
     "astronomy",
     "orbit",
     "universe"
+  ],
+  "plant-pot": [
+    "houseplant",
+    "potted plant",
+    "garden",
+    "leaves",
+    "grow"
   ],
   "play": [
     "start",
@@ -3889,6 +4049,14 @@
     "box",
     "tall",
     "geometry"
+  ],
+  "recycle": [
+    "recycling",
+    "reuse",
+    "environment",
+    "eco",
+    "waste",
+    "sustainable"
   ],
   "redo": [
     "forward",
@@ -4215,6 +4383,13 @@
     "shop",
     "ecommerce"
   ],
+  "shower": [
+    "bathroom",
+    "wash",
+    "water",
+    "shower head",
+    "hygiene"
+  ],
   "shuffle": [
     "shuffle",
     "random",
@@ -4343,6 +4518,13 @@
     "cold",
     "freeze",
     "frost"
+  ],
+  "sofa": [
+    "couch",
+    "living room",
+    "lounge",
+    "seat",
+    "furniture"
   ],
   "sort": [
     "order",
@@ -4708,6 +4890,13 @@
     "on",
     "enabled",
     "active"
+  ],
+  "toilet": [
+    "wc",
+    "restroom",
+    "lavatory",
+    "bathroom",
+    "loo"
   ],
   "toolbox": [
     "tools",
@@ -5092,6 +5281,13 @@
     "danger",
     "triangle",
     "error"
+  ],
+  "washing-machine": [
+    "laundry",
+    "washer",
+    "clothes",
+    "appliance",
+    "wash"
   ],
   "watch": [
     "smartwatch",
