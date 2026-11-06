@@ -489,6 +489,13 @@
     "lens",
     "shoot"
   ],
+  "camera-off": [
+    "camera off",
+    "photo",
+    "disabled",
+    "no camera",
+    "privacy"
+  ],
   "caret-down": [
     "triangle",
     "dropdown",
@@ -516,6 +523,14 @@
     "collapse",
     "increase",
     "up"
+  ],
+  "cast": [
+    "cast",
+    "stream",
+    "screen",
+    "wireless",
+    "mirror",
+    "tv"
   ],
   "chart-bar": [
     "graph",
@@ -749,6 +764,14 @@
     "geometry",
     "ring"
   ],
+  "clapperboard": [
+    "clapperboard",
+    "movie",
+    "film",
+    "scene",
+    "production",
+    "cinema"
+  ],
   "clipboard": [
     "paste",
     "board",
@@ -924,6 +947,14 @@
     "geometry",
     "round"
   ],
+  "equalizer": [
+    "equalizer",
+    "eq",
+    "levels",
+    "audio",
+    "spectrum",
+    "bars"
+  ],
   "equals": [
     "equal",
     "math",
@@ -958,6 +989,13 @@
     "invisible",
     "private",
     "unwatch"
+  ],
+  "fast-forward": [
+    "fast forward",
+    "seek",
+    "speed",
+    "media",
+    "player"
   ],
   "file": [
     "document",
@@ -1124,6 +1162,13 @@
     "copy",
     "stack"
   ],
+  "film": [
+    "film",
+    "movie",
+    "cinema",
+    "reel",
+    "video"
+  ],
   "filter": [
     "funnel",
     "refine",
@@ -1221,6 +1266,13 @@
     "header",
     "h1",
     "format"
+  ],
+  "headphones": [
+    "headphones",
+    "headset",
+    "listen",
+    "audio",
+    "music"
   ],
   "heart": [
     "like",
@@ -1534,6 +1586,14 @@
     "voice",
     "sound"
   ],
+  "microphone-off": [
+    "mute",
+    "microphone",
+    "mic",
+    "silent",
+    "audio",
+    "disabled"
+  ],
   "minimize": [
     "minimize",
     "shrink",
@@ -1593,6 +1653,20 @@
     "click",
     "input",
     "peripheral"
+  ],
+  "music": [
+    "music",
+    "notes",
+    "song",
+    "audio",
+    "melody"
+  ],
+  "music-note": [
+    "note",
+    "music",
+    "song",
+    "tune",
+    "audio"
   ],
   "not-equal": [
     "unequal",
@@ -1656,6 +1730,13 @@
     "media",
     "break",
     "wait"
+  ],
+  "pause-circle": [
+    "pause",
+    "hold",
+    "media",
+    "player",
+    "button"
   ],
   "pen": [
     "fountain pen",
@@ -1741,6 +1822,20 @@
     "video",
     "audio"
   ],
+  "play-circle": [
+    "play",
+    "start",
+    "video",
+    "media",
+    "button"
+  ],
+  "playlist": [
+    "playlist",
+    "queue",
+    "tracks",
+    "list",
+    "music"
+  ],
   "plug": [
     "power",
     "electric",
@@ -1774,6 +1869,13 @@
     "create",
     "expand",
     "insert"
+  ],
+  "podcast": [
+    "podcast",
+    "episode",
+    "audio",
+    "show",
+    "broadcast"
   ],
   "pointer": [
     "cursor",
@@ -1815,12 +1917,26 @@
     "text",
     "quotation"
   ],
+  "radio": [
+    "radio",
+    "receiver",
+    "broadcast",
+    "fm",
+    "station"
+  ],
   "radio-button": [
     "radio",
     "option",
     "choice",
     "select",
     "form"
+  ],
+  "record": [
+    "record",
+    "recording",
+    "capture",
+    "rec",
+    "live"
   ],
   "rectangle-horizontal": [
     "landscape",
@@ -1855,6 +1971,20 @@
     "controller",
     "buttons"
   ],
+  "repeat": [
+    "repeat",
+    "loop",
+    "replay",
+    "playlist",
+    "cycle"
+  ],
+  "repeat-one": [
+    "repeat one",
+    "loop",
+    "single",
+    "track",
+    "replay"
+  ],
   "reply": [
     "respond",
     "answer",
@@ -1875,6 +2005,13 @@
     "grip",
     "handle",
     "scale"
+  ],
+  "rewind": [
+    "rewind",
+    "seek",
+    "back",
+    "media",
+    "player"
   ],
   "rotate-ccw": [
     "counterclockwise",
@@ -1908,6 +2045,13 @@
     "trim",
     "snip",
     "tool"
+  ],
+  "screen-share": [
+    "share screen",
+    "present",
+    "monitor",
+    "display",
+    "upload"
   ],
   "search": [
     "find",
@@ -1982,6 +2126,13 @@
     "shop",
     "ecommerce"
   ],
+  "shuffle": [
+    "shuffle",
+    "random",
+    "mix",
+    "playlist",
+    "order"
+  ],
   "sidebar-collapse": [
     "collapse",
     "hide sidebar",
@@ -2002,6 +2153,22 @@
     "bars",
     "strength",
     "network"
+  ],
+  "skip-back": [
+    "previous",
+    "skip",
+    "track",
+    "back",
+    "media",
+    "player"
+  ],
+  "skip-forward": [
+    "next",
+    "skip",
+    "track",
+    "forward",
+    "media",
+    "player"
   ],
   "slider": [
     "slider",
@@ -2060,6 +2227,13 @@
     "shine",
     "generate"
   ],
+  "speaker": [
+    "speaker",
+    "loudspeaker",
+    "audio",
+    "sound",
+    "hifi"
+  ],
   "spell-check": [
     "spelling",
     "proofread",
@@ -2087,6 +2261,20 @@
     "bookmark",
     "featured"
   ],
+  "stop": [
+    "stop",
+    "halt",
+    "media",
+    "player",
+    "square"
+  ],
+  "stop-circle": [
+    "stop",
+    "halt",
+    "media",
+    "player",
+    "button"
+  ],
   "strikethrough": [
     "text",
     "format",
@@ -2100,6 +2288,13 @@
     "lower",
     "index",
     "math"
+  ],
+  "subtitles": [
+    "subtitles",
+    "captions",
+    "cc",
+    "transcript",
+    "accessibility"
   ],
   "sun": [
     "light mode",
@@ -2266,6 +2461,13 @@
     "movie",
     "meeting"
   ],
+  "video-off": [
+    "video off",
+    "camera",
+    "disabled",
+    "stop video",
+    "call"
+  ],
   "voicemail": [
     "message",
     "tape",
@@ -2279,6 +2481,21 @@
     "speaker",
     "loud",
     "music"
+  ],
+  "volume-high": [
+    "volume",
+    "loud",
+    "sound",
+    "audio",
+    "speaker",
+    "max"
+  ],
+  "volume-low": [
+    "volume",
+    "quiet",
+    "sound",
+    "audio",
+    "speaker"
   ],
   "volume-off": [
     "mute",
