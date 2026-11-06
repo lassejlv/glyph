@@ -11,9 +11,11 @@
       "default": "./dist/index.js"
     },
     "./icons.json": "./dist/icons.json",
+    "./brands.json": "./dist/brands.json",
     "./sprite/*": "./dist/sprite/*",
     "./outline/*": "./icons/outline/*",
-    "./solid/*": "./icons/solid/*"
+    "./solid/*": "./icons/solid/*",
+    "./brands/*": "./icons/brands/*"
   },
   "files": [
     "dist",

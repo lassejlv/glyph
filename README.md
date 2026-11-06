@@ -73,6 +73,35 @@ This regenerates `dist/` and `index.html`. Commit `index.html` together with the
 - `icons/tags.json` names an icon that doesn't exist
 - `index.html` is out of date
 
+## Brand icons
+
+Logos for common tools and providers (GitHub, Discord, Claude, Figma, …) live in `icons/brands/<name>.svg`. They come in a single style, filled with `currentColor`, and use the full 24×24 box. They are a separate collection from the UI icons:
+
+```js
+import { githubBrand, getBrand, brands } from "glyph";
+
+el.innerHTML = githubBrand;
+el.innerHTML = getBrand("x"); // typed: BrandName
+```
+
+```html
+<svg width="24" height="24"><use href="dist/sprite/brands.svg#github" /></svg>
+```
+
+The build also writes `dist/brands.json`. The raw files are in `icons/brands/`.
+
+**Adding a brand.** Take the logo from [Simple Icons](https://simpleicons.org) rather than drawing it, so the mark stays accurate. Save its path data as `icons/brands/<name>.svg` with this wrapper, without `<title>`:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <path d="…"/>
+</svg>
+```
+
+Add search keywords to `icons/brands/tags.json` (optional, e.g. `"x": ["twitter"]`), then run `npm run build`. Brands follow the same checks as the UI icons, except that there are no variants. The name must also start with a letter, because it becomes the `<name>Brand` export.
+
+The brand path data comes from [Simple Icons](https://github.com/simple-icons/simple-icons) and is licensed CC0. The logos themselves are trademarks of their respective owners. Follow each owner's brand guidelines when you use them.
+
 ## Design guidelines
 
 Following these rules keeps new icons consistent with the existing ones.

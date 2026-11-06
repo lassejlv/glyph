@@ -1,0 +1,16 @@
+{
+  "anthropic": ["ai", "claude", "llm"],
+  "apple": ["mac", "macos", "ios", "iphone"],
+  "claude": ["ai", "anthropic", "assistant", "chatbot", "llm"],
+  "discord": ["chat", "community", "voice", "server"],
+  "figma": ["design", "prototype", "ui"],
+  "github": ["git", "code", "repository", "octocat"],
+  "gitlab": ["git", "code", "repository", "devops"],
+  "google": ["search"],
+  "linear": ["issues", "tracker", "project management"],
+  "notion": ["notes", "docs", "wiki"],
+  "npm": ["package", "registry", "node", "javascript"],
+  "stripe": ["payments", "billing", "checkout"],
+  "vercel": ["deploy", "hosting", "nextjs"],
+  "x": ["twitter", "tweet", "social"]
+}
