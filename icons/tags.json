@@ -105,6 +105,13 @@
     "face",
     "emoji"
   ],
+  "ant": [
+    "insect",
+    "bug",
+    "colony",
+    "worker",
+    "nature"
+  ],
   "antenna": [
     "tower",
     "radio",
@@ -616,6 +623,13 @@
     "rest",
     "furniture"
   ],
+  "bee": [
+    "insect",
+    "honey",
+    "bumblebee",
+    "wasp",
+    "garden"
+  ],
   "beer": [
     "mug",
     "pint",
@@ -698,6 +712,13 @@
     "zero one",
     "data",
     "digital"
+  ],
+  "bird": [
+    "animal",
+    "songbird",
+    "tweet",
+    "nature",
+    "sparrow"
   ],
   "bitcoin": [
     "btc",
@@ -971,6 +992,13 @@
     "vehicle",
     "commute"
   ],
+  "butterfly": [
+    "insect",
+    "moth",
+    "nature",
+    "wings",
+    "garden"
+  ],
   "cabinet": [
     "filing cabinet",
     "drawers",
@@ -1184,6 +1212,13 @@
     "wireless",
     "mirror",
     "tv"
+  ],
+  "cat": [
+    "kitten",
+    "pet",
+    "animal",
+    "feline",
+    "kitty"
   ],
   "cctv": [
     "security camera",
@@ -1590,6 +1625,13 @@
     "collapse",
     "upward"
   ],
+  "chicken": [
+    "hen",
+    "rooster",
+    "farm",
+    "bird",
+    "poultry"
+  ],
   "circle": [
     "round",
     "shape",
@@ -1936,6 +1978,13 @@
     "discount",
     "offer"
   ],
+  "cow": [
+    "cattle",
+    "farm",
+    "animal",
+    "dairy",
+    "milk"
+  ],
   "cpu": [
     "processor",
     "chip",
@@ -2099,12 +2148,26 @@
     "text",
     "note"
   ],
+  "dog": [
+    "puppy",
+    "pet",
+    "animal",
+    "canine",
+    "doggy"
+  ],
   "dollar": [
     "usd",
     "currency",
     "money",
     "price",
     "cash"
+  ],
+  "dolphin": [
+    "ocean",
+    "sea",
+    "animal",
+    "marine",
+    "porpoise"
   ],
   "door-closed": [
     "door",
@@ -2170,6 +2233,13 @@
     "liquid",
     "humidity",
     "rain"
+  ],
+  "duck": [
+    "bird",
+    "duckling",
+    "pond",
+    "animal",
+    "quack"
   ],
   "dumbbell": [
     "fitness",
@@ -2330,6 +2400,13 @@
     "speed",
     "media",
     "player"
+  ],
+  "feather": [
+    "quill",
+    "light",
+    "bird",
+    "plume",
+    "write"
   ],
   "fence": [
     "picket fence",
@@ -2740,6 +2817,13 @@
     "appliance",
     "cold"
   ],
+  "frog": [
+    "toad",
+    "amphibian",
+    "animal",
+    "pond",
+    "ribbit"
+  ],
   "frown": [
     "sad",
     "unhappy",
@@ -3101,6 +3185,13 @@
     "real estate",
     "browse"
   ],
+  "horse": [
+    "pony",
+    "animal",
+    "equestrian",
+    "stallion",
+    "farm"
+  ],
   "hospital": [
     "medical",
     "clinic",
@@ -3281,6 +3372,13 @@
     "fly",
     "toy",
     "play"
+  ],
+  "ladybug": [
+    "ladybird",
+    "insect",
+    "beetle",
+    "bug",
+    "luck"
   ],
   "lamp": [
     "table lamp",
@@ -3930,6 +4028,13 @@
     "kitchen",
     "appliance"
   ],
+  "owl": [
+    "bird",
+    "night",
+    "wisdom",
+    "animal",
+    "nocturnal"
+  ],
   "package": [
     "parcel",
     "shipping",
@@ -4028,6 +4133,14 @@
     "media",
     "player",
     "button"
+  ],
+  "paw": [
+    "pet",
+    "footprint",
+    "animal",
+    "dog",
+    "cat",
+    "print"
   ],
   "pen": [
     "fountain pen",
@@ -4141,6 +4254,13 @@
     "art",
     "wall",
     "decor"
+  ],
+  "pig": [
+    "hog",
+    "farm",
+    "animal",
+    "pork",
+    "piglet"
   ],
   "piggy-bank": [
     "savings",
@@ -4390,6 +4510,13 @@
     "text",
     "quotation"
   ],
+  "rabbit": [
+    "bunny",
+    "hare",
+    "animal",
+    "pet",
+    "easter"
+  ],
   "radio": [
     "radio",
     "receiver",
@@ -4410,6 +4537,13 @@
     "spectrum",
     "pride",
     "arc"
+  ],
+  "rat": [
+    "mouse",
+    "rodent",
+    "animal",
+    "pest",
+    "vermin"
   ],
   "receipt": [
     "bill",
@@ -4763,6 +4897,13 @@
     "upload",
     "export"
   ],
+  "shell": [
+    "seashell",
+    "scallop",
+    "beach",
+    "ocean",
+    "clam"
+  ],
   "shield": [
     "security",
     "protection",
@@ -4970,6 +5111,13 @@
     "face",
     "emoticon"
   ],
+  "snail": [
+    "slow",
+    "animal",
+    "shell",
+    "garden",
+    "slug"
+  ],
   "snooze": [
     "sleep",
     "later",
@@ -5071,6 +5219,13 @@
     "text",
     "check"
   ],
+  "spider": [
+    "arachnid",
+    "insect",
+    "bug",
+    "web",
+    "halloween"
+  ],
   "spinner": [
     "loading",
     "progress",
@@ -5112,6 +5267,13 @@
     "math",
     "calculate",
     "formula"
+  ],
+  "squirrel": [
+    "animal",
+    "rodent",
+    "nature",
+    "forest",
+    "chipmunk"
   ],
   "stack": [
     "pile",
@@ -5547,6 +5709,13 @@
     "lorry",
     "logistics"
   ],
+  "turtle": [
+    "tortoise",
+    "slow",
+    "animal",
+    "reptile",
+    "shell"
+  ],
   "tv": [
     "television",
     "screen",
@@ -5910,6 +6079,13 @@
     "training",
     "heavy"
   ],
+  "whale": [
+    "ocean",
+    "sea",
+    "animal",
+    "marine",
+    "mammal"
+  ],
   "wheelchair": [
     "accessibility",
     "disabled",
@@ -5964,6 +6140,13 @@
     "automation",
     "pipeline",
     "steps"
+  ],
+  "worm": [
+    "earthworm",
+    "garden",
+    "soil",
+    "bait",
+    "crawl"
   ],
   "wrench": [
     "tool",
