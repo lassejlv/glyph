@@ -1,4 +1,11 @@
 {
+  "archive": [
+    "box",
+    "storage",
+    "backup",
+    "store",
+    "file away"
+  ],
   "arrow-down": [
     "direction",
     "south",
@@ -35,12 +42,44 @@
     "read later",
     "ribbon"
   ],
+  "briefcase": [
+    "work",
+    "job",
+    "business",
+    "portfolio",
+    "career",
+    "office"
+  ],
   "calendar": [
     "date",
     "schedule",
     "event",
     "month",
     "day"
+  ],
+  "chart-bar": [
+    "graph",
+    "statistics",
+    "analytics",
+    "bars",
+    "report",
+    "data"
+  ],
+  "chart-line": [
+    "graph",
+    "trend",
+    "analytics",
+    "growth",
+    "statistics",
+    "data"
+  ],
+  "chart-pie": [
+    "graph",
+    "statistics",
+    "analytics",
+    "share",
+    "proportion",
+    "report"
   ],
   "chat": [
     "message",
@@ -82,11 +121,43 @@
     "less",
     "expand"
   ],
+  "code": [
+    "developer",
+    "programming",
+    "html",
+    "source",
+    "brackets",
+    "embed"
+  ],
   "copy": [
     "duplicate",
     "clone",
     "clipboard",
     "paste"
+  ],
+  "credit-card": [
+    "card",
+    "payment",
+    "pay",
+    "bank",
+    "billing",
+    "checkout"
+  ],
+  "cube": [
+    "box",
+    "3d",
+    "package",
+    "product",
+    "object",
+    "block"
+  ],
+  "database": [
+    "storage",
+    "data",
+    "sql",
+    "records",
+    "db",
+    "cylinder"
   ],
   "document": [
     "file",
@@ -128,6 +199,20 @@
     "collection",
     "archive"
   ],
+  "gift": [
+    "present",
+    "reward",
+    "birthday",
+    "surprise",
+    "bonus"
+  ],
+  "grid": [
+    "apps",
+    "dashboard",
+    "tiles",
+    "layout",
+    "squares"
+  ],
   "heart": [
     "like",
     "love",
@@ -139,6 +224,27 @@
     "dashboard",
     "start",
     "main"
+  ],
+  "inbox": [
+    "tray",
+    "messages",
+    "mail",
+    "incoming",
+    "received"
+  ],
+  "layers": [
+    "stack",
+    "levels",
+    "arrange",
+    "overlay",
+    "depth"
+  ],
+  "list": [
+    "bullets",
+    "items",
+    "unordered",
+    "checklist",
+    "lines"
   ],
   "lock": [
     "secure",
@@ -222,12 +328,42 @@
     "zoom",
     "magnifying glass"
   ],
+  "send": [
+    "paper plane",
+    "submit",
+    "message",
+    "share",
+    "deliver"
+  ],
+  "server": [
+    "hosting",
+    "rack",
+    "backend",
+    "infrastructure",
+    "storage"
+  ],
   "share": [
     "network",
     "connect",
     "send",
     "social",
     "nodes"
+  ],
+  "shopping-bag": [
+    "bag",
+    "purchase",
+    "store",
+    "shop",
+    "buy",
+    "ecommerce"
+  ],
+  "shopping-cart": [
+    "cart",
+    "basket",
+    "checkout",
+    "buy",
+    "shop",
+    "ecommerce"
   ],
   "sort": [
     "order",
@@ -241,6 +377,14 @@
     "rating",
     "bookmark",
     "featured"
+  ],
+  "terminal": [
+    "console",
+    "command line",
+    "shell",
+    "cli",
+    "prompt",
+    "bash"
   ],
   "trash": [
     "delete",
@@ -269,6 +413,14 @@
     "avatar",
     "member",
     "people"
+  ],
+  "wallet": [
+    "money",
+    "payment",
+    "funds",
+    "balance",
+    "purse",
+    "finance"
   ],
   "x-mark": [
     "close",
