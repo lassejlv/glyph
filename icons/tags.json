@@ -1,4 +1,11 @@
 {
+  "alert-circle": [
+    "exclamation",
+    "error",
+    "attention",
+    "notice",
+    "important"
+  ],
   "archive": [
     "box",
     "storage",
@@ -43,11 +50,26 @@
     "do not disturb",
     "unsubscribe"
   ],
+  "bolt": [
+    "lightning",
+    "flash",
+    "power",
+    "energy",
+    "fast",
+    "electric"
+  ],
   "bookmark": [
     "save",
     "favorite",
     "read later",
     "ribbon"
+  ],
+  "bookmark-check": [
+    "saved",
+    "bookmarked",
+    "favorite",
+    "read later",
+    "done"
   ],
   "briefcase": [
     "work",
@@ -109,6 +131,13 @@
     "tick",
     "ok",
     "complete"
+  ],
+  "check-circle": [
+    "success",
+    "done",
+    "complete",
+    "approved",
+    "verified"
   ],
   "chevron-down": [
     "expand",
@@ -235,6 +264,13 @@
     "narrow",
     "sieve"
   ],
+  "flag": [
+    "report",
+    "mark",
+    "milestone",
+    "country",
+    "goal"
+  ],
   "folder": [
     "directory",
     "files",
@@ -288,6 +324,20 @@
     "mail",
     "incoming",
     "received"
+  ],
+  "info-circle": [
+    "information",
+    "about",
+    "details",
+    "help",
+    "tooltip"
+  ],
+  "key": [
+    "password",
+    "access",
+    "unlock",
+    "credentials",
+    "login"
   ],
   "layers": [
     "stack",
@@ -422,6 +472,19 @@
     "more",
     "expand"
   ],
+  "plus-circle": [
+    "add",
+    "create",
+    "new",
+    "insert"
+  ],
+  "question-circle": [
+    "help",
+    "faq",
+    "support",
+    "unknown",
+    "ask"
+  ],
   "redo": [
     "forward",
     "repeat",
@@ -470,6 +533,20 @@
     "social",
     "nodes"
   ],
+  "shield": [
+    "security",
+    "protection",
+    "safe",
+    "guard",
+    "privacy"
+  ],
+  "shield-check": [
+    "secure",
+    "verified",
+    "protected",
+    "trusted",
+    "safety"
+  ],
   "shopping-bag": [
     "bag",
     "purchase",
@@ -486,12 +563,27 @@
     "shop",
     "ecommerce"
   ],
+  "smile": [
+    "emoji",
+    "happy",
+    "face",
+    "reaction",
+    "feedback"
+  ],
   "sort": [
     "order",
     "arrange",
     "ascending",
     "descending",
     "reorder"
+  ],
+  "sparkles": [
+    "ai",
+    "magic",
+    "new",
+    "stars",
+    "shine",
+    "generate"
   ],
   "star": [
     "favorite",
@@ -521,6 +613,13 @@
     "prompt",
     "bash"
   ],
+  "thumbs-up": [
+    "like",
+    "approve",
+    "agree",
+    "good",
+    "vote"
+  ],
   "trash": [
     "delete",
     "remove",
@@ -549,12 +648,40 @@
     "member",
     "people"
   ],
+  "user-plus": [
+    "add user",
+    "invite",
+    "new member",
+    "person",
+    "signup"
+  ],
+  "users": [
+    "people",
+    "group",
+    "team",
+    "members",
+    "contacts"
+  ],
   "video": [
     "camera",
     "recording",
     "film",
     "movie",
     "meeting"
+  ],
+  "volume": [
+    "sound",
+    "audio",
+    "speaker",
+    "loud",
+    "music"
+  ],
+  "volume-off": [
+    "mute",
+    "silent",
+    "sound off",
+    "speaker",
+    "audio"
   ],
   "wallet": [
     "money",
@@ -563,6 +690,20 @@
     "balance",
     "purse",
     "finance"
+  ],
+  "warning": [
+    "alert",
+    "caution",
+    "danger",
+    "triangle",
+    "error"
+  ],
+  "x-circle": [
+    "close",
+    "cancel",
+    "error",
+    "remove",
+    "failed"
   ],
   "x-mark": [
     "close",
