@@ -1189,6 +1189,13 @@
     "treat",
     "halloween"
   ],
+  "cap": [
+    "baseball cap",
+    "headwear",
+    "visor",
+    "clothing",
+    "sport"
+  ],
   "car": [
     "vehicle",
     "automobile",
@@ -1736,6 +1743,13 @@
     "half",
     "status"
   ],
+  "clap": [
+    "applause",
+    "clapping",
+    "bravo",
+    "congrats",
+    "cheer"
+  ],
   "clapperboard": [
     "clapperboard",
     "movie",
@@ -2054,6 +2068,13 @@
     "ui",
     "library"
   ],
+  "cone": [
+    "3d",
+    "shape",
+    "geometry",
+    "solid",
+    "pointed"
+  ],
   "contact-book": [
     "address book",
     "contacts",
@@ -2170,6 +2191,13 @@
     "caret",
     "type",
     "edit text"
+  ],
+  "cylinder": [
+    "3d",
+    "shape",
+    "geometry",
+    "tube",
+    "solid"
   ],
   "database": [
     "storage",
@@ -2349,6 +2377,13 @@
     "open drawer",
     "inbox",
     "furniture"
+  ],
+  "dress": [
+    "clothing",
+    "apparel",
+    "gown",
+    "fashion",
+    "women"
   ],
   "dropdown": [
     "dropdown",
@@ -3302,6 +3337,20 @@
     "repair",
     "nail"
   ],
+  "hand": [
+    "palm",
+    "stop",
+    "high five",
+    "halt",
+    "gesture"
+  ],
+  "hand-grab": [
+    "grab",
+    "drag",
+    "closed hand",
+    "cursor",
+    "move"
+  ],
   "hand-heart": [
     "care",
     "charity",
@@ -3317,6 +3366,13 @@
     "link",
     "finger"
   ],
+  "hand-raised": [
+    "raise hand",
+    "question",
+    "volunteer",
+    "spread fingers",
+    "hello"
+  ],
   "hand-wave": [
     "hello",
     "wave",
@@ -3324,12 +3380,26 @@
     "goodbye",
     "hi"
   ],
+  "handbag": [
+    "purse",
+    "bag",
+    "fashion",
+    "accessory",
+    "tote"
+  ],
   "handshake": [
     "deal",
     "agreement",
     "partnership",
     "greeting",
     "trust"
+  ],
+  "hanger": [
+    "clothes hanger",
+    "wardrobe",
+    "closet",
+    "clothing",
+    "cloakroom"
   ],
   "hard-drive": [
     "disk",
@@ -3344,6 +3414,13 @@
     "pound",
     "channel",
     "tag"
+  ],
+  "hat": [
+    "fedora",
+    "brim",
+    "headwear",
+    "clothing",
+    "fashion"
   ],
   "heading": [
     "text",
@@ -4359,6 +4436,14 @@
     "coffee",
     "beverage"
   ],
+  "muscle": [
+    "bicep",
+    "flex",
+    "strength",
+    "strong",
+    "fitness",
+    "arm"
+  ],
   "music": [
     "music",
     "notes",
@@ -4387,6 +4472,13 @@
     "location",
     "disabled",
     "direction"
+  ],
+  "necklace": [
+    "jewelry",
+    "pendant",
+    "chain",
+    "accessory",
+    "gift"
   ],
   "network": [
     "nodes",
@@ -4940,6 +5032,13 @@
     "disabled",
     "switch"
   ],
+  "pray": [
+    "praying hands",
+    "please",
+    "thank you",
+    "hope",
+    "namaste"
+  ],
   "presentation": [
     "slides",
     "board",
@@ -4965,6 +5064,13 @@
     "add-on",
     "piece",
     "integration"
+  ],
+  "pyramid": [
+    "3d",
+    "shape",
+    "geometry",
+    "egypt",
+    "triangle"
   ],
   "qr-code": [
     "scan",
@@ -5154,6 +5260,13 @@
     "support",
     "charity",
     "campaign"
+  ],
+  "ring": [
+    "jewelry",
+    "engagement",
+    "wedding",
+    "diamond",
+    "proposal"
   ],
   "rocket": [
     "launch",
@@ -5520,6 +5633,20 @@
     "sailing",
     "steering"
   ],
+  "shirt": [
+    "t-shirt",
+    "clothing",
+    "apparel",
+    "tee",
+    "fashion"
+  ],
+  "shoe": [
+    "sneaker",
+    "footwear",
+    "trainer",
+    "running",
+    "clothing"
+  ],
   "shopping-bag": [
     "bag",
     "purchase",
@@ -5804,6 +5931,13 @@
     "text",
     "check"
   ],
+  "sphere": [
+    "3d",
+    "ball",
+    "shape",
+    "geometry",
+    "orb"
+  ],
   "spider": [
     "arachnid",
     "insect",
@@ -5825,6 +5959,13 @@
     "divide",
     "flow",
     "arrows"
+  ],
+  "spool": [
+    "thread",
+    "sewing",
+    "bobbin",
+    "tailor",
+    "craft"
   ],
   "spreadsheet": [
     "sheet",
@@ -5994,12 +6135,26 @@
     "transcript",
     "accessibility"
   ],
+  "suitcase": [
+    "luggage",
+    "travel",
+    "trolley",
+    "baggage",
+    "trip"
+  ],
   "sun": [
     "light mode",
     "day",
     "brightness",
     "weather",
     "sunny"
+  ],
+  "sunglasses": [
+    "shades",
+    "eyewear",
+    "summer",
+    "sun",
+    "cool"
   ],
   "sunrise": [
     "dawn",
@@ -6101,12 +6256,26 @@
     "approved",
     "done"
   ],
+  "tag-plus": [
+    "add tag",
+    "new label",
+    "add label",
+    "category",
+    "create"
+  ],
   "tag-x": [
     "tag",
     "remove",
     "label",
     "delete",
     "untag"
+  ],
+  "tags": [
+    "labels",
+    "categories",
+    "price tags",
+    "multiple",
+    "organize"
   ],
   "target": [
     "bullseye",
@@ -6121,6 +6290,13 @@
     "car",
     "hail",
     "transport"
+  ],
+  "telescope": [
+    "astronomy",
+    "stargazing",
+    "observe",
+    "space",
+    "tripod"
   ],
   "tennis-ball": [
     "tennis",
@@ -6391,6 +6567,13 @@
     "typography",
     "letter",
     "typeface"
+  ],
+  "ufo": [
+    "flying saucer",
+    "alien",
+    "spaceship",
+    "space",
+    "sci-fi"
   ],
   "umbrella": [
     "rain",
