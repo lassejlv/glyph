@@ -6,6 +6,8 @@ Clean, consistent SVG icons in two styles: **outline** and **solid**.
 | ------ | ---------------------------- | -------------------------- |
 | `user` | ![](icons/outline/user.svg)  | ![](icons/solid/user.svg)  |
 
+![User icon in outline and solid at several sizes, on light and dark backgrounds](docs/preview.png)
+
 ## Using the icons
 
 Every icon is a plain SVG that inherits its color from `currentColor`, so it takes on the surrounding text color. Set the size with CSS or `width`/`height`.
