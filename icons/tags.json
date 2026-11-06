@@ -473,6 +473,13 @@
     "nursing",
     "baby"
   ],
+  "backpack": [
+    "school",
+    "bag",
+    "student",
+    "rucksack",
+    "travel"
+  ],
   "backspace": [
     "delete",
     "erase",
@@ -736,6 +743,48 @@
     "dog",
     "anatomy"
   ],
+  "book": [
+    "read",
+    "reading",
+    "novel",
+    "literature",
+    "manual"
+  ],
+  "book-check": [
+    "read",
+    "done",
+    "finished",
+    "complete",
+    "verified"
+  ],
+  "book-heart": [
+    "favorite",
+    "love",
+    "liked",
+    "romance",
+    "reading"
+  ],
+  "book-marked": [
+    "bookmark",
+    "ribbon",
+    "saved",
+    "reading",
+    "progress"
+  ],
+  "book-open": [
+    "read",
+    "reading",
+    "pages",
+    "study",
+    "documentation"
+  ],
+  "book-plus": [
+    "add",
+    "new",
+    "create",
+    "reading list",
+    "library"
+  ],
   "bookmark": [
     "save",
     "favorite",
@@ -748,6 +797,39 @@
     "favorite",
     "read later",
     "done"
+  ],
+  "bookmark-minus": [
+    "remove",
+    "unsave",
+    "delete",
+    "favorite"
+  ],
+  "bookmark-off": [
+    "unsave",
+    "disabled",
+    "remove",
+    "no bookmark"
+  ],
+  "bookmark-plus": [
+    "save",
+    "add",
+    "favorite",
+    "read later",
+    "new"
+  ],
+  "bookmark-x": [
+    "remove",
+    "delete",
+    "unsave",
+    "cancel",
+    "favorite"
+  ],
+  "books": [
+    "reading",
+    "collection",
+    "study",
+    "literature",
+    "bookshelf"
   ],
   "bot": [
     "robot",
@@ -2815,6 +2897,14 @@
     "sport",
     "green"
   ],
+  "graduation-cap": [
+    "education",
+    "school",
+    "degree",
+    "graduate",
+    "university",
+    "mortarboard"
+  ],
   "grapes": [
     "fruit",
     "vine",
@@ -3206,6 +3296,13 @@
     "government",
     "sightseeing"
   ],
+  "language": [
+    "translate",
+    "localization",
+    "i18n",
+    "multilingual",
+    "characters"
+  ],
   "laptop": [
     "computer",
     "notebook",
@@ -3282,6 +3379,13 @@
     "eco",
     "green",
     "organic"
+  ],
+  "library": [
+    "books",
+    "bookshelf",
+    "shelf",
+    "collection",
+    "archive"
   ],
   "lifebuoy": [
     "help",
@@ -3770,12 +3874,33 @@
     "graph",
     "topology"
   ],
+  "newspaper": [
+    "news",
+    "article",
+    "press",
+    "journal",
+    "headlines"
+  ],
   "not-equal": [
     "unequal",
     "different",
     "math",
     "operator",
     "compare"
+  ],
+  "notebook": [
+    "notes",
+    "journal",
+    "diary",
+    "spiral",
+    "jotter"
+  ],
+  "notebook-pen": [
+    "notes",
+    "write",
+    "journal",
+    "diary",
+    "compose"
   ],
   "octagon": [
     "shape",
@@ -3919,6 +4044,21 @@
     "signature",
     "text"
   ],
+  "pen-tool": [
+    "vector",
+    "bezier",
+    "path",
+    "anchor",
+    "design",
+    "draw"
+  ],
+  "pencil": [
+    "write",
+    "draw",
+    "sketch",
+    "edit",
+    "school"
+  ],
   "pentagon": [
     "shape",
     "polygon",
@@ -4029,6 +4169,20 @@
     "capsules",
     "medication",
     "pharmacy"
+  ],
+  "pin": [
+    "pushpin",
+    "thumbtack",
+    "attach",
+    "fix",
+    "keep on top"
+  ],
+  "pin-off": [
+    "unpin",
+    "pushpin",
+    "detach",
+    "remove",
+    "thumbtack"
   ],
   "pin-plus": [
     "add pin",
@@ -4416,6 +4570,13 @@
     "blog",
     "syndication"
   ],
+  "ruler": [
+    "measure",
+    "length",
+    "scale",
+    "geometry",
+    "dimensions"
+  ],
   "safe": [
     "vault",
     "secure",
@@ -4510,6 +4671,13 @@
     "monitor",
     "display",
     "upload"
+  ],
+  "scroll": [
+    "parchment",
+    "document",
+    "manuscript",
+    "history",
+    "diploma"
   ],
   "sd-card": [
     "memory card",
@@ -4952,6 +5120,13 @@
     "collection",
     "stacked"
   ],
+  "stapler": [
+    "staple",
+    "office",
+    "attach",
+    "fasten",
+    "stationery"
+  ],
   "star": [
     "favorite",
     "rating",
@@ -5006,6 +5181,13 @@
     "peel",
     "emoji",
     "stamp"
+  ],
+  "sticky-note": [
+    "note",
+    "memo",
+    "post-it",
+    "reminder",
+    "annotation"
   ],
   "stop": [
     "stop",
@@ -5294,6 +5476,13 @@
     "subway",
     "transit",
     "rail"
+  ],
+  "translate": [
+    "language",
+    "localization",
+    "i18n",
+    "convert",
+    "dictionary"
   ],
   "trash": [
     "delete",
