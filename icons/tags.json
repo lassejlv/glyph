@@ -507,6 +507,20 @@
     "code",
     "label"
   ],
+  "baseball": [
+    "ball",
+    "sport",
+    "softball",
+    "game",
+    "pitch"
+  ],
+  "basketball": [
+    "ball",
+    "sport",
+    "hoop",
+    "nba",
+    "game"
+  ],
   "battery": [
     "power",
     "energy",
@@ -648,12 +662,26 @@
     "sauce",
     "container"
   ],
+  "bowling": [
+    "ball",
+    "pins",
+    "alley",
+    "sport",
+    "strike"
+  ],
   "box": [
     "carton",
     "container",
     "storage",
     "3d",
     "crate"
+  ],
+  "boxing-glove": [
+    "boxing",
+    "punch",
+    "fight",
+    "glove",
+    "sport"
   ],
   "braces": [
     "curly braces",
@@ -1194,6 +1222,34 @@
     "sweet",
     "food"
   ],
+  "chess-king": [
+    "chess",
+    "king",
+    "piece",
+    "strategy",
+    "checkmate"
+  ],
+  "chess-knight": [
+    "chess",
+    "knight",
+    "horse",
+    "piece",
+    "strategy"
+  ],
+  "chess-pawn": [
+    "chess",
+    "pawn",
+    "piece",
+    "strategy",
+    "board game"
+  ],
+  "chess-rook": [
+    "chess",
+    "rook",
+    "castle",
+    "tower",
+    "piece"
+  ],
   "chevron-circle-down": [
     "chevron",
     "circle",
@@ -1708,6 +1764,14 @@
     "geometry",
     "lozenge"
   ],
+  "dice": [
+    "die",
+    "game",
+    "random",
+    "luck",
+    "roll",
+    "board game"
+  ],
   "disc": [
     "cd",
     "dvd",
@@ -2104,6 +2168,13 @@
     "authentication",
     "scan"
   ],
+  "finish-flag": [
+    "checkered flag",
+    "race",
+    "finish",
+    "goal",
+    "complete"
+  ],
   "first-aid": [
     "medical kit",
     "emergency",
@@ -2116,6 +2187,13 @@
     "food",
     "animal",
     "fishing"
+  ],
+  "fishing-rod": [
+    "fishing",
+    "fish",
+    "rod",
+    "hook",
+    "angling"
   ],
   "flag": [
     "report",
@@ -2252,6 +2330,13 @@
     "copy",
     "files"
   ],
+  "football": [
+    "soccer",
+    "ball",
+    "sport",
+    "game",
+    "match"
+  ],
   "footprints": [
     "steps",
     "walking",
@@ -2385,6 +2470,13 @@
     "web",
     "language",
     "international"
+  ],
+  "golf": [
+    "flag",
+    "hole",
+    "course",
+    "sport",
+    "green"
   ],
   "grapes": [
     "fruit",
@@ -2534,6 +2626,13 @@
     "restore",
     "time"
   ],
+  "hockey": [
+    "ice hockey",
+    "stick",
+    "puck",
+    "sport",
+    "game"
+  ],
   "home": [
     "house",
     "dashboard",
@@ -2678,6 +2777,13 @@
     "access",
     "credentials",
     "unlock"
+  ],
+  "kite": [
+    "kite",
+    "wind",
+    "fly",
+    "toy",
+    "play"
   ],
   "landmark": [
     "monument",
@@ -3368,6 +3474,13 @@
     "medication",
     "pharmacy"
   ],
+  "ping-pong": [
+    "table tennis",
+    "paddle",
+    "bat",
+    "ball",
+    "sport"
+  ],
   "pipette": [
     "eyedropper",
     "color picker",
@@ -3408,6 +3521,14 @@
     "video",
     "media",
     "button"
+  ],
+  "playing-card": [
+    "card",
+    "cards",
+    "poker",
+    "casino",
+    "diamond",
+    "game"
   ],
   "playlist": [
     "playlist",
@@ -3912,6 +4033,13 @@
     "playlist",
     "order"
   ],
+  "shuttlecock": [
+    "badminton",
+    "birdie",
+    "shuttle",
+    "sport",
+    "racket"
+  ],
   "sidebar-collapse": [
     "collapse",
     "hide sidebar",
@@ -3953,6 +4081,20 @@
     "structure",
     "org chart",
     "pages"
+  ],
+  "skateboard": [
+    "skate",
+    "board",
+    "skating",
+    "sport",
+    "street"
+  ],
+  "ski": [
+    "skiing",
+    "skier",
+    "snow",
+    "winter",
+    "slope"
   ],
   "skip-back": [
     "previous",
@@ -4210,6 +4352,13 @@
     "power",
     "math"
   ],
+  "surfboard": [
+    "surf",
+    "surfing",
+    "beach",
+    "wave",
+    "board"
+  ],
   "syringe": [
     "injection",
     "vaccine",
@@ -4244,12 +4393,26 @@
     "badge",
     "sale"
   ],
+  "target": [
+    "bullseye",
+    "goal",
+    "aim",
+    "darts",
+    "focus"
+  ],
   "taxi": [
     "cab",
     "ride",
     "car",
     "hail",
     "transport"
+  ],
+  "tennis-ball": [
+    "tennis",
+    "ball",
+    "sport",
+    "court",
+    "match"
   ],
   "tent": [
     "camping",
@@ -4676,6 +4839,13 @@
     "recording",
     "phone"
   ],
+  "volleyball": [
+    "ball",
+    "sport",
+    "beach",
+    "net",
+    "game"
+  ],
   "volume": [
     "sound",
     "audio",
@@ -4759,6 +4929,13 @@
     "handicap",
     "mobility",
     "accessible"
+  ],
+  "whistle": [
+    "referee",
+    "coach",
+    "sport",
+    "signal",
+    "alert"
   ],
   "wifi": [
     "wireless",
