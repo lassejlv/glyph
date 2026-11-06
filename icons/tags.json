@@ -297,6 +297,13 @@
     "both ways",
     "scroll"
   ],
+  "asterisk": [
+    "star",
+    "required",
+    "wildcard",
+    "multiply",
+    "footnote"
+  ],
   "bell": [
     "notification",
     "alert",
@@ -309,6 +316,13 @@
     "notifications off",
     "do not disturb",
     "unsubscribe"
+  ],
+  "binary": [
+    "code",
+    "bits",
+    "zero one",
+    "data",
+    "digital"
   ],
   "bolt": [
     "lightning",
@@ -427,6 +441,14 @@
     "approved",
     "verified"
   ],
+  "check-square": [
+    "checkbox",
+    "done",
+    "complete",
+    "selected",
+    "task",
+    "confirm"
+  ],
   "chevron-circle-down": [
     "chevron",
     "circle",
@@ -523,6 +545,13 @@
     "collapse",
     "upward"
   ],
+  "circle": [
+    "round",
+    "shape",
+    "dot",
+    "geometry",
+    "ring"
+  ],
   "clock": [
     "time",
     "watch",
@@ -575,6 +604,20 @@
     "db",
     "cylinder"
   ],
+  "diamond": [
+    "rhombus",
+    "shape",
+    "gem",
+    "geometry",
+    "lozenge"
+  ],
+  "divide": [
+    "division",
+    "math",
+    "calculate",
+    "operator",
+    "quotient"
+  ],
   "document": [
     "file",
     "page",
@@ -595,6 +638,19 @@
     "modify",
     "change",
     "compose"
+  ],
+  "ellipse": [
+    "oval",
+    "shape",
+    "geometry",
+    "round"
+  ],
+  "equals": [
+    "equal",
+    "math",
+    "result",
+    "same",
+    "operator"
   ],
   "external-link": [
     "open",
@@ -636,6 +692,13 @@
     "collection",
     "archive"
   ],
+  "function": [
+    "formula",
+    "math",
+    "fx",
+    "calculate",
+    "expression"
+  ],
   "gift": [
     "present",
     "reward",
@@ -658,11 +721,25 @@
     "layout",
     "squares"
   ],
+  "hash": [
+    "hashtag",
+    "number",
+    "pound",
+    "channel",
+    "tag"
+  ],
   "heart": [
     "like",
     "love",
     "favorite",
     "health"
+  ],
+  "hexagon": [
+    "shape",
+    "polygon",
+    "six",
+    "geometry",
+    "honeycomb"
   ],
   "home": [
     "house",
@@ -683,6 +760,13 @@
     "mail",
     "incoming",
     "received"
+  ],
+  "infinity": [
+    "endless",
+    "unlimited",
+    "forever",
+    "loop",
+    "math"
   ],
   "info-circle": [
     "information",
@@ -775,6 +859,20 @@
     "collapse",
     "less"
   ],
+  "minus-circle": [
+    "remove",
+    "subtract",
+    "delete",
+    "block",
+    "less"
+  ],
+  "minus-square": [
+    "remove",
+    "subtract",
+    "collapse",
+    "delete",
+    "less"
+  ],
   "moon": [
     "dark mode",
     "night",
@@ -796,6 +894,20 @@
     "dots",
     "overflow"
   ],
+  "not-equal": [
+    "unequal",
+    "different",
+    "math",
+    "operator",
+    "compare"
+  ],
+  "octagon": [
+    "shape",
+    "polygon",
+    "eight",
+    "stop sign",
+    "geometry"
+  ],
   "paperclip": [
     "attachment",
     "attach",
@@ -810,12 +922,32 @@
     "break",
     "wait"
   ],
+  "pentagon": [
+    "shape",
+    "polygon",
+    "five",
+    "geometry"
+  ],
+  "percent": [
+    "percentage",
+    "discount",
+    "rate",
+    "ratio",
+    "math"
+  ],
   "phone": [
     "call",
     "telephone",
     "contact",
     "dial",
     "handset"
+  ],
+  "pi": [
+    "math",
+    "constant",
+    "greek",
+    "geometry",
+    "circle"
   ],
   "play": [
     "start",
@@ -837,12 +969,40 @@
     "new",
     "insert"
   ],
+  "plus-minus": [
+    "tolerance",
+    "math",
+    "approximately",
+    "operator",
+    "range"
+  ],
+  "plus-square": [
+    "add",
+    "new",
+    "create",
+    "expand",
+    "insert"
+  ],
   "question-circle": [
     "help",
     "faq",
     "support",
     "unknown",
     "ask"
+  ],
+  "rectangle-horizontal": [
+    "landscape",
+    "shape",
+    "box",
+    "wide",
+    "geometry"
+  ],
+  "rectangle-vertical": [
+    "portrait",
+    "shape",
+    "box",
+    "tall",
+    "geometry"
   ],
   "redo": [
     "forward",
@@ -899,6 +1059,14 @@
     "options",
     "configuration"
   ],
+  "shapes": [
+    "geometry",
+    "objects",
+    "circle",
+    "square",
+    "triangle",
+    "elements"
+  ],
   "share": [
     "network",
     "connect",
@@ -936,6 +1104,13 @@
     "shop",
     "ecommerce"
   ],
+  "sigma": [
+    "sum",
+    "total",
+    "summation",
+    "math",
+    "greek"
+  ],
   "smile": [
     "emoji",
     "happy",
@@ -971,6 +1146,20 @@
     "stars",
     "shine",
     "generate"
+  ],
+  "square": [
+    "box",
+    "shape",
+    "checkbox",
+    "geometry",
+    "stop"
+  ],
+  "square-root": [
+    "radical",
+    "root",
+    "math",
+    "calculate",
+    "formula"
   ],
   "star": [
     "favorite",
@@ -1028,6 +1217,12 @@
     "chart",
     "profit"
   ],
+  "triangle": [
+    "shape",
+    "delta",
+    "geometry",
+    "pyramid"
+  ],
   "undo": [
     "back",
     "revert",
@@ -1062,6 +1257,13 @@
     "team",
     "members",
     "contacts"
+  ],
+  "variable": [
+    "parameter",
+    "code",
+    "math",
+    "placeholder",
+    "brackets"
   ],
   "video": [
     "camera",
@@ -1113,5 +1315,13 @@
     "remove",
     "exit",
     "cross"
+  ],
+  "x-square": [
+    "close",
+    "cancel",
+    "remove",
+    "delete",
+    "clear",
+    "dismiss"
   ]
 }
