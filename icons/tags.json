@@ -6,6 +6,13 @@
     "universal access",
     "figure"
   ],
+  "activity": [
+    "pulse",
+    "heartbeat",
+    "monitor",
+    "health",
+    "signal"
+  ],
   "alert-circle": [
     "exclamation",
     "error",
@@ -41,12 +48,26 @@
     "paragraph",
     "format"
   ],
+  "analytics": [
+    "chart",
+    "stats",
+    "report",
+    "insights",
+    "metrics"
+  ],
   "antenna": [
     "tower",
     "radio",
     "broadcast",
     "transmitter",
     "signal"
+  ],
+  "api": [
+    "endpoint",
+    "integration",
+    "connector",
+    "plug",
+    "developer"
   ],
   "app-window": [
     "window",
@@ -658,6 +679,13 @@
     "license",
     "document"
   ],
+  "chart-area": [
+    "area chart",
+    "graph",
+    "statistics",
+    "analytics",
+    "trend"
+  ],
   "chart-bar": [
     "graph",
     "statistics",
@@ -665,6 +693,55 @@
     "bars",
     "report",
     "data"
+  ],
+  "chart-bar-horizontal": [
+    "bar chart",
+    "horizontal bars",
+    "ranking",
+    "statistics",
+    "compare"
+  ],
+  "chart-candlestick": [
+    "candlestick",
+    "stocks",
+    "trading",
+    "finance",
+    "market"
+  ],
+  "chart-column": [
+    "column chart",
+    "bar graph",
+    "statistics",
+    "analytics",
+    "axes"
+  ],
+  "chart-donut": [
+    "donut chart",
+    "doughnut",
+    "pie",
+    "ring chart",
+    "proportion"
+  ],
+  "chart-funnel": [
+    "funnel chart",
+    "conversion",
+    "pipeline",
+    "sales",
+    "stages"
+  ],
+  "chart-gantt": [
+    "gantt",
+    "timeline",
+    "schedule",
+    "project",
+    "roadmap"
+  ],
+  "chart-histogram": [
+    "histogram",
+    "distribution",
+    "frequency",
+    "bins",
+    "statistics"
   ],
   "chart-line": [
     "graph",
@@ -674,6 +751,20 @@
     "statistics",
     "data"
   ],
+  "chart-line-down": [
+    "decline",
+    "decrease",
+    "trend down",
+    "line chart",
+    "loss"
+  ],
+  "chart-line-up": [
+    "growth",
+    "increase",
+    "trend up",
+    "line chart",
+    "profit"
+  ],
   "chart-pie": [
     "graph",
     "statistics",
@@ -681,6 +772,20 @@
     "share",
     "proportion",
     "report"
+  ],
+  "chart-radar": [
+    "radar chart",
+    "spider chart",
+    "web chart",
+    "comparison",
+    "skills"
+  ],
+  "chart-scatter": [
+    "scatter plot",
+    "dots",
+    "correlation",
+    "statistics",
+    "data points"
   ],
   "chat": [
     "message",
@@ -1071,6 +1176,27 @@
     "sync",
     "data",
     "storage"
+  ],
+  "database-lock": [
+    "secure database",
+    "encrypted",
+    "private data",
+    "storage",
+    "protected"
+  ],
+  "database-plus": [
+    "add database",
+    "new database",
+    "storage",
+    "create",
+    "data"
+  ],
+  "database-search": [
+    "query",
+    "find data",
+    "lookup",
+    "storage",
+    "search"
   ],
   "desktop": [
     "computer",
@@ -1569,6 +1695,13 @@
     "play",
     "gaming"
   ],
+  "gauge": [
+    "meter",
+    "dial",
+    "level",
+    "performance",
+    "measure"
+  ],
   "gavel": [
     "law",
     "judge",
@@ -1583,6 +1716,20 @@
     "surprise",
     "bonus"
   ],
+  "git-branch": [
+    "branch",
+    "version control",
+    "fork",
+    "source",
+    "repository"
+  ],
+  "git-commit": [
+    "commit",
+    "version control",
+    "revision",
+    "history",
+    "change"
+  ],
   "git-compare": [
     "diff",
     "compare",
@@ -1596,6 +1743,20 @@
     "repository",
     "version control",
     "copy"
+  ],
+  "git-merge": [
+    "merge",
+    "version control",
+    "combine",
+    "branch",
+    "join"
+  ],
+  "git-pull-request": [
+    "pull request",
+    "merge request",
+    "review",
+    "version control",
+    "code"
   ],
   "globe": [
     "world",
@@ -1764,6 +1925,13 @@
     "controller",
     "stick",
     "gaming"
+  ],
+  "kanban": [
+    "board",
+    "columns",
+    "tasks",
+    "workflow",
+    "agile"
   ],
   "key": [
     "password",
@@ -2413,6 +2581,13 @@
     "switch",
     "toggle"
   ],
+  "presentation": [
+    "slides",
+    "board",
+    "meeting",
+    "pitch",
+    "lecture"
+  ],
   "printer": [
     "print",
     "paper",
@@ -2650,6 +2825,13 @@
     "infrastructure",
     "storage"
   ],
+  "server-stack": [
+    "rack",
+    "servers",
+    "hosting",
+    "infrastructure",
+    "data center"
+  ],
   "settings": [
     "gear",
     "cog",
@@ -2873,12 +3055,26 @@
     "sound",
     "hifi"
   ],
+  "speedometer": [
+    "speed",
+    "dashboard",
+    "dial",
+    "performance",
+    "fast"
+  ],
   "spell-check": [
     "spelling",
     "proofread",
     "grammar",
     "text",
     "check"
+  ],
+  "spreadsheet": [
+    "sheet",
+    "cells",
+    "grid",
+    "excel",
+    "data"
   ],
   "square": [
     "box",
@@ -2955,6 +3151,13 @@
     "exponent",
     "power",
     "math"
+  ],
+  "table": [
+    "grid",
+    "rows",
+    "columns",
+    "data",
+    "header"
   ],
   "tablet": [
     "ipad",
@@ -3351,6 +3554,13 @@
     "video call",
     "meeting",
     "stream"
+  ],
+  "webhook": [
+    "hook",
+    "callback",
+    "integration",
+    "event",
+    "nodes"
   ],
   "wifi": [
     "wireless",
