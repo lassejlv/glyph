@@ -367,6 +367,13 @@
     "at",
     "handle"
   ],
+  "atom": [
+    "physics",
+    "science",
+    "nuclear",
+    "electron",
+    "react"
+  ],
   "baby": [
     "child",
     "infant",
@@ -419,6 +426,13 @@
     "energy",
     "warning"
   ],
+  "beaker": [
+    "lab",
+    "chemistry",
+    "measure",
+    "science",
+    "liquid"
+  ],
   "bell": [
     "notification",
     "alert",
@@ -453,6 +467,13 @@
     "data",
     "digital"
   ],
+  "blocks": [
+    "building blocks",
+    "modules",
+    "apps",
+    "integrations",
+    "add-ons"
+  ],
   "bold": [
     "text",
     "format",
@@ -481,12 +502,33 @@
     "read later",
     "done"
   ],
+  "bot": [
+    "robot",
+    "ai",
+    "assistant",
+    "automation",
+    "chatbot"
+  ],
   "box": [
     "carton",
     "container",
     "storage",
     "3d",
     "crate"
+  ],
+  "braces": [
+    "curly braces",
+    "object",
+    "json",
+    "code",
+    "syntax"
+  ],
+  "brackets": [
+    "square brackets",
+    "array",
+    "list",
+    "code",
+    "syntax"
   ],
   "briefcase": [
     "work",
@@ -517,6 +559,20 @@
     "art",
     "draw",
     "style"
+  ],
+  "bug": [
+    "debug",
+    "insect",
+    "issue",
+    "error",
+    "defect"
+  ],
+  "bug-off": [
+    "debug off",
+    "fixed",
+    "no bugs",
+    "resolved",
+    "insect"
   ],
   "cabinet": [
     "filing cabinet",
@@ -888,6 +944,13 @@
     "online",
     "server"
   ],
+  "cloud-code": [
+    "serverless",
+    "cloud functions",
+    "deploy",
+    "hosting",
+    "code"
+  ],
   "cloud-download": [
     "download",
     "sync",
@@ -916,6 +979,27 @@
     "pre",
     "source",
     "developer"
+  ],
+  "code-square": [
+    "code",
+    "html",
+    "source",
+    "developer",
+    "markup"
+  ],
+  "command": [
+    "cmd",
+    "keyboard",
+    "shortcut",
+    "mac",
+    "key"
+  ],
+  "component": [
+    "design system",
+    "symbol",
+    "module",
+    "ui",
+    "library"
   ],
   "contact-book": [
     "address book",
@@ -1015,6 +1099,13 @@
     "calculate",
     "operator",
     "quotient"
+  ],
+  "dna": [
+    "genetics",
+    "helix",
+    "biology",
+    "gene",
+    "science"
   ],
   "document": [
     "file",
@@ -1329,6 +1420,13 @@
     "country",
     "goal"
   ],
+  "flask": [
+    "lab",
+    "chemistry",
+    "experiment",
+    "science",
+    "erlenmeyer"
+  ],
   "folder": [
     "directory",
     "files",
@@ -1485,6 +1583,20 @@
     "surprise",
     "bonus"
   ],
+  "git-compare": [
+    "diff",
+    "compare",
+    "changes",
+    "version control",
+    "branches"
+  ],
+  "git-fork": [
+    "fork",
+    "branch",
+    "repository",
+    "version control",
+    "copy"
+  ],
   "globe": [
     "world",
     "earth",
@@ -1499,6 +1611,13 @@
     "tiles",
     "layout",
     "squares"
+  ],
+  "hammer": [
+    "tool",
+    "build",
+    "construct",
+    "repair",
+    "nail"
   ],
   "hand-pointer": [
     "hand",
@@ -1819,6 +1938,13 @@
     "leave",
     "door"
   ],
+  "magnet": [
+    "magnetic",
+    "attract",
+    "physics",
+    "pull",
+    "horseshoe"
+  ],
   "mail": [
     "email",
     "envelope",
@@ -1933,6 +2059,13 @@
     "audio",
     "disabled"
   ],
+  "microscope": [
+    "lab",
+    "research",
+    "biology",
+    "magnify",
+    "science"
+  ],
   "minimize": [
     "minimize",
     "shrink",
@@ -2007,6 +2140,13 @@
     "tune",
     "audio"
   ],
+  "network": [
+    "nodes",
+    "connections",
+    "hub",
+    "graph",
+    "topology"
+  ],
   "not-equal": [
     "unequal",
     "different",
@@ -2020,6 +2160,13 @@
     "eight",
     "stop sign",
     "geometry"
+  ],
+  "option": [
+    "alt",
+    "keyboard",
+    "shortcut",
+    "mac",
+    "modifier"
   ],
   "outdent": [
     "text",
@@ -2278,6 +2425,13 @@
     "slides",
     "cinema"
   ],
+  "puzzle": [
+    "extension",
+    "plugin",
+    "add-on",
+    "piece",
+    "integration"
+  ],
   "question-circle": [
     "help",
     "faq",
@@ -2340,6 +2494,13 @@
     "update",
     "retry"
   ],
+  "regex": [
+    "regular expression",
+    "pattern",
+    "wildcard",
+    "match",
+    "search"
+  ],
   "remote-control": [
     "remote",
     "tv",
@@ -2387,6 +2548,13 @@
     "back",
     "media",
     "player"
+  ],
+  "rocket": [
+    "launch",
+    "deploy",
+    "startup",
+    "ship",
+    "space"
   ],
   "rotate-ccw": [
     "counterclockwise",
@@ -2611,6 +2779,13 @@
     "police",
     "beacon"
   ],
+  "sitemap": [
+    "hierarchy",
+    "tree",
+    "structure",
+    "org chart",
+    "pages"
+  ],
   "skip-back": [
     "previous",
     "skip",
@@ -2809,6 +2984,20 @@
     "prompt",
     "bash"
   ],
+  "terminal-square": [
+    "console",
+    "shell",
+    "cli",
+    "prompt",
+    "command line"
+  ],
+  "test-tube": [
+    "lab",
+    "sample",
+    "experiment",
+    "science",
+    "chemistry"
+  ],
   "text-size": [
     "font size",
     "text",
@@ -2836,6 +3025,13 @@
     "on",
     "enabled",
     "active"
+  ],
+  "toolbox": [
+    "tools",
+    "kit",
+    "repair",
+    "utilities",
+    "maintenance"
   ],
   "trash": [
     "delete",
@@ -3168,6 +3364,20 @@
     "disconnected",
     "no internet",
     "wireless"
+  ],
+  "workflow": [
+    "flow",
+    "process",
+    "automation",
+    "pipeline",
+    "steps"
+  ],
+  "wrench": [
+    "tool",
+    "settings",
+    "repair",
+    "fix",
+    "maintenance"
   ],
   "x-circle": [
     "close",
