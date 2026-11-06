@@ -62,6 +62,13 @@
     "store",
     "file away"
   ],
+  "archive-restore": [
+    "unarchive",
+    "restore",
+    "retrieve",
+    "box",
+    "undo archive"
+  ],
   "arrow-big-down": [
     "block arrow",
     "download",
@@ -474,6 +481,13 @@
     "read later",
     "done"
   ],
+  "box": [
+    "carton",
+    "container",
+    "storage",
+    "3d",
+    "crate"
+  ],
   "briefcase": [
     "work",
     "job",
@@ -503,6 +517,13 @@
     "art",
     "draw",
     "style"
+  ],
+  "cabinet": [
+    "filing cabinet",
+    "drawers",
+    "storage",
+    "files",
+    "office"
   ],
   "calculator": [
     "math",
@@ -867,6 +888,20 @@
     "online",
     "server"
   ],
+  "cloud-download": [
+    "download",
+    "sync",
+    "retrieve",
+    "from cloud",
+    "storage"
+  ],
+  "cloud-upload": [
+    "upload",
+    "sync",
+    "backup",
+    "send to cloud",
+    "storage"
+  ],
   "code": [
     "developer",
     "programming",
@@ -946,6 +981,13 @@
     "db",
     "cylinder"
   ],
+  "database-backup": [
+    "backup",
+    "restore",
+    "sync",
+    "data",
+    "storage"
+  ],
   "desktop": [
     "computer",
     "all-in-one",
@@ -959,6 +1001,13 @@
     "gem",
     "geometry",
     "lozenge"
+  ],
+  "disc": [
+    "cd",
+    "dvd",
+    "optical",
+    "disk",
+    "media"
   ],
   "divide": [
     "division",
@@ -1002,6 +1051,13 @@
     "reorder",
     "move",
     "dots"
+  ],
+  "drawer": [
+    "tray",
+    "storage",
+    "open drawer",
+    "inbox",
+    "furniture"
   ],
   "dropdown": [
     "dropdown",
@@ -1279,6 +1335,107 @@
     "collection",
     "archive"
   ],
+  "folder-check": [
+    "folder done",
+    "complete",
+    "approved",
+    "verified",
+    "directory"
+  ],
+  "folder-clock": [
+    "recent",
+    "history",
+    "scheduled",
+    "time",
+    "directory"
+  ],
+  "folder-download": [
+    "download",
+    "save to folder",
+    "import",
+    "directory"
+  ],
+  "folder-heart": [
+    "favorite",
+    "liked",
+    "love",
+    "saved",
+    "directory"
+  ],
+  "folder-lock": [
+    "private",
+    "secure",
+    "locked",
+    "protected",
+    "directory"
+  ],
+  "folder-minus": [
+    "remove folder",
+    "delete",
+    "subtract",
+    "directory"
+  ],
+  "folder-open": [
+    "open",
+    "browse",
+    "directory",
+    "files",
+    "explore"
+  ],
+  "folder-pen": [
+    "edit",
+    "rename",
+    "pencil",
+    "modify",
+    "directory"
+  ],
+  "folder-plus": [
+    "new folder",
+    "add",
+    "create",
+    "directory"
+  ],
+  "folder-search": [
+    "find",
+    "search files",
+    "browse",
+    "lookup",
+    "directory"
+  ],
+  "folder-shared": [
+    "shared",
+    "team",
+    "user",
+    "collaboration",
+    "directory"
+  ],
+  "folder-star": [
+    "favorite",
+    "starred",
+    "bookmark",
+    "important",
+    "directory"
+  ],
+  "folder-upload": [
+    "upload",
+    "export",
+    "send",
+    "directory"
+  ],
+  "folder-x": [
+    "remove folder",
+    "delete",
+    "close",
+    "cancel",
+    "directory"
+  ],
+  "folders": [
+    "multiple folders",
+    "directories",
+    "collection",
+    "copy",
+    "files"
+  ],
   "forward": [
     "share",
     "send on",
@@ -1364,6 +1521,13 @@
     "partnership",
     "greeting",
     "trust"
+  ],
+  "hard-drive": [
+    "disk",
+    "storage",
+    "hdd",
+    "drive",
+    "device"
   ],
   "hash": [
     "hashtag",
@@ -1864,6 +2028,20 @@
     "paragraph",
     "format"
   ],
+  "package": [
+    "parcel",
+    "shipping",
+    "delivery",
+    "box",
+    "order"
+  ],
+  "package-open": [
+    "unbox",
+    "open box",
+    "unpack",
+    "parcel",
+    "delivery"
+  ],
   "palette": [
     "colors",
     "paint",
@@ -2230,6 +2408,12 @@
     "internet",
     "wifi"
   ],
+  "save": [
+    "floppy disk",
+    "store",
+    "keep",
+    "disk"
+  ],
   "scan": [
     "scanner",
     "frame",
@@ -2270,6 +2454,12 @@
     "monitor",
     "display",
     "upload"
+  ],
+  "sd-card": [
+    "memory card",
+    "storage",
+    "flash",
+    "camera card"
   ],
   "search": [
     "find",
@@ -2529,6 +2719,13 @@
     "calculate",
     "formula"
   ],
+  "stack": [
+    "pile",
+    "cards",
+    "layers",
+    "collection",
+    "stacked"
+  ],
   "star": [
     "favorite",
     "rating",
@@ -2698,6 +2895,13 @@
     "import",
     "tray",
     "arrow"
+  ],
+  "usb": [
+    "flash drive",
+    "thumb drive",
+    "stick",
+    "storage",
+    "memory"
   ],
   "user": [
     "person",
