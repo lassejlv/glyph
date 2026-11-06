@@ -332,6 +332,13 @@
     "multiply",
     "footnote"
   ],
+  "at-sign": [
+    "email",
+    "mention",
+    "address",
+    "at",
+    "handle"
+  ],
   "bell": [
     "notification",
     "alert",
@@ -344,6 +351,20 @@
     "notifications off",
     "do not disturb",
     "unsubscribe"
+  ],
+  "bell-plus": [
+    "add notification",
+    "subscribe",
+    "new alert",
+    "reminder",
+    "bell"
+  ],
+  "bell-ring": [
+    "notification",
+    "ringing",
+    "alert",
+    "alarm",
+    "reminder"
   ],
   "binary": [
     "code",
@@ -387,6 +408,14 @@
     "portfolio",
     "career",
     "office"
+  ],
+  "broadcast": [
+    "live",
+    "streaming",
+    "signal",
+    "radio",
+    "transmit",
+    "on air"
   ],
   "brush": [
     "paint",
@@ -467,6 +496,73 @@
     "conversation",
     "bubble",
     "talk"
+  ],
+  "chat-check": [
+    "message read",
+    "approved",
+    "comment resolved",
+    "bubble",
+    "done"
+  ],
+  "chat-dots": [
+    "typing",
+    "message",
+    "comment",
+    "bubble",
+    "ellipsis",
+    "conversation"
+  ],
+  "chat-heart": [
+    "love",
+    "favorite message",
+    "reaction",
+    "bubble",
+    "like"
+  ],
+  "chat-plus": [
+    "new message",
+    "add comment",
+    "compose",
+    "bubble",
+    "conversation"
+  ],
+  "chat-question": [
+    "help",
+    "faq",
+    "support",
+    "ask",
+    "bubble",
+    "question"
+  ],
+  "chat-quote": [
+    "quote",
+    "testimonial",
+    "citation",
+    "message",
+    "bubble"
+  ],
+  "chat-text": [
+    "message",
+    "comment",
+    "text",
+    "bubble",
+    "lines",
+    "conversation"
+  ],
+  "chat-x": [
+    "delete message",
+    "close chat",
+    "remove comment",
+    "bubble",
+    "cancel"
+  ],
+  "chats": [
+    "conversation",
+    "messages",
+    "discussion",
+    "bubbles",
+    "forum",
+    "dialogue"
   ],
   "check": [
     "done",
@@ -755,6 +851,13 @@
     "collection",
     "archive"
   ],
+  "forward": [
+    "share",
+    "send on",
+    "email",
+    "arrow",
+    "redirect"
+  ],
   "function": [
     "formula",
     "math",
@@ -943,6 +1046,48 @@
     "message",
     "letter"
   ],
+  "mail-check": [
+    "email sent",
+    "verified",
+    "read",
+    "envelope",
+    "confirm"
+  ],
+  "mail-open": [
+    "email",
+    "read",
+    "envelope",
+    "opened",
+    "letter"
+  ],
+  "mail-plus": [
+    "new email",
+    "compose",
+    "add",
+    "envelope",
+    "letter"
+  ],
+  "mail-send": [
+    "send email",
+    "outgoing",
+    "outbox",
+    "envelope",
+    "arrow"
+  ],
+  "mail-x": [
+    "delete email",
+    "remove",
+    "failed",
+    "envelope",
+    "cancel"
+  ],
+  "mailbox": [
+    "post",
+    "letters",
+    "delivery",
+    "inbox",
+    "mail"
+  ],
   "map-pin": [
     "location",
     "marker",
@@ -951,12 +1096,27 @@
     "address",
     "gps"
   ],
+  "megaphone": [
+    "announcement",
+    "marketing",
+    "loudspeaker",
+    "broadcast",
+    "promote",
+    "news"
+  ],
   "menu": [
     "hamburger",
     "navigation",
     "bars",
     "list",
     "lines"
+  ],
+  "message-square": [
+    "message",
+    "comment",
+    "speech bubble",
+    "feedback",
+    "chat"
   ],
   "microphone": [
     "mic",
@@ -1083,6 +1243,41 @@
     "dial",
     "handset"
   ],
+  "phone-call": [
+    "calling",
+    "ringing",
+    "telephone",
+    "active call",
+    "contact"
+  ],
+  "phone-incoming": [
+    "incoming call",
+    "receive",
+    "telephone",
+    "arrow",
+    "inbound"
+  ],
+  "phone-missed": [
+    "missed call",
+    "declined",
+    "telephone",
+    "unanswered",
+    "x"
+  ],
+  "phone-off": [
+    "hang up",
+    "no calls",
+    "mute",
+    "telephone",
+    "disabled"
+  ],
+  "phone-outgoing": [
+    "outgoing call",
+    "dial",
+    "telephone",
+    "arrow",
+    "outbound"
+  ],
   "pi": [
     "math",
     "constant",
@@ -1171,6 +1366,20 @@
     "rotate",
     "update",
     "retry"
+  ],
+  "reply": [
+    "respond",
+    "answer",
+    "message",
+    "arrow",
+    "back"
+  ],
+  "reply-all": [
+    "respond all",
+    "answer",
+    "email",
+    "arrows",
+    "group"
   ],
   "rotate-ccw": [
     "counterclockwise",
@@ -1481,6 +1690,13 @@
     "film",
     "movie",
     "meeting"
+  ],
+  "voicemail": [
+    "message",
+    "tape",
+    "answering machine",
+    "recording",
+    "phone"
   ],
   "volume": [
     "sound",
