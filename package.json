@@ -1,0 +1,32 @@
+{
+  "name": "glyph",
+  "version": "0.1.0",
+  "description": "Clean, consistent SVG icons in outline and solid styles.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./icons.json": "./dist/icons.json",
+    "./sprite/*": "./dist/sprite/*",
+    "./outline/*": "./icons/outline/*",
+    "./solid/*": "./icons/solid/*"
+  },
+  "files": [
+    "dist",
+    "icons"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "new": "node scripts/new.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
