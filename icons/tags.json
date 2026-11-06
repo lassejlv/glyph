@@ -38,6 +38,31 @@
     "up",
     "increase"
   ],
+  "arrow-circle-down": [
+    "down",
+    "download",
+    "bottom",
+    "button"
+  ],
+  "arrow-circle-left": [
+    "previous",
+    "back",
+    "return",
+    "button"
+  ],
+  "arrow-circle-right": [
+    "next",
+    "forward",
+    "proceed",
+    "button",
+    "go"
+  ],
+  "arrow-circle-up": [
+    "up",
+    "upload",
+    "top",
+    "button"
+  ],
   "arrow-corner-down-right": [
     "turn",
     "corner",
@@ -56,6 +81,18 @@
     "direction",
     "south",
     "bottom",
+    "decrease"
+  ],
+  "arrow-down-left": [
+    "diagonal",
+    "southwest",
+    "direction",
+    "incoming"
+  ],
+  "arrow-down-right": [
+    "diagonal",
+    "southeast",
+    "direction",
     "decrease"
   ],
   "arrow-down-to-line": [
@@ -78,6 +115,30 @@
     "collapse",
     "tab"
   ],
+  "arrow-long-down": [
+    "down",
+    "descend",
+    "bottom",
+    "direction"
+  ],
+  "arrow-long-left": [
+    "previous",
+    "back",
+    "return",
+    "direction"
+  ],
+  "arrow-long-right": [
+    "next",
+    "forward",
+    "continue",
+    "direction"
+  ],
+  "arrow-long-up": [
+    "up",
+    "ascend",
+    "top",
+    "direction"
+  ],
   "arrow-right": [
     "next",
     "forward",
@@ -91,6 +152,59 @@
     "indent",
     "skip"
   ],
+  "arrow-square-down": [
+    "down",
+    "download",
+    "bottom",
+    "button",
+    "box"
+  ],
+  "arrow-square-left": [
+    "previous",
+    "back",
+    "return",
+    "button",
+    "box"
+  ],
+  "arrow-square-right": [
+    "next",
+    "forward",
+    "proceed",
+    "button",
+    "box"
+  ],
+  "arrow-square-up": [
+    "up",
+    "upload",
+    "top",
+    "button",
+    "box"
+  ],
+  "arrow-turn-down": [
+    "turn",
+    "drop",
+    "route",
+    "bend"
+  ],
+  "arrow-turn-left": [
+    "turn",
+    "reply",
+    "back",
+    "route"
+  ],
+  "arrow-turn-right": [
+    "turn",
+    "redirect",
+    "forward",
+    "reply all",
+    "route"
+  ],
+  "arrow-turn-up": [
+    "turn",
+    "rise",
+    "route",
+    "bend"
+  ],
   "arrow-up": [
     "direction",
     "north",
@@ -103,6 +217,85 @@
     "export",
     "raise",
     "share"
+  ],
+  "arrow-up-left": [
+    "diagonal",
+    "northwest",
+    "direction",
+    "back"
+  ],
+  "arrow-up-right": [
+    "diagonal",
+    "northeast",
+    "direction",
+    "external",
+    "trend"
+  ],
+  "arrow-uturn-left": [
+    "u-turn",
+    "reverse",
+    "return",
+    "turn back"
+  ],
+  "arrow-uturn-right": [
+    "u-turn",
+    "reverse",
+    "return",
+    "turn back"
+  ],
+  "arrows-collapse": [
+    "exit fullscreen",
+    "minimize",
+    "shrink",
+    "reduce"
+  ],
+  "arrows-exchange": [
+    "swap",
+    "transfer",
+    "trade",
+    "switch",
+    "convert"
+  ],
+  "arrows-expand": [
+    "fullscreen",
+    "maximize",
+    "enlarge",
+    "grow"
+  ],
+  "arrows-left-right": [
+    "horizontal",
+    "resize",
+    "width",
+    "both ways",
+    "swap"
+  ],
+  "arrows-move": [
+    "drag",
+    "pan",
+    "position",
+    "reorder",
+    "four way"
+  ],
+  "arrows-repeat": [
+    "loop",
+    "repeat",
+    "cycle",
+    "replay",
+    "sync"
+  ],
+  "arrows-shuffle": [
+    "random",
+    "mix",
+    "shuffle",
+    "playlist",
+    "crossing"
+  ],
+  "arrows-up-down": [
+    "vertical",
+    "resize",
+    "height",
+    "both ways",
+    "scroll"
   ],
   "bell": [
     "notification",
