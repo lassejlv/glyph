@@ -34,6 +34,13 @@
     "paragraph",
     "format"
   ],
+  "app-window": [
+    "window",
+    "application",
+    "app",
+    "title bar",
+    "program"
+  ],
   "archive": [
     "box",
     "storage",
@@ -417,6 +424,13 @@
     "transmit",
     "on air"
   ],
+  "browser": [
+    "browser",
+    "web",
+    "address bar",
+    "website",
+    "window"
+  ],
   "brush": [
     "paint",
     "paintbrush",
@@ -587,6 +601,14 @@
     "task",
     "confirm"
   ],
+  "checkbox": [
+    "checkbox",
+    "checked",
+    "option",
+    "form",
+    "select",
+    "tick"
+  ],
   "chevron-circle-down": [
     "chevron",
     "circle",
@@ -748,6 +770,13 @@
     "object",
     "block"
   ],
+  "cursor-text": [
+    "text cursor",
+    "i-beam",
+    "caret",
+    "type",
+    "edit text"
+  ],
   "database": [
     "storage",
     "data",
@@ -783,6 +812,22 @@
     "get",
     "tray",
     "arrow"
+  ],
+  "drag": [
+    "drag",
+    "grip",
+    "handle",
+    "reorder",
+    "move",
+    "dots"
+  ],
+  "dropdown": [
+    "dropdown",
+    "select",
+    "combobox",
+    "menu",
+    "picker",
+    "form"
   ],
   "edit": [
     "pencil",
@@ -858,6 +903,20 @@
     "arrow",
     "redirect"
   ],
+  "fullscreen": [
+    "fullscreen",
+    "expand",
+    "corners",
+    "focus",
+    "viewfinder"
+  ],
+  "fullscreen-exit": [
+    "exit fullscreen",
+    "shrink",
+    "restore",
+    "corners",
+    "windowed"
+  ],
   "function": [
     "formula",
     "math",
@@ -886,6 +945,14 @@
     "tiles",
     "layout",
     "squares"
+  ],
+  "hand-pointer": [
+    "hand",
+    "pointer",
+    "click",
+    "tap",
+    "link",
+    "finger"
   ],
   "hash": [
     "hashtag",
@@ -962,6 +1029,13 @@
     "help",
     "tooltip"
   ],
+  "input-field": [
+    "input",
+    "text field",
+    "textbox",
+    "form",
+    "type"
+  ],
   "italic": [
     "text",
     "format",
@@ -982,6 +1056,55 @@
     "arrange",
     "overlay",
     "depth"
+  ],
+  "layout": [
+    "template",
+    "header",
+    "sidebar",
+    "page",
+    "wireframe"
+  ],
+  "layout-columns": [
+    "columns",
+    "three columns",
+    "split",
+    "vertical",
+    "board"
+  ],
+  "layout-dashboard": [
+    "dashboard",
+    "widgets",
+    "tiles",
+    "overview",
+    "masonry"
+  ],
+  "layout-grid": [
+    "grid",
+    "quadrants",
+    "tiles",
+    "cells",
+    "four"
+  ],
+  "layout-rows": [
+    "rows",
+    "stack",
+    "sections",
+    "horizontal",
+    "split"
+  ],
+  "layout-sidebar": [
+    "sidebar",
+    "left panel",
+    "navigation",
+    "split",
+    "drawer"
+  ],
+  "layout-sidebar-right": [
+    "sidebar",
+    "right panel",
+    "inspector",
+    "split",
+    "aside"
   ],
   "link": [
     "url",
@@ -1096,6 +1219,13 @@
     "address",
     "gps"
   ],
+  "maximize": [
+    "maximize",
+    "expand",
+    "enlarge",
+    "grow",
+    "zoom in"
+  ],
   "megaphone": [
     "announcement",
     "marketing",
@@ -1124,6 +1254,13 @@
     "record",
     "voice",
     "sound"
+  ],
+  "minimize": [
+    "minimize",
+    "shrink",
+    "collapse",
+    "reduce",
+    "zoom out"
   ],
   "minus": [
     "remove",
@@ -1193,6 +1330,20 @@
     "art",
     "theme",
     "design"
+  ],
+  "panel-bottom": [
+    "footer",
+    "bottom bar",
+    "panel",
+    "console",
+    "status bar"
+  ],
+  "panel-top": [
+    "header",
+    "top bar",
+    "panel",
+    "toolbar",
+    "navbar"
   ],
   "paperclip": [
     "attachment",
@@ -1326,6 +1477,13 @@
     "expand",
     "insert"
   ],
+  "pointer": [
+    "cursor",
+    "arrow",
+    "mouse",
+    "click",
+    "select"
+  ],
   "question-circle": [
     "help",
     "faq",
@@ -1339,6 +1497,13 @@
     "testimonial",
     "text",
     "quotation"
+  ],
+  "radio-button": [
+    "radio",
+    "option",
+    "choice",
+    "select",
+    "form"
   ],
   "rectangle-horizontal": [
     "landscape",
@@ -1380,6 +1545,13 @@
     "email",
     "arrows",
     "group"
+  ],
+  "resize": [
+    "resize",
+    "corner",
+    "grip",
+    "handle",
+    "scale"
   ],
   "rotate-ccw": [
     "counterclockwise",
@@ -1475,12 +1647,34 @@
     "shop",
     "ecommerce"
   ],
+  "sidebar-collapse": [
+    "collapse",
+    "hide sidebar",
+    "close panel",
+    "fold",
+    "toggle sidebar"
+  ],
   "sigma": [
     "sum",
     "total",
     "summation",
     "math",
     "greek"
+  ],
+  "slider": [
+    "slider",
+    "range",
+    "control",
+    "volume",
+    "level"
+  ],
+  "sliders": [
+    "sliders",
+    "adjust",
+    "settings",
+    "controls",
+    "equalizer",
+    "preferences"
   ],
   "smile": [
     "emoji",
@@ -1573,6 +1767,13 @@
     "power",
     "math"
   ],
+  "tabs": [
+    "tabs",
+    "tabbed",
+    "tab bar",
+    "pages",
+    "switch view"
+  ],
   "tag": [
     "label",
     "price",
@@ -1601,6 +1802,20 @@
     "agree",
     "good",
     "vote"
+  ],
+  "toggle-off": [
+    "toggle",
+    "switch",
+    "off",
+    "disabled",
+    "inactive"
+  ],
+  "toggle-on": [
+    "toggle",
+    "switch",
+    "on",
+    "enabled",
+    "active"
   ],
   "trash": [
     "delete",
