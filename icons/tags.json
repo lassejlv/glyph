@@ -13,11 +13,57 @@
     "store",
     "file away"
   ],
+  "arrow-big-down": [
+    "block arrow",
+    "download",
+    "down",
+    "decrease"
+  ],
+  "arrow-big-left": [
+    "block arrow",
+    "back",
+    "left",
+    "previous"
+  ],
+  "arrow-big-right": [
+    "block arrow",
+    "forward",
+    "right",
+    "next"
+  ],
+  "arrow-big-up": [
+    "block arrow",
+    "upload",
+    "shift",
+    "up",
+    "increase"
+  ],
+  "arrow-corner-down-right": [
+    "turn",
+    "corner",
+    "reply",
+    "nested",
+    "indent"
+  ],
+  "arrow-corner-up-right": [
+    "turn",
+    "corner",
+    "bend",
+    "direction",
+    "forward"
+  ],
   "arrow-down": [
     "direction",
     "south",
     "bottom",
     "decrease"
+  ],
+  "arrow-down-to-line": [
+    "download",
+    "bottom",
+    "import",
+    "save",
+    "end"
   ],
   "arrow-left": [
     "back",
@@ -25,17 +71,38 @@
     "direction",
     "west"
   ],
+  "arrow-left-to-line": [
+    "start",
+    "first",
+    "beginning",
+    "collapse",
+    "tab"
+  ],
   "arrow-right": [
     "next",
     "forward",
     "continue",
     "direction"
   ],
+  "arrow-right-to-line": [
+    "end",
+    "last",
+    "tab",
+    "indent",
+    "skip"
+  ],
   "arrow-up": [
     "direction",
     "north",
     "top",
     "increase"
+  ],
+  "arrow-up-from-line": [
+    "upload",
+    "top",
+    "export",
+    "raise",
+    "share"
   ],
   "bell": [
     "notification",
@@ -93,6 +160,34 @@
     "lens",
     "shoot"
   ],
+  "caret-down": [
+    "triangle",
+    "dropdown",
+    "expand",
+    "decrease",
+    "down"
+  ],
+  "caret-left": [
+    "triangle",
+    "back",
+    "previous",
+    "collapse",
+    "left"
+  ],
+  "caret-right": [
+    "triangle",
+    "forward",
+    "next",
+    "expand",
+    "right"
+  ],
+  "caret-up": [
+    "triangle",
+    "dropdown",
+    "collapse",
+    "increase",
+    "up"
+  ],
   "chart-bar": [
     "graph",
     "statistics",
@@ -139,6 +234,34 @@
     "approved",
     "verified"
   ],
+  "chevron-circle-down": [
+    "chevron",
+    "circle",
+    "down",
+    "expand",
+    "button"
+  ],
+  "chevron-circle-left": [
+    "chevron",
+    "circle",
+    "left",
+    "back",
+    "previous"
+  ],
+  "chevron-circle-right": [
+    "chevron",
+    "circle",
+    "right",
+    "forward",
+    "next"
+  ],
+  "chevron-circle-up": [
+    "chevron",
+    "circle",
+    "up",
+    "collapse",
+    "button"
+  ],
   "chevron-down": [
     "expand",
     "dropdown",
@@ -152,6 +275,13 @@
     "caret",
     "prev"
   ],
+  "chevron-left-right": [
+    "horizontal",
+    "code",
+    "resize",
+    "slide",
+    "toggle"
+  ],
   "chevron-right": [
     "next",
     "forward",
@@ -163,6 +293,42 @@
     "caret",
     "less",
     "expand"
+  ],
+  "chevron-up-down": [
+    "select",
+    "dropdown",
+    "sort",
+    "expand",
+    "vertical",
+    "toggle"
+  ],
+  "chevrons-down": [
+    "double chevron",
+    "scroll bottom",
+    "expand",
+    "more",
+    "downward"
+  ],
+  "chevrons-left": [
+    "double chevron",
+    "first",
+    "rewind",
+    "back",
+    "previous"
+  ],
+  "chevrons-right": [
+    "double chevron",
+    "last",
+    "fast forward",
+    "next",
+    "skip"
+  ],
+  "chevrons-up": [
+    "double chevron",
+    "scroll top",
+    "expand",
+    "collapse",
+    "upward"
   ],
   "clock": [
     "time",
@@ -498,6 +664,20 @@
     "update",
     "retry"
   ],
+  "rotate-ccw": [
+    "counterclockwise",
+    "rotate left",
+    "turn",
+    "revert",
+    "spin"
+  ],
+  "rotate-cw": [
+    "clockwise",
+    "rotate right",
+    "turn",
+    "reload",
+    "spin"
+  ],
   "search": [
     "find",
     "magnifier",
@@ -577,6 +757,20 @@
     "descending",
     "reorder"
   ],
+  "sort-ascending": [
+    "sort",
+    "order",
+    "ascending",
+    "a to z",
+    "smallest first"
+  ],
+  "sort-descending": [
+    "sort",
+    "order",
+    "descending",
+    "z to a",
+    "largest first"
+  ],
   "sparkles": [
     "ai",
     "magic",
@@ -626,6 +820,20 @@
     "bin",
     "garbage",
     "discard"
+  ],
+  "trending-down": [
+    "decline",
+    "decrease",
+    "stocks",
+    "chart",
+    "loss"
+  ],
+  "trending-up": [
+    "growth",
+    "increase",
+    "stocks",
+    "chart",
+    "profit"
   ],
   "undo": [
     "back",
