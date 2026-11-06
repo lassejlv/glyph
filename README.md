@@ -26,7 +26,7 @@ At runtime an unknown name throws.
 
 The site lives at [glyph.lassejlv.dk](https://glyph.lassejlv.dk/). It's an icon browser with search, outline/solid switching and copy/download, plus the docs.
 
-It also serves every icon as a static file, for `<img>` tags, scripts and LLMs:
+It also serves every icon as a static file, for `<img>` tags, scripts and LLMs. For example, [glyph.lassejlv.dk/user.svg](https://glyph.lassejlv.dk/user.svg) and [glyph.lassejlv.dk/llms.txt](https://glyph.lassejlv.dk/llms.txt):
 
 | Path | Returns |
 | --- | --- |
