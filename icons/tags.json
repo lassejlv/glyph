@@ -473,6 +473,13 @@
     "nursing",
     "baby"
   ],
+  "backspace": [
+    "delete",
+    "erase",
+    "keyboard",
+    "clear",
+    "remove"
+  ],
   "badge": [
     "employee badge",
     "name tag",
@@ -1563,6 +1570,12 @@
     "inventory",
     "items"
   ],
+  "clipboard-paste": [
+    "paste",
+    "insert",
+    "clipboard",
+    "put"
+  ],
   "clipboard-x": [
     "clear",
     "remove",
@@ -1819,6 +1832,20 @@
     "clone",
     "clipboard",
     "paste"
+  ],
+  "copy-check": [
+    "copied",
+    "duplicate",
+    "done",
+    "clipboard",
+    "success"
+  ],
+  "copy-plus": [
+    "duplicate",
+    "clone",
+    "add copy",
+    "new",
+    "copy"
   ],
   "coupon": [
     "voucher",
@@ -2090,6 +2117,20 @@
     "change",
     "compose"
   ],
+  "edit-off": [
+    "read only",
+    "no edit",
+    "pencil",
+    "locked",
+    "disabled"
+  ],
+  "edit-square": [
+    "write",
+    "compose",
+    "pencil",
+    "modify",
+    "note"
+  ],
   "egg": [
     "breakfast",
     "food",
@@ -2101,6 +2142,13 @@
     "shape",
     "geometry",
     "round"
+  ],
+  "enter": [
+    "return",
+    "submit",
+    "keyboard",
+    "confirm",
+    "newline"
   ],
   "equalizer": [
     "equalizer",
@@ -2138,6 +2186,13 @@
     "transfer",
     "trade"
   ],
+  "export": [
+    "send out",
+    "save as",
+    "output",
+    "upload",
+    "tray"
+  ],
   "external-link": [
     "open",
     "new tab",
@@ -2151,6 +2206,13 @@
     "show",
     "watch",
     "preview"
+  ],
+  "eye-check": [
+    "seen",
+    "viewed",
+    "read",
+    "visible",
+    "watched"
   ],
   "eye-off": [
     "hide",
@@ -2372,6 +2434,19 @@
     "narrow",
     "sieve"
   ],
+  "filter-plus": [
+    "add filter",
+    "new filter",
+    "funnel",
+    "create"
+  ],
+  "filter-x": [
+    "clear filter",
+    "remove filter",
+    "funnel",
+    "reset",
+    "cancel"
+  ],
   "fingerprint": [
     "biometric",
     "touch id",
@@ -2426,6 +2501,20 @@
     "experiment",
     "science",
     "erlenmeyer"
+  ],
+  "flip-horizontal": [
+    "mirror",
+    "reflect",
+    "flip",
+    "transform",
+    "image"
+  ],
+  "flip-vertical": [
+    "mirror",
+    "reflect",
+    "flip",
+    "upside down",
+    "transform"
   ],
   "flower": [
     "nature",
@@ -2964,6 +3053,13 @@
     "landscape",
     "media"
   ],
+  "import": [
+    "bring in",
+    "load",
+    "input",
+    "download",
+    "tray"
+  ],
   "inbox": [
     "tray",
     "messages",
@@ -3215,12 +3311,26 @@
     "connect",
     "attach"
   ],
+  "link-check": [
+    "linked",
+    "connected",
+    "chain",
+    "verified",
+    "url"
+  ],
   "link-off": [
     "unlink",
     "broken link",
     "remove link",
     "disconnect",
     "url"
+  ],
+  "link-plus": [
+    "add link",
+    "insert link",
+    "chain",
+    "url",
+    "attach"
   ],
   "list": [
     "bullets",
@@ -3235,6 +3345,13 @@
     "tasks",
     "items",
     "list"
+  ],
+  "list-filter": [
+    "filter",
+    "refine",
+    "lines",
+    "narrow",
+    "options"
   ],
   "list-ordered": [
     "numbered list",
@@ -3795,6 +3912,13 @@
     "vector",
     "draw"
   ],
+  "pen-line": [
+    "edit",
+    "write",
+    "pencil",
+    "signature",
+    "text"
+  ],
   "pentagon": [
     "shape",
     "polygon",
@@ -3905,6 +4029,13 @@
     "capsules",
     "medication",
     "pharmacy"
+  ],
+  "pin-plus": [
+    "add pin",
+    "pushpin",
+    "attach",
+    "fasten",
+    "new"
   ],
   "ping-pong": [
     "table tennis",
@@ -4175,6 +4306,13 @@
     "update",
     "retry"
   ],
+  "refresh-off": [
+    "no sync",
+    "reload off",
+    "update disabled",
+    "paused",
+    "off"
+  ],
   "regex": [
     "regular expression",
     "pattern",
@@ -4304,6 +4442,13 @@
     "keep",
     "disk"
   ],
+  "save-check": [
+    "saved",
+    "floppy",
+    "disk",
+    "done",
+    "stored"
+  ],
   "scale": [
     "balance",
     "justice",
@@ -4379,6 +4524,20 @@
     "zoom",
     "magnifying glass"
   ],
+  "search-check": [
+    "found",
+    "magnifier",
+    "verified",
+    "result",
+    "done"
+  ],
+  "search-x": [
+    "clear search",
+    "cancel",
+    "magnifier",
+    "remove",
+    "close"
+  ],
   "send": [
     "paper plane",
     "submit",
@@ -4407,6 +4566,13 @@
     "options",
     "configuration"
   ],
+  "settings-off": [
+    "disabled",
+    "gear",
+    "cog",
+    "preferences",
+    "off"
+  ],
   "shapes": [
     "geometry",
     "objects",
@@ -4421,6 +4587,13 @@
     "send",
     "social",
     "nodes"
+  ],
+  "share-box": [
+    "share",
+    "send",
+    "share sheet",
+    "upload",
+    "export"
   ],
   "shield": [
     "security",
@@ -4657,6 +4830,13 @@
     "ascending",
     "descending",
     "reorder"
+  ],
+  "sort-alphabetical": [
+    "a-z",
+    "alphabetical",
+    "order",
+    "sort",
+    "name"
   ],
   "sort-ascending": [
     "sort",
@@ -5121,6 +5301,20 @@
     "bin",
     "garbage",
     "discard"
+  ],
+  "trash-restore": [
+    "restore",
+    "undelete",
+    "recover",
+    "bin",
+    "undo"
+  ],
+  "trash-x": [
+    "delete",
+    "remove",
+    "bin",
+    "discard",
+    "permanent"
   ],
   "tree": [
     "nature",
@@ -5625,5 +5819,19 @@
     "money",
     "price",
     "japan"
+  ],
+  "zoom-in": [
+    "magnify",
+    "enlarge",
+    "search",
+    "plus",
+    "scale"
+  ],
+  "zoom-out": [
+    "magnify",
+    "shrink",
+    "search",
+    "minus",
+    "scale"
   ]
 }
