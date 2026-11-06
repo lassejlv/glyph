@@ -1006,6 +1006,14 @@
     "files",
     "office"
   ],
+  "cable": [
+    "cable",
+    "cord",
+    "wire",
+    "connector",
+    "plug",
+    "usb"
+  ],
   "cake": [
     "birthday",
     "dessert",
@@ -1784,6 +1792,14 @@
     "online",
     "server"
   ],
+  "cloud-check": [
+    "cloud",
+    "check",
+    "saved",
+    "synced",
+    "uploaded",
+    "done"
+  ],
   "cloud-code": [
     "serverless",
     "cloud functions",
@@ -1819,6 +1835,14 @@
     "lightning",
     "thunderstorm"
   ],
+  "cloud-lock": [
+    "cloud",
+    "lock",
+    "secure",
+    "private",
+    "encrypted",
+    "storage"
+  ],
   "cloud-moon": [
     "weather",
     "night",
@@ -1832,6 +1856,14 @@
     "no cloud",
     "sync off",
     "disabled"
+  ],
+  "cloud-plus": [
+    "cloud",
+    "add",
+    "new",
+    "plus",
+    "create",
+    "storage"
   ],
   "cloud-rain": [
     "weather",
@@ -1854,12 +1886,28 @@
     "day",
     "forecast"
   ],
+  "cloud-sync": [
+    "cloud",
+    "sync",
+    "refresh",
+    "backup",
+    "update",
+    "storage"
+  ],
   "cloud-upload": [
     "upload",
     "sync",
     "backup",
     "send to cloud",
     "storage"
+  ],
+  "cloud-x": [
+    "cloud",
+    "error",
+    "failed",
+    "delete",
+    "remove",
+    "offline"
   ],
   "cloudy": [
     "weather",
@@ -2098,6 +2146,14 @@
     "lookup",
     "storage",
     "search"
+  ],
+  "database-x": [
+    "database",
+    "delete",
+    "remove",
+    "error",
+    "storage",
+    "data"
   ],
   "desk": [
     "table",
@@ -2338,6 +2394,14 @@
     "clear",
     "remove",
     "delete"
+  ],
+  "ethernet": [
+    "ethernet",
+    "port",
+    "lan",
+    "network",
+    "rj45",
+    "wired"
   ],
   "euro": [
     "eur",
@@ -3253,6 +3317,14 @@
     "inn",
     "building"
   ],
+  "hotspot": [
+    "tethering",
+    "wifi",
+    "phone",
+    "share",
+    "internet",
+    "wireless"
+  ],
   "hourglass": [
     "sandglass",
     "wait",
@@ -3968,6 +4040,22 @@
     "computer",
     "desktop"
   ],
+  "monitor-off": [
+    "monitor",
+    "screen",
+    "display",
+    "off",
+    "disabled",
+    "no signal"
+  ],
+  "monitor-play": [
+    "monitor",
+    "video",
+    "play",
+    "screen",
+    "presentation",
+    "media"
+  ],
   "moon": [
     "dark mode",
     "night",
@@ -4009,6 +4097,14 @@
     "input",
     "peripheral"
   ],
+  "mouse-pointer-click": [
+    "click",
+    "cursor",
+    "pointer",
+    "mouse",
+    "select",
+    "arrow"
+  ],
   "mug": [
     "drink",
     "tea",
@@ -4049,6 +4145,14 @@
     "press",
     "journal",
     "headlines"
+  ],
+  "nfc": [
+    "contactless",
+    "tap",
+    "pay",
+    "wireless",
+    "waves",
+    "near field"
   ],
   "not-equal": [
     "unequal",
@@ -4312,6 +4416,14 @@
     "arrow",
     "outbound"
   ],
+  "phone-vibrate": [
+    "vibrate",
+    "phone",
+    "silent",
+    "mobile",
+    "buzz",
+    "alert"
+  ],
   "pi": [
     "math",
     "constant",
@@ -4559,6 +4671,14 @@
     "link",
     "matrix",
     "payment"
+  ],
+  "qr-scan": [
+    "qr",
+    "scan",
+    "code",
+    "scanner",
+    "camera",
+    "barcode"
   ],
   "question-circle": [
     "help",
@@ -4809,6 +4929,22 @@
     "snack",
     "meal"
   ],
+  "satellite": [
+    "space",
+    "orbit",
+    "signal",
+    "gps",
+    "communication",
+    "broadcast"
+  ],
+  "satellite-dish": [
+    "dish",
+    "antenna",
+    "signal",
+    "receiver",
+    "broadcast",
+    "tv"
+  ],
   "save": [
     "floppy disk",
     "store",
@@ -4931,6 +5067,14 @@
     "backend",
     "infrastructure",
     "storage"
+  ],
+  "server-cog": [
+    "server",
+    "settings",
+    "config",
+    "admin",
+    "infrastructure",
+    "cog"
   ],
   "server-stack": [
     "rack",
@@ -5118,6 +5262,14 @@
     "guide",
     "sign"
   ],
+  "sim-card": [
+    "sim",
+    "card",
+    "mobile",
+    "carrier",
+    "chip",
+    "cellular"
+  ],
   "siren": [
     "alarm",
     "emergency",
@@ -5182,6 +5334,14 @@
     "mobile",
     "cellphone",
     "device"
+  ],
+  "smartphone-off": [
+    "phone",
+    "mobile",
+    "off",
+    "disabled",
+    "no phone",
+    "airplane"
   ],
   "smile": [
     "emoji",
@@ -5743,6 +5903,14 @@
     "storm",
     "whirlwind"
   ],
+  "touch": [
+    "touch",
+    "tap",
+    "finger",
+    "gesture",
+    "press",
+    "hand"
+  ],
   "traffic-light": [
     "stoplight",
     "signal",
@@ -5879,6 +6047,14 @@
     "stick",
     "storage",
     "memory"
+  ],
+  "usb-c": [
+    "usb-c",
+    "usb",
+    "port",
+    "type-c",
+    "charging",
+    "connector"
   ],
   "user": [
     "person",
