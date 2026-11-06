@@ -1171,6 +1171,14 @@
     "increase",
     "up"
   ],
+  "carousel": [
+    "slider",
+    "slides",
+    "swipe",
+    "cards",
+    "slideshow",
+    "showcase"
+  ],
   "carrot": [
     "vegetable",
     "veggie",
@@ -1902,6 +1910,13 @@
     "change",
     "payment",
     "savings"
+  ],
+  "columns-2": [
+    "two columns",
+    "split view",
+    "side by side",
+    "layout",
+    "panes"
   ],
   "comet": [
     "space",
@@ -2810,6 +2825,14 @@
     "arrow",
     "redirect"
   ],
+  "frame": [
+    "frame tool",
+    "artboard",
+    "canvas",
+    "design",
+    "hash",
+    "grid lines"
+  ],
   "fridge": [
     "refrigerator",
     "freezer",
@@ -2858,6 +2881,14 @@
     "fx",
     "calculate",
     "expression"
+  ],
+  "gallery": [
+    "photos",
+    "images",
+    "album",
+    "thumbnails",
+    "slideshow",
+    "media"
   ],
   "gamepad": [
     "controller",
@@ -3002,6 +3033,22 @@
     "tiles",
     "layout",
     "squares"
+  ],
+  "grid-3x3": [
+    "nine",
+    "tiles",
+    "apps",
+    "grid view",
+    "thumbnails",
+    "matrix"
+  ],
+  "grid-plus": [
+    "add widget",
+    "add tile",
+    "new app",
+    "grid",
+    "insert",
+    "dashboard"
   ],
   "hammer": [
     "tool",
@@ -3450,6 +3497,14 @@
     "cells",
     "four"
   ],
+  "layout-list": [
+    "list view",
+    "rows",
+    "items",
+    "thumbnails",
+    "details",
+    "view mode"
+  ],
   "layout-rows": [
     "rows",
     "stack",
@@ -3470,6 +3525,14 @@
     "inspector",
     "split",
     "aside"
+  ],
+  "layout-template": [
+    "template",
+    "page layout",
+    "wireframe",
+    "header",
+    "sections",
+    "blocks"
   ],
   "leaf": [
     "nature",
@@ -3814,6 +3877,14 @@
     "bars",
     "list",
     "lines"
+  ],
+  "merge": [
+    "join",
+    "combine",
+    "converge",
+    "unite",
+    "flow",
+    "arrows"
   ],
   "message-square": [
     "message",
@@ -4697,6 +4768,13 @@
     "internet",
     "wifi"
   ],
+  "rows-2": [
+    "two rows",
+    "split horizontal",
+    "stacked",
+    "layout",
+    "panes"
+  ],
   "rss": [
     "feed",
     "subscribe",
@@ -5011,6 +5089,14 @@
     "fold",
     "toggle sidebar"
   ],
+  "sidebar-expand": [
+    "open sidebar",
+    "show panel",
+    "expand",
+    "navigation",
+    "drawer",
+    "layout"
+  ],
   "sigma": [
     "sum",
     "total",
@@ -5232,6 +5318,14 @@
     "wait",
     "busy",
     "arc"
+  ],
+  "split": [
+    "fork",
+    "branch",
+    "diverge",
+    "divide",
+    "flow",
+    "arrows"
   ],
   "spreadsheet": [
     "sheet",
@@ -5456,6 +5550,30 @@
     "columns",
     "data",
     "header"
+  ],
+  "table-columns": [
+    "column",
+    "select column",
+    "highlight",
+    "spreadsheet",
+    "grid",
+    "data"
+  ],
+  "table-plus": [
+    "add table",
+    "insert table",
+    "new table",
+    "grid",
+    "spreadsheet",
+    "create"
+  ],
+  "table-rows": [
+    "row",
+    "select row",
+    "highlight",
+    "spreadsheet",
+    "grid",
+    "data"
   ],
   "tablet": [
     "ipad",
