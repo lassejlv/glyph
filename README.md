@@ -8,6 +8,10 @@ Clean, consistent SVG icons in two styles: **outline** and **solid**.
 
 ![User icon in outline and solid at several sizes, on light and dark backgrounds](docs/preview.png)
 
+## Browse the icons
+
+Open `index.html` in a browser, or serve the repo with GitHub Pages. You can search by name or keyword, switch between outline and solid, change the preview size, and click an icon to copy its SVG or download it. Press `/` to jump to the search box.
+
 ## Using the icons
 
 Every icon is a plain SVG that inherits its color from `currentColor`, so it takes on the surrounding text color. Set the size with CSS or `width`/`height`.
@@ -35,11 +39,14 @@ el.innerHTML = getIcon("user", "solid"); // typed: IconName, IconVariant
 icons/
   outline/<name>.svg   source icons, 1.5px stroke
   solid/<name>.svg     source icons, filled
+  tags.json            search keywords per icon
 scripts/
-  build.mjs            validates icons, generates dist/
+  build.mjs            validates icons, generates dist/ and index.html
+  site.mjs             the icon browser page template
   new.mjs              scaffolds a new icon in every variant
+index.html             generated icon browser (committed)
 dist/                  generated (git-ignored)
-  index.js, index.d.ts, icons.json, sprite/<variant>.svg, preview.html
+  index.js, index.d.ts, icons.json, sprite/<variant>.svg
 ```
 
 ## Adding an icon
@@ -48,13 +55,13 @@ dist/                  generated (git-ignored)
 npm run new -- arrow-right
 ```
 
-This creates `icons/outline/arrow-right.svg` and `icons/solid/arrow-right.svg` from templates. Draw the shapes, then run:
+This creates `icons/outline/arrow-right.svg` and `icons/solid/arrow-right.svg` from templates. Draw the shapes, add search keywords to `icons/tags.json` (optional), then run:
 
 ```bash
 npm run build
 ```
 
-Open `dist/preview.html` to see every icon side by side, with a size slider.
+This regenerates `dist/` and `index.html`. Commit `index.html` together with the new icon.
 
 `npm run check` validates the icons without building. It fails when:
 
@@ -63,6 +70,8 @@ Open `dist/preview.html` to see every icon side by side, with a size slider.
 - a `fill` or `stroke` is a hard-coded color instead of `currentColor` or `none`
 - the file contains `style`, `class` or `id` attributes, or no shapes
 - the file name is not kebab-case
+- `icons/tags.json` names an icon that doesn't exist
+- `index.html` is out of date
 
 ## Design guidelines
 

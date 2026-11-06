@@ -5,17 +5,21 @@
 //   dist/icons.json            { [name]: { [variant]: "<svg…>" } }
 //   dist/index.js / index.d.ts  ESM exports (userOutline, userSolid, icons, getIcon)
 //   dist/sprite/<variant>.svg   <symbol id="<name>"> sprite per variant
-//   dist/preview.html           visual overview of every icon
+//   index.html                  searchable icon browser (repo root, committed)
 //
-// Run with --check to validate the sources without writing anything.
+// Search keywords live in icons/tags.json ({ "user": ["person", …] }).
+// Run with --check to validate the sources and confirm index.html is current,
+// without writing anything.
 
 import { readdir, readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { renderSite } from "./site.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = join(ROOT, "icons");
 const DIST = join(ROOT, "dist");
+const SITE = join(ROOT, "index.html");
 const CHECK_ONLY = process.argv.includes("--check");
 
 // Every icon must ship in each of these variants. Add a new folder under
@@ -76,6 +80,21 @@ async function load() {
   return Object.fromEntries(Object.entries(icons).sort(([a], [b]) => a.localeCompare(b)));
 }
 
+async function loadTags(icons) {
+  let tags = {};
+  try {
+    tags = JSON.parse(await readFile(join(SRC, "tags.json"), "utf8"));
+  } catch (e) {
+    if (e.code !== "ENOENT") fail("icons/tags.json", `invalid JSON (${e.message})`);
+    return {};
+  }
+  for (const [name, list] of Object.entries(tags)) {
+    if (!icons[name]) fail("icons/tags.json", `"${name}" is not an icon`);
+    if (!Array.isArray(list) || !list.every((t) => typeof t === "string")) fail("icons/tags.json", `"${name}" must be an array of strings`);
+  }
+  return tags;
+}
+
 function sprite(icons, variant) {
   const symbols = Object.entries(icons).map(([name, v]) =>
     v[variant]
@@ -122,52 +141,9 @@ function dts(icons) {
   return lines.join("\n") + "\n";
 }
 
-function preview(icons) {
-  const cells = Object.entries(icons)
-    .map(
-      ([name, v]) => `
-      <figure>
-        <div class="row">${VARIANTS.map((variant) => `<span title="${name} · ${variant}">${v[variant]}</span>`).join("")}</div>
-        <figcaption>${name}</figcaption>
-      </figure>`,
-    )
-    .join("");
-  return `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Glyph icons</title>
-<style>
-  :root { --bg: #fafafa; --card: #fff; --fg: #18181b; --muted: #71717a; --line: #e4e4e7; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #09090b; --card: #18181b; --fg: #fafafa; --muted: #a1a1aa; --line: #27272a; } }
-  * { box-sizing: border-box; }
-  body { margin: 0; padding: 32px 16px; background: var(--bg); color: var(--fg); font: 14px/1.5 system-ui, sans-serif; }
-  main { max-width: 960px; margin: 0 auto; }
-  h1 { font-size: 20px; margin: 0 0 4px; }
-  p { margin: 0 0 24px; color: var(--muted); }
-  label { display: inline-flex; gap: 8px; align-items: center; margin-bottom: 24px; color: var(--muted); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
-  figure { margin: 0; padding: 20px 12px 12px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; text-align: center; }
-  .row { display: flex; justify-content: center; gap: 20px; }
-  .row svg { width: var(--size, 32px); height: var(--size, 32px); display: block; }
-  figcaption { margin-top: 12px; font-size: 12px; color: var(--muted); }
-</style>
-</head>
-<body>
-<main>
-  <h1>Glyph</h1>
-  <p>${Object.keys(icons).length} icons · ${VARIANTS.join(" / ")} · 24×24 grid</p>
-  <label>Size <input type="range" min="16" max="96" value="32" oninput="document.body.style.setProperty('--size', this.value + 'px')"></label>
-  <div class="grid">${cells}
-  </div>
-</main>
-</body>
-</html>
-`;
-}
-
 const icons = await load();
+const tags = await loadTags(icons);
+const site = renderSite({ icons, tags, variants: VARIANTS });
 
 if (errors.length) {
   console.error(`✖ ${errors.length} problem(s):\n  ` + errors.join("\n  "));
@@ -176,6 +152,11 @@ if (errors.length) {
 
 const count = Object.keys(icons).length;
 if (CHECK_ONLY) {
+  const current = await readFile(SITE, "utf8").catch(() => "");
+  if (current !== site) {
+    console.error("✖ index.html is out of date — run `npm run build` and commit it");
+    process.exit(1);
+  }
   console.log(`✔ ${count} icon(s) × ${VARIANTS.length} variants valid`);
   process.exit(0);
 }
@@ -186,7 +167,7 @@ await Promise.all([
   writeFile(join(DIST, "icons.json"), JSON.stringify(icons, null, 2) + "\n"),
   writeFile(join(DIST, "index.js"), esm(icons)),
   writeFile(join(DIST, "index.d.ts"), dts(icons)),
-  writeFile(join(DIST, "preview.html"), preview(icons)),
+  writeFile(SITE, site),
   ...VARIANTS.map((v) => writeFile(join(DIST, "sprite", `${v}.svg`), sprite(icons, v))),
 ]);
-console.log(`✔ Built ${count} icon(s) × ${VARIANTS.length} variants → dist/`);
+console.log(`✔ Built ${count} icon(s) × ${VARIANTS.length} variants → dist/ and index.html`);
