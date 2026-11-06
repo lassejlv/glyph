@@ -1,6 +1,6 @@
 {
   "name": "glyph-svg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "1000+ clean SVG icons in outline and solid styles, behind one type-safe getIcon() function.",
   "keywords": [
     "icons",
