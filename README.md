@@ -1,6 +1,26 @@
 # Glyph
 
-Clean, consistent SVG icons in two styles: **outline** and **solid**.
+1000+ clean, consistent SVG icons in two styles, **outline** and **solid**, plus a small set of brand logos. They're published on npm as [`glyph-icons`](https://www.npmjs.com/package/glyph-icons).
+
+```bash
+npm install glyph-icons
+```
+
+```ts
+import { getIcon } from "glyph-icons";
+
+el.innerHTML = getIcon("user");             // outline (default)
+el.innerHTML = getIcon("user", "solid");
+el.innerHTML = getIcon("github", "brand");  // brand logos
+```
+
+`getIcon` is the package's only export. It is fully typed:
+
+- `name` autocompletes every icon.
+- `"brand"` only accepts brand names.
+- A typo is a compile error.
+
+At runtime an unknown name throws.
 
 ## Browse the icons
 
@@ -8,24 +28,17 @@ Open `index.html` in a browser, or serve the repo with GitHub Pages. You can sea
 
 ## Using the icons
 
-Every icon is a plain SVG that inherits its color from `currentColor`, so it takes on the surrounding text color. Set the size with CSS or `width`/`height`.
+`getIcon(name, variant?)` returns a plain SVG string. The icons inherit their colour from `currentColor`, so they take on the surrounding text colour. The string has no `width`/`height`, so size the icon with CSS:
 
-**Raw files.** Copy them from `icons/outline/` or `icons/solid/`.
-
-**JavaScript / TypeScript** (after `npm run build`):
-
-```js
-import { userOutline, userSolid, getIcon } from "glyph";
-
-el.innerHTML = userOutline;
-el.innerHTML = getIcon("user", "solid"); // typed: IconName, IconVariant
+```css
+.icon svg { width: 20px; height: 20px; }
 ```
 
-**Sprite.** One request covers every icon:
+The types `IconName`, `BrandName` and `IconVariant` are exported for your own props, for example `function Icon({ name }: { name: IconName })`.
 
-```html
-<svg width="24" height="24"><use href="dist/sprite/outline.svg#user" /></svg>
-```
+The package works with both `import` and `require`.
+
+All icons sit in one lookup table, so bundling `getIcon` includes the whole set: about 0.5 MB, or about 90 KB gzipped. The raw SVG files are also in `icons/` in this repo.
 
 ## Project layout
 
@@ -35,12 +48,12 @@ icons/
   solid/<name>.svg     source icons, filled
   tags.json            search keywords per icon
 scripts/
-  build.mjs            validates icons, generates dist/ and index.html
+  build.mjs            validates icons, generates the package (dist/) and index.html
   site.mjs             the icon browser page template
   new.mjs              scaffolds a new icon in every variant
 index.html             generated icon browser (committed)
-dist/                  generated (git-ignored)
-  index.js, index.d.ts, icons.json, sprite/<variant>.svg
+dist/                  the npm package, generated (git-ignored)
+  index.js, index.cjs, index.d.ts, index.d.cts
 ```
 
 ## Adding an icon
@@ -69,20 +82,7 @@ This regenerates `dist/` and `index.html`. Commit `index.html` together with the
 
 ## Brand icons
 
-Logos for common tools and providers (GitHub, Discord, Claude, Figma, …) live in `icons/brands/<name>.svg`. They come in a single style, filled with `currentColor`, and are scaled to sit in the same 3–21 area as the UI icons, so the two collections line up at the same size. They are a separate collection from the UI icons:
-
-```js
-import { githubBrand, getBrand, brands } from "glyph";
-
-el.innerHTML = githubBrand;
-el.innerHTML = getBrand("x"); // typed: BrandName
-```
-
-```html
-<svg width="24" height="24"><use href="dist/sprite/brands.svg#github" /></svg>
-```
-
-The build also writes `dist/brands.json`. The raw files are in `icons/brands/`.
+Logos for common tools and providers (GitHub, Discord, Claude, Figma, …) live in `icons/brands/<name>.svg`. They come in a single style, filled with `currentColor`, and are scaled to sit in the same 3–21 area as the UI icons, so the two collections line up at the same size. Get them with the `"brand"` variant: `getIcon("github", "brand")`. The raw files are in `icons/brands/`.
 
 **Adding a brand.** Take the logo from [Simple Icons](https://simpleicons.org) rather than drawing it, so the mark stays accurate. Download its SVG and run:
 
@@ -90,7 +90,7 @@ The build also writes `dist/brands.json`. The raw files are in `icons/brands/`.
 npm run brand -- <name> path/to/simple-icons-logo.svg
 ```
 
-This scales the path to 75% around the centre (Simple Icons fill the whole 24×24 box) and writes `icons/brands/<name>.svg`. Add search keywords to `icons/brands/tags.json` (optional, e.g. `"x": ["twitter"]`), then run `npm run build`. Brands follow the same checks as the UI icons, except that there are no variants. The name must also start with a letter, because it becomes the `<name>Brand` export.
+This scales the path to 75% around the centre (Simple Icons fill the whole 24×24 box) and writes `icons/brands/<name>.svg`. Add search keywords to `icons/brands/tags.json` (optional, e.g. `"x": ["twitter"]`), then run `npm run build`. Brands follow the same checks as the UI icons, except that there are no variants.
 
 The brand path data comes from [Simple Icons](https://github.com/simple-icons/simple-icons) and is licensed CC0. The logos themselves are trademarks of their respective owners. Follow each owner's brand guidelines when you use them.
 
@@ -105,6 +105,34 @@ Following these rules keeps new icons consistent with the existing ones.
 - **Corners:** soften them. Round joins handle sharp vertices; give rectangles a radius of 1.5–2.25.
 - **Optical size:** filled shapes such as `star` and `heart` should span about the same area as rectangular ones (roughly 3–21 including the stroke).
 - **Detail:** both variants should read clearly at 16px.
+
+## Publishing
+
+Release from your machine, on an up-to-date `main` with no uncommitted changes:
+
+```bash
+npm login
+```
+
+```bash
+npm run release
+```
+
+`npm run release` takes an optional bump:
+
+- `npm run release` (no argument) releases a patch, e.g. 0.1.0 → 0.1.1.
+- `minor`, `major` or an exact version: `npm run release -- minor`, `npm run release -- 1.2.3`.
+- `--dry-run` shows what would happen and changes nothing.
+
+The release script:
+
+1. Checks you're logged in to npm and on a clean, up-to-date `main`.
+2. Builds and validates the icons.
+3. Bumps the version with a `Release vX.Y.Z` commit and tag.
+4. Publishes to npm.
+5. Pushes the commit and tag to GitHub.
+
+If publishing fails, the version commit and tag are undone, so you can fix the problem and run it again. Only `dist/`, README, LICENSE and package.json go into the package.
 
 ## Adding a variant
 
