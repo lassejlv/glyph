@@ -98,6 +98,13 @@
     "port",
     "boat"
   ],
+  "angry": [
+    "mad",
+    "upset",
+    "furious",
+    "face",
+    "emoji"
+  ],
   "antenna": [
     "tower",
     "radio",
@@ -444,6 +451,14 @@
     "electron",
     "react"
   ],
+  "award": [
+    "achievement",
+    "badge",
+    "prize",
+    "rosette",
+    "winner",
+    "recognition"
+  ],
   "baby": [
     "child",
     "infant",
@@ -485,6 +500,13 @@
     "purchase",
     "buy",
     "add"
+  ],
+  "balloon": [
+    "party",
+    "birthday",
+    "celebration",
+    "festive",
+    "event"
   ],
   "ban": [
     "block",
@@ -691,6 +713,14 @@
     "energy",
     "fast",
     "electric"
+  ],
+  "bolt-off": [
+    "no power",
+    "power off",
+    "lightning",
+    "energy",
+    "disabled",
+    "flash off"
   ],
   "bone": [
     "skeleton",
@@ -2539,6 +2569,13 @@
     "appliance",
     "cold"
   ],
+  "frown": [
+    "sad",
+    "unhappy",
+    "face",
+    "emoji",
+    "disappointed"
+  ],
   "fuel": [
     "gas station",
     "petrol",
@@ -2595,12 +2632,28 @@
     "court",
     "legal"
   ],
+  "gem": [
+    "diamond",
+    "jewel",
+    "premium",
+    "valuable",
+    "luxury",
+    "crystal"
+  ],
   "gift": [
     "present",
     "reward",
     "birthday",
     "surprise",
     "bonus"
+  ],
+  "gift-card": [
+    "voucher",
+    "present",
+    "gift",
+    "card",
+    "reward",
+    "coupon"
   ],
   "git-branch": [
     "branch",
@@ -2763,6 +2816,13 @@
     "approved",
     "love",
     "verified"
+  ],
+  "heart-circle": [
+    "like",
+    "love",
+    "favorite",
+    "reaction",
+    "health"
   ],
   "heart-crack": [
     "broken heart",
@@ -3056,6 +3116,14 @@
     "portable",
     "device"
   ],
+  "laugh": [
+    "happy",
+    "joy",
+    "grin",
+    "face",
+    "emoji",
+    "funny"
+  ],
   "layers": [
     "stack",
     "levels",
@@ -3118,6 +3186,13 @@
     "eco",
     "green",
     "organic"
+  ],
+  "lifebuoy": [
+    "help",
+    "support",
+    "rescue",
+    "lifesaver",
+    "safety"
   ],
   "lightbulb": [
     "idea",
@@ -3371,6 +3446,14 @@
     "grow",
     "zoom in"
   ],
+  "medal": [
+    "prize",
+    "winner",
+    "achievement",
+    "sport",
+    "olympics",
+    "reward"
+  ],
   "medical-cross": [
     "health",
     "hospital",
@@ -3392,6 +3475,13 @@
     "disabled",
     "broadcast",
     "speaker"
+  ],
+  "meh": [
+    "neutral",
+    "indifferent",
+    "face",
+    "emoji",
+    "expressionless"
   ],
   "memory": [
     "ram",
@@ -3661,6 +3751,13 @@
     "parking lot",
     "sign"
   ],
+  "party-popper": [
+    "celebration",
+    "party",
+    "confetti",
+    "congratulations",
+    "festive"
+  ],
   "passport": [
     "travel document",
     "identity",
@@ -3927,6 +4024,13 @@
     "click",
     "select"
   ],
+  "poll": [
+    "survey",
+    "vote",
+    "results",
+    "questionnaire",
+    "bars"
+  ],
   "popcorn": [
     "movie",
     "cinema",
@@ -4126,6 +4230,13 @@
     "media",
     "player"
   ],
+  "ribbon": [
+    "awareness",
+    "cause",
+    "support",
+    "charity",
+    "campaign"
+  ],
   "rocket": [
     "launch",
     "deploy",
@@ -4159,6 +4270,13 @@
     "network",
     "internet",
     "wifi"
+  ],
+  "rss": [
+    "feed",
+    "subscribe",
+    "news",
+    "blog",
+    "syndication"
   ],
   "safe": [
     "vault",
@@ -4504,6 +4622,13 @@
     "reaction",
     "feedback"
   ],
+  "smile-plus": [
+    "add reaction",
+    "emoji",
+    "react",
+    "face",
+    "emoticon"
+  ],
   "snooze": [
     "sleep",
     "later",
@@ -4560,6 +4685,14 @@
     "report",
     "warning",
     "unwanted"
+  ],
+  "sparkle": [
+    "shine",
+    "magic",
+    "ai",
+    "new",
+    "glitter",
+    "star"
   ],
   "sparkles": [
     "ai",
@@ -4645,6 +4778,34 @@
     "bookmark",
     "featured"
   ],
+  "star-check": [
+    "favorited",
+    "starred",
+    "rated",
+    "approved",
+    "verified"
+  ],
+  "star-half": [
+    "rating",
+    "half star",
+    "review",
+    "score",
+    "partial"
+  ],
+  "star-off": [
+    "unfavorite",
+    "remove favorite",
+    "no rating",
+    "unstar",
+    "disabled"
+  ],
+  "star-plus": [
+    "add favorite",
+    "favorite",
+    "bookmark",
+    "rate",
+    "new"
+  ],
   "stars": [
     "night",
     "sky",
@@ -4658,6 +4819,13 @@
     "checkup",
     "diagnosis",
     "physician"
+  ],
+  "sticker": [
+    "label",
+    "decal",
+    "peel",
+    "emoji",
+    "stamp"
   ],
   "stop": [
     "stop",
@@ -4743,6 +4911,13 @@
     "beach",
     "wave",
     "board"
+  ],
+  "surprised": [
+    "shocked",
+    "wow",
+    "astonished",
+    "face",
+    "emoji"
   ],
   "syringe": [
     "injection",
@@ -4841,6 +5016,13 @@
     "weather",
     "fever",
     "degrees"
+  ],
+  "thumbs-down": [
+    "dislike",
+    "disapprove",
+    "vote down",
+    "reject",
+    "negative"
   ],
   "thumbs-up": [
     "like",
@@ -4966,6 +5148,14 @@
     "delta",
     "geometry",
     "pyramid"
+  ],
+  "trophy": [
+    "winner",
+    "cup",
+    "prize",
+    "champion",
+    "achievement",
+    "first place"
   ],
   "truck": [
     "delivery",
@@ -5267,6 +5457,13 @@
     "speaker",
     "audio"
   ],
+  "vote": [
+    "ballot",
+    "election",
+    "ballot box",
+    "choose",
+    "democracy"
+  ],
   "wallet": [
     "money",
     "payment",
@@ -5274,6 +5471,14 @@
     "balance",
     "purse",
     "finance"
+  ],
+  "wand": [
+    "magic",
+    "effects",
+    "auto",
+    "enhance",
+    "spell",
+    "wizard"
   ],
   "warning": [
     "alert",
@@ -5362,6 +5567,13 @@
     "drink",
     "bar",
     "red wine"
+  ],
+  "wink": [
+    "playful",
+    "joke",
+    "face",
+    "emoji",
+    "flirt"
   ],
   "workflow": [
     "flow",
