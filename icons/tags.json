@@ -28,6 +28,13 @@
     "mute",
     "time"
   ],
+  "album": [
+    "music",
+    "record",
+    "sleeve",
+    "cover",
+    "lp"
+  ],
   "alert-circle": [
     "exclamation",
     "error",
@@ -1162,6 +1169,13 @@
     "no camera",
     "privacy"
   ],
+  "camera-plus": [
+    "photo",
+    "capture",
+    "add",
+    "new",
+    "snapshot"
+  ],
   "candle": [
     "flame",
     "light",
@@ -1259,6 +1273,13 @@
     "point of sale",
     "pos",
     "register"
+  ],
+  "cassette": [
+    "tape",
+    "music",
+    "audio",
+    "retro",
+    "mixtape"
   ],
   "cast": [
     "cast",
@@ -2352,6 +2373,13 @@
     "drops",
     "wet"
   ],
+  "drum": [
+    "music",
+    "instrument",
+    "percussion",
+    "snare",
+    "beat"
+  ],
   "duck": [
     "bird",
     "duckling",
@@ -2582,6 +2610,13 @@
     "programming",
     "brackets"
   ],
+  "file-csv": [
+    "document",
+    "data",
+    "table",
+    "export",
+    "spreadsheet"
+  ],
   "file-download": [
     "save",
     "import",
@@ -2600,12 +2635,26 @@
     "graphic",
     "media"
   ],
+  "file-json": [
+    "document",
+    "data",
+    "braces",
+    "code",
+    "config"
+  ],
   "file-lock": [
     "secure",
     "private",
     "protected",
     "encrypted",
     "locked"
+  ],
+  "file-markdown": [
+    "document",
+    "md",
+    "text",
+    "readme",
+    "hash"
   ],
   "file-minus": [
     "remove",
@@ -2658,6 +2707,13 @@
     "starred",
     "important",
     "bookmark"
+  ],
+  "file-terminal": [
+    "document",
+    "script",
+    "shell",
+    "console",
+    "command"
   ],
   "file-text": [
     "document",
@@ -2835,6 +2891,13 @@
     "collection",
     "archive"
   ],
+  "folder-archive": [
+    "directory",
+    "archive",
+    "storage",
+    "backup",
+    "box"
+  ],
   "folder-check": [
     "folder done",
     "complete",
@@ -2849,6 +2912,13 @@
     "time",
     "directory"
   ],
+  "folder-code": [
+    "directory",
+    "source",
+    "project",
+    "repository",
+    "developer"
+  ],
   "folder-download": [
     "download",
     "save to folder",
@@ -2862,6 +2932,13 @@
     "saved",
     "directory"
   ],
+  "folder-image": [
+    "directory",
+    "photos",
+    "pictures",
+    "gallery",
+    "media"
+  ],
   "folder-lock": [
     "private",
     "secure",
@@ -2874,6 +2951,13 @@
     "delete",
     "subtract",
     "directory"
+  ],
+  "folder-music": [
+    "directory",
+    "audio",
+    "songs",
+    "media",
+    "library"
   ],
   "folder-open": [
     "open",
@@ -2922,6 +3006,13 @@
     "send",
     "directory"
   ],
+  "folder-video": [
+    "directory",
+    "movies",
+    "clips",
+    "media",
+    "play"
+  ],
   "folder-x": [
     "remove folder",
     "delete",
@@ -2964,6 +3055,13 @@
     "design",
     "hash",
     "grid lines"
+  ],
+  "franc": [
+    "currency",
+    "money",
+    "chf",
+    "swiss",
+    "price"
   ],
   "fridge": [
     "refrigerator",
@@ -3189,6 +3287,13 @@
     "grid",
     "insert",
     "dashboard"
+  ],
+  "guitar": [
+    "music",
+    "instrument",
+    "acoustic",
+    "strings",
+    "band"
   ],
   "hammer": [
     "tool",
@@ -3436,6 +3541,27 @@
     "gallery",
     "landscape",
     "media"
+  ],
+  "image-off": [
+    "photo",
+    "picture",
+    "disabled",
+    "hidden",
+    "broken"
+  ],
+  "image-plus": [
+    "photo",
+    "picture",
+    "add",
+    "upload",
+    "new"
+  ],
+  "images": [
+    "photos",
+    "pictures",
+    "gallery",
+    "album",
+    "collection"
   ],
   "import": [
     "bring in",
@@ -3760,6 +3886,13 @@
     "chain",
     "url",
     "attach"
+  ],
+  "lira": [
+    "currency",
+    "money",
+    "try",
+    "turkey",
+    "price"
   ],
   "list": [
     "bullets",
@@ -4554,6 +4687,13 @@
     "geometry",
     "circle"
   ],
+  "piano": [
+    "music",
+    "instrument",
+    "keys",
+    "keyboard",
+    "notes"
+  ],
   "picture-frame": [
     "photo frame",
     "painting",
@@ -4702,6 +4842,13 @@
     "tracks",
     "list",
     "music"
+  ],
+  "playlist-plus": [
+    "music",
+    "queue",
+    "add",
+    "list",
+    "songs"
   ],
   "plug": [
     "power",
@@ -5064,12 +5211,26 @@
     "blog",
     "syndication"
   ],
+  "ruble": [
+    "currency",
+    "money",
+    "rub",
+    "russia",
+    "price"
+  ],
   "ruler": [
     "measure",
     "length",
     "scale",
     "geometry",
     "dimensions"
+  ],
+  "rupee": [
+    "currency",
+    "money",
+    "inr",
+    "india",
+    "price"
   ],
   "safe": [
     "vault",
@@ -6469,6 +6630,20 @@
     "stop video",
     "call"
   ],
+  "video-plus": [
+    "camera",
+    "recording",
+    "add",
+    "new",
+    "meeting"
+  ],
+  "vinyl": [
+    "record",
+    "music",
+    "lp",
+    "turntable",
+    "grooves"
+  ],
   "virus": [
     "germ",
     "bacteria",
@@ -6660,6 +6835,13 @@
     "emoji",
     "flirt"
   ],
+  "won": [
+    "currency",
+    "money",
+    "krw",
+    "korea",
+    "price"
+  ],
   "workflow": [
     "flow",
     "process",
@@ -6717,6 +6899,13 @@
     "money",
     "price",
     "japan"
+  ],
+  "yuan": [
+    "currency",
+    "money",
+    "cny",
+    "renminbi",
+    "china"
   ],
   "zoom-in": [
     "magnify",
