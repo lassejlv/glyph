@@ -69,7 +69,7 @@ This regenerates `dist/` and `index.html`. Commit `index.html` together with the
 
 ## Brand icons
 
-Logos for common tools and providers (GitHub, Discord, Claude, Figma, …) live in `icons/brands/<name>.svg`. They come in a single style, filled with `currentColor`, and use the full 24×24 box. They are a separate collection from the UI icons:
+Logos for common tools and providers (GitHub, Discord, Claude, Figma, …) live in `icons/brands/<name>.svg`. They come in a single style, filled with `currentColor`, and are scaled to sit in the same 3–21 area as the UI icons, so the two collections line up at the same size. They are a separate collection from the UI icons:
 
 ```js
 import { githubBrand, getBrand, brands } from "glyph";
@@ -84,15 +84,13 @@ el.innerHTML = getBrand("x"); // typed: BrandName
 
 The build also writes `dist/brands.json`. The raw files are in `icons/brands/`.
 
-**Adding a brand.** Take the logo from [Simple Icons](https://simpleicons.org) rather than drawing it, so the mark stays accurate. Save its path data as `icons/brands/<name>.svg` with this wrapper, without `<title>`:
+**Adding a brand.** Take the logo from [Simple Icons](https://simpleicons.org) rather than drawing it, so the mark stays accurate. Download its SVG and run:
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="…"/>
-</svg>
+```bash
+npm run brand -- <name> path/to/simple-icons-logo.svg
 ```
 
-Add search keywords to `icons/brands/tags.json` (optional, e.g. `"x": ["twitter"]`), then run `npm run build`. Brands follow the same checks as the UI icons, except that there are no variants. The name must also start with a letter, because it becomes the `<name>Brand` export.
+This scales the path to 75% around the centre (Simple Icons fill the whole 24×24 box) and writes `icons/brands/<name>.svg`. Add search keywords to `icons/brands/tags.json` (optional, e.g. `"x": ["twitter"]`), then run `npm run build`. Brands follow the same checks as the UI icons, except that there are no variants. The name must also start with a letter, because it becomes the `<name>Brand` export.
 
 The brand path data comes from [Simple Icons](https://github.com/simple-icons/simple-icons) and is licensed CC0. The logos themselves are trademarks of their respective owners. Follow each owner's brand guidelines when you use them.
 
