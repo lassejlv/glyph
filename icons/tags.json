@@ -63,6 +63,13 @@
     "paragraph",
     "format"
   ],
+  "ambulance": [
+    "emergency",
+    "hospital",
+    "vehicle",
+    "paramedic",
+    "medical"
+  ],
   "analytics": [
     "chart",
     "stats",
@@ -424,6 +431,13 @@
     "newborn",
     "face"
   ],
+  "baby-bottle": [
+    "feeding",
+    "milk",
+    "infant",
+    "nursing",
+    "baby"
+  ],
   "badge": [
     "employee badge",
     "name tag",
@@ -458,6 +472,13 @@
     "prohibited",
     "cancel",
     "not allowed"
+  ],
+  "bandage": [
+    "plaster",
+    "band-aid",
+    "wound",
+    "injury",
+    "first aid"
   ],
   "bank": [
     "finance",
@@ -581,6 +602,13 @@
     "fast",
     "electric"
   ],
+  "bone": [
+    "skeleton",
+    "orthopedic",
+    "fracture",
+    "dog",
+    "anatomy"
+  ],
   "bookmark": [
     "save",
     "favorite",
@@ -621,6 +649,13 @@
     "list",
     "code",
     "syntax"
+  ],
+  "brain": [
+    "mind",
+    "neurology",
+    "think",
+    "intelligence",
+    "anatomy"
   ],
   "briefcase": [
     "work",
@@ -1669,6 +1704,20 @@
     "humidity",
     "rain"
   ],
+  "dumbbell": [
+    "fitness",
+    "gym",
+    "workout",
+    "exercise",
+    "strength"
+  ],
+  "ear": [
+    "hearing",
+    "listen",
+    "audio",
+    "anatomy",
+    "sound"
+  ],
   "earth": [
     "world",
     "planet",
@@ -1952,6 +2001,13 @@
     "authentication",
     "scan"
   ],
+  "first-aid": [
+    "medical kit",
+    "emergency",
+    "case",
+    "health",
+    "aid"
+  ],
   "flag": [
     "report",
     "mark",
@@ -2087,6 +2143,13 @@
     "copy",
     "files"
   ],
+  "footprints": [
+    "steps",
+    "walking",
+    "tracks",
+    "shoe prints",
+    "activity"
+  ],
   "forward": [
     "share",
     "send on",
@@ -2192,6 +2255,13 @@
     "version control",
     "code"
   ],
+  "glasses": [
+    "eyeglasses",
+    "spectacles",
+    "vision",
+    "reading",
+    "optician"
+  ],
   "globe": [
     "world",
     "earth",
@@ -2213,6 +2283,13 @@
     "construct",
     "repair",
     "nail"
+  ],
+  "hand-heart": [
+    "care",
+    "charity",
+    "donate",
+    "kindness",
+    "volunteer"
   ],
   "hand-pointer": [
     "hand",
@@ -2269,6 +2346,48 @@
     "love",
     "favorite",
     "health"
+  ],
+  "heart-check": [
+    "favorited",
+    "healthy",
+    "approved",
+    "love",
+    "verified"
+  ],
+  "heart-crack": [
+    "broken heart",
+    "heartbreak",
+    "sad",
+    "breakup",
+    "love"
+  ],
+  "heart-minus": [
+    "remove favorite",
+    "unlike",
+    "health",
+    "love",
+    "subtract"
+  ],
+  "heart-off": [
+    "unlike",
+    "unfavorite",
+    "disabled",
+    "no love",
+    "remove"
+  ],
+  "heart-plus": [
+    "add favorite",
+    "health",
+    "like",
+    "care",
+    "love"
+  ],
+  "heart-pulse": [
+    "heartbeat",
+    "pulse",
+    "cardiogram",
+    "health",
+    "vital signs"
   ],
   "hexagon": [
     "shape",
@@ -2597,6 +2716,13 @@
     "travel",
     "trip"
   ],
+  "lungs": [
+    "breathing",
+    "respiratory",
+    "pulmonary",
+    "anatomy",
+    "air"
+  ],
   "magnet": [
     "magnetic",
     "attract",
@@ -2702,6 +2828,13 @@
     "enlarge",
     "grow",
     "zoom in"
+  ],
+  "medical-cross": [
+    "health",
+    "hospital",
+    "medical",
+    "emergency",
+    "plus"
   ],
   "megaphone": [
     "announcement",
@@ -3065,6 +3198,27 @@
     "money",
     "budget",
     "finance"
+  ],
+  "pill": [
+    "medicine",
+    "capsule",
+    "drug",
+    "pharmacy",
+    "tablet"
+  ],
+  "pill-bottle": [
+    "medicine",
+    "prescription",
+    "pharmacy",
+    "medication",
+    "container"
+  ],
+  "pills": [
+    "medicine",
+    "tablets",
+    "capsules",
+    "medication",
+    "pharmacy"
   ],
   "pipette": [
     "eyedropper",
@@ -3791,6 +3945,13 @@
     "rating",
     "space"
   ],
+  "stethoscope": [
+    "doctor",
+    "medical",
+    "checkup",
+    "diagnosis",
+    "physician"
+  ],
   "stop": [
     "stop",
     "halt",
@@ -3868,6 +4029,13 @@
     "exponent",
     "power",
     "math"
+  ],
+  "syringe": [
+    "injection",
+    "vaccine",
+    "needle",
+    "shot",
+    "medical"
   ],
   "table": [
     "grid",
@@ -4001,6 +4169,13 @@
     "repair",
     "utilities",
     "maintenance"
+  ],
+  "tooth": [
+    "dental",
+    "dentist",
+    "teeth",
+    "molar",
+    "oral"
   ],
   "tornado": [
     "weather",
@@ -4300,6 +4475,13 @@
     "stop video",
     "call"
   ],
+  "virus": [
+    "germ",
+    "bacteria",
+    "infection",
+    "covid",
+    "disease"
+  ],
   "voicemail": [
     "message",
     "tape",
@@ -4376,6 +4558,20 @@
     "integration",
     "event",
     "nodes"
+  ],
+  "weight": [
+    "kettlebell",
+    "fitness",
+    "gym",
+    "training",
+    "heavy"
+  ],
+  "wheelchair": [
+    "accessibility",
+    "disabled",
+    "handicap",
+    "mobility",
+    "accessible"
   ],
   "wifi": [
     "wireless",
