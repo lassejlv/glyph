@@ -34,6 +34,13 @@
     "paragraph",
     "format"
   ],
+  "antenna": [
+    "tower",
+    "radio",
+    "broadcast",
+    "transmitter",
+    "signal"
+  ],
   "app-window": [
     "window",
     "application",
@@ -346,6 +353,30 @@
     "at",
     "handle"
   ],
+  "battery": [
+    "power",
+    "energy",
+    "empty",
+    "charge"
+  ],
+  "battery-charging": [
+    "charging",
+    "power",
+    "energy",
+    "bolt"
+  ],
+  "battery-full": [
+    "charged",
+    "power",
+    "energy",
+    "full"
+  ],
+  "battery-low": [
+    "low power",
+    "empty",
+    "energy",
+    "warning"
+  ],
   "bell": [
     "notification",
     "alert",
@@ -437,6 +468,12 @@
     "art",
     "draw",
     "style"
+  ],
+  "calculator": [
+    "math",
+    "calculate",
+    "numbers",
+    "accounting"
   ],
   "calendar": [
     "date",
@@ -747,6 +784,12 @@
     "clipboard",
     "paste"
   ],
+  "cpu": [
+    "processor",
+    "chip",
+    "hardware",
+    "microchip"
+  ],
   "credit-card": [
     "card",
     "payment",
@@ -784,6 +827,13 @@
     "records",
     "db",
     "cylinder"
+  ],
+  "desktop": [
+    "computer",
+    "all-in-one",
+    "workstation",
+    "screen",
+    "pc"
   ],
   "diamond": [
     "rhombus",
@@ -924,6 +974,13 @@
     "calculate",
     "expression"
   ],
+  "gamepad": [
+    "controller",
+    "game",
+    "console",
+    "play",
+    "gaming"
+  ],
   "gift": [
     "present",
     "reward",
@@ -1043,12 +1100,31 @@
     "slant",
     "font"
   ],
+  "joystick": [
+    "arcade",
+    "game",
+    "controller",
+    "stick",
+    "gaming"
+  ],
   "key": [
     "password",
     "access",
     "unlock",
     "credentials",
     "login"
+  ],
+  "keyboard": [
+    "typing",
+    "keys",
+    "input",
+    "type"
+  ],
+  "laptop": [
+    "computer",
+    "notebook",
+    "portable",
+    "device"
   ],
   "layers": [
     "stack",
@@ -1234,6 +1310,12 @@
     "promote",
     "news"
   ],
+  "memory": [
+    "ram",
+    "memory stick",
+    "hardware",
+    "module"
+  ],
   "menu": [
     "hamburger",
     "navigation",
@@ -1282,6 +1364,12 @@
     "delete",
     "less"
   ],
+  "monitor": [
+    "screen",
+    "display",
+    "computer",
+    "desktop"
+  ],
   "moon": [
     "dark mode",
     "night",
@@ -1302,6 +1390,12 @@
     "kebab",
     "dots",
     "overflow"
+  ],
+  "mouse": [
+    "pointer",
+    "click",
+    "input",
+    "peripheral"
   ],
   "not-equal": [
     "unequal",
@@ -1450,6 +1544,13 @@
     "video",
     "audio"
   ],
+  "plug": [
+    "power",
+    "electric",
+    "socket",
+    "connect",
+    "outlet"
+  ],
   "plus": [
     "add",
     "new",
@@ -1483,6 +1584,25 @@
     "mouse",
     "click",
     "select"
+  ],
+  "power": [
+    "on",
+    "off",
+    "shutdown",
+    "switch",
+    "toggle"
+  ],
+  "printer": [
+    "print",
+    "paper",
+    "document",
+    "output"
+  ],
+  "projector": [
+    "presentation",
+    "beamer",
+    "slides",
+    "cinema"
   ],
   "question-circle": [
     "help",
@@ -1532,6 +1652,12 @@
     "update",
     "retry"
   ],
+  "remote-control": [
+    "remote",
+    "tv",
+    "controller",
+    "buttons"
+  ],
   "reply": [
     "respond",
     "answer",
@@ -1566,6 +1692,18 @@
     "turn",
     "reload",
     "spin"
+  ],
+  "router": [
+    "modem",
+    "network",
+    "internet",
+    "wifi"
+  ],
+  "scanner": [
+    "scan",
+    "flatbed",
+    "copy",
+    "document"
   ],
   "scissors": [
     "cut",
@@ -1661,6 +1799,13 @@
     "math",
     "greek"
   ],
+  "signal": [
+    "cellular",
+    "reception",
+    "bars",
+    "strength",
+    "network"
+  ],
   "slider": [
     "slider",
     "range",
@@ -1675,6 +1820,12 @@
     "controls",
     "equalizer",
     "preferences"
+  ],
+  "smartphone": [
+    "phone",
+    "mobile",
+    "cellphone",
+    "device"
   ],
   "smile": [
     "emoji",
@@ -1767,6 +1918,12 @@
     "power",
     "math"
   ],
+  "tablet": [
+    "ipad",
+    "device",
+    "touchscreen",
+    "mobile"
+  ],
   "tabs": [
     "tabs",
     "tabbed",
@@ -1843,6 +2000,12 @@
     "delta",
     "geometry",
     "pyramid"
+  ],
+  "tv": [
+    "television",
+    "screen",
+    "broadcast",
+    "display"
   ],
   "type": [
     "text",
@@ -1941,6 +2104,31 @@
     "danger",
     "triangle",
     "error"
+  ],
+  "watch": [
+    "smartwatch",
+    "wristwatch",
+    "time",
+    "wearable"
+  ],
+  "webcam": [
+    "camera",
+    "video call",
+    "meeting",
+    "stream"
+  ],
+  "wifi": [
+    "wireless",
+    "internet",
+    "network",
+    "connection",
+    "signal"
+  ],
+  "wifi-off": [
+    "offline",
+    "disconnected",
+    "no internet",
+    "wireless"
   ],
   "x-circle": [
     "close",
