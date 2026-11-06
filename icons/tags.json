@@ -70,6 +70,13 @@
     "insights",
     "metrics"
   ],
+  "anchor": [
+    "harbor",
+    "marine",
+    "nautical",
+    "port",
+    "boat"
+  ],
   "antenna": [
     "tower",
     "radio",
@@ -531,6 +538,13 @@
     "alarm",
     "reminder"
   ],
+  "bike": [
+    "bicycle",
+    "cycling",
+    "ride",
+    "cycle",
+    "transport"
+  ],
   "binary": [
     "code",
     "bits",
@@ -652,6 +666,27 @@
     "resolved",
     "insect"
   ],
+  "building": [
+    "office",
+    "tower",
+    "company",
+    "apartment",
+    "city"
+  ],
+  "buildings": [
+    "city",
+    "offices",
+    "skyline",
+    "real estate",
+    "towers"
+  ],
+  "bus": [
+    "transit",
+    "public transport",
+    "coach",
+    "vehicle",
+    "commute"
+  ],
   "cabinet": [
     "filing cabinet",
     "drawers",
@@ -768,6 +803,13 @@
     "disabled",
     "no camera",
     "privacy"
+  ],
+  "car": [
+    "vehicle",
+    "automobile",
+    "drive",
+    "transport",
+    "road"
   ],
   "caret-down": [
     "triangle",
@@ -1400,6 +1442,13 @@
     "mac",
     "key"
   ],
+  "compass": [
+    "direction",
+    "explore",
+    "north",
+    "orientation",
+    "safari"
+  ],
   "component": [
     "design system",
     "symbol",
@@ -1703,6 +1752,13 @@
     "unlock",
     "authentication",
     "identity"
+  ],
+  "factory": [
+    "industry",
+    "manufacturing",
+    "plant",
+    "production",
+    "warehouse"
   ],
   "fast-forward": [
     "fast forward",
@@ -2038,6 +2094,13 @@
     "arrow",
     "redirect"
   ],
+  "fuel": [
+    "gas station",
+    "petrol",
+    "gas pump",
+    "refuel",
+    "diesel"
+  ],
   "fullscreen": [
     "fullscreen",
     "expand",
@@ -2235,6 +2298,20 @@
     "start",
     "main"
   ],
+  "hospital": [
+    "medical",
+    "clinic",
+    "health",
+    "emergency",
+    "building"
+  ],
+  "hotel": [
+    "accommodation",
+    "lodging",
+    "stay",
+    "inn",
+    "building"
+  ],
   "hourglass": [
     "sandglass",
     "wait",
@@ -2352,6 +2429,13 @@
     "access",
     "credentials",
     "unlock"
+  ],
+  "landmark": [
+    "monument",
+    "museum",
+    "capitol",
+    "government",
+    "sightseeing"
   ],
   "laptop": [
     "computer",
@@ -2506,6 +2590,13 @@
     "leave",
     "door"
   ],
+  "luggage": [
+    "suitcase",
+    "baggage",
+    "trolley",
+    "travel",
+    "trip"
+  ],
   "magnet": [
     "magnetic",
     "attract",
@@ -2562,6 +2653,13 @@
     "inbox",
     "mail"
   ],
+  "map": [
+    "atlas",
+    "directions",
+    "folded map",
+    "location",
+    "travel"
+  ],
   "map-pin": [
     "location",
     "marker",
@@ -2569,6 +2667,27 @@
     "map",
     "address",
     "gps"
+  ],
+  "map-pin-check": [
+    "location confirmed",
+    "visited",
+    "check-in",
+    "marker",
+    "arrived"
+  ],
+  "map-pin-off": [
+    "location off",
+    "no location",
+    "hide location",
+    "marker",
+    "disabled"
+  ],
+  "map-pin-plus": [
+    "add location",
+    "new place",
+    "marker",
+    "pin",
+    "save place"
   ],
   "mask": [
     "masquerade",
@@ -2722,6 +2841,13 @@
     "tune",
     "audio"
   ],
+  "navigation": [
+    "location arrow",
+    "gps",
+    "direction",
+    "current location",
+    "navigate"
+  ],
   "network": [
     "nodes",
     "connections",
@@ -2812,6 +2938,20 @@
     "block",
     "format",
     "section"
+  ],
+  "parking": [
+    "park",
+    "car park",
+    "garage",
+    "parking lot",
+    "sign"
+  ],
+  "passport": [
+    "travel document",
+    "identity",
+    "border",
+    "visa",
+    "id"
   ],
   "password": [
     "passcode",
@@ -2932,6 +3072,13 @@
     "sample",
     "dropper",
     "pick"
+  ],
+  "plane": [
+    "airplane",
+    "flight",
+    "airport",
+    "aircraft",
+    "travel"
   ],
   "planet": [
     "space",
@@ -3208,6 +3355,13 @@
     "reload",
     "spin"
   ],
+  "route": [
+    "path",
+    "directions",
+    "journey",
+    "trip",
+    "waypoints"
+  ],
   "router": [
     "modem",
     "network",
@@ -3261,12 +3415,26 @@
     "copy",
     "document"
   ],
+  "school": [
+    "education",
+    "academy",
+    "classroom",
+    "building",
+    "college"
+  ],
   "scissors": [
     "cut",
     "clip",
     "trim",
     "snip",
     "tool"
+  ],
+  "scooter": [
+    "kick scooter",
+    "e-scooter",
+    "ride",
+    "micromobility",
+    "transport"
   ],
   "screen-share": [
     "share screen",
@@ -3387,6 +3555,13 @@
     "threat",
     "remove"
   ],
+  "ship": [
+    "boat",
+    "cruise",
+    "ferry",
+    "sea",
+    "vessel"
+  ],
   "shopping-bag": [
     "bag",
     "purchase",
@@ -3430,6 +3605,13 @@
     "bars",
     "strength",
     "network"
+  ],
+  "signpost": [
+    "directions",
+    "way",
+    "crossroads",
+    "guide",
+    "sign"
   ],
   "siren": [
     "alarm",
@@ -3714,6 +3896,20 @@
     "badge",
     "sale"
   ],
+  "taxi": [
+    "cab",
+    "ride",
+    "car",
+    "hail",
+    "transport"
+  ],
+  "tent": [
+    "camping",
+    "campsite",
+    "outdoors",
+    "shelter",
+    "camp"
+  ],
   "terminal": [
     "console",
     "command line",
@@ -3812,6 +4008,20 @@
     "cyclone",
     "storm",
     "whirlwind"
+  ],
+  "traffic-light": [
+    "stoplight",
+    "signal",
+    "road",
+    "intersection",
+    "traffic"
+  ],
+  "train": [
+    "railway",
+    "metro",
+    "subway",
+    "transit",
+    "rail"
   ],
   "trash": [
     "delete",
