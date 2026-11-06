@@ -36,6 +36,13 @@
     "alarm",
     "reminder"
   ],
+  "bell-off": [
+    "mute",
+    "silent",
+    "notifications off",
+    "do not disturb",
+    "unsubscribe"
+  ],
   "bookmark": [
     "save",
     "favorite",
@@ -56,6 +63,13 @@
     "event",
     "month",
     "day"
+  ],
+  "camera": [
+    "photo",
+    "capture",
+    "snapshot",
+    "lens",
+    "shoot"
   ],
   "chart-bar": [
     "graph",
@@ -120,6 +134,20 @@
     "caret",
     "less",
     "expand"
+  ],
+  "clock": [
+    "time",
+    "watch",
+    "hour",
+    "schedule",
+    "history"
+  ],
+  "cloud": [
+    "weather",
+    "storage",
+    "sync",
+    "online",
+    "server"
   ],
   "code": [
     "developer",
@@ -187,6 +215,20 @@
     "launch",
     "outside"
   ],
+  "eye": [
+    "view",
+    "visible",
+    "show",
+    "watch",
+    "preview"
+  ],
+  "eye-off": [
+    "hide",
+    "hidden",
+    "invisible",
+    "private",
+    "unwatch"
+  ],
   "filter": [
     "funnel",
     "refine",
@@ -205,6 +247,14 @@
     "birthday",
     "surprise",
     "bonus"
+  ],
+  "globe": [
+    "world",
+    "earth",
+    "internet",
+    "web",
+    "language",
+    "international"
   ],
   "grid": [
     "apps",
@@ -225,6 +275,13 @@
     "start",
     "main"
   ],
+  "image": [
+    "photo",
+    "picture",
+    "gallery",
+    "landscape",
+    "media"
+  ],
   "inbox": [
     "tray",
     "messages",
@@ -238,6 +295,13 @@
     "arrange",
     "overlay",
     "depth"
+  ],
+  "link": [
+    "url",
+    "chain",
+    "hyperlink",
+    "connect",
+    "attach"
   ],
   "list": [
     "bullets",
@@ -274,6 +338,14 @@
     "message",
     "letter"
   ],
+  "map-pin": [
+    "location",
+    "marker",
+    "place",
+    "map",
+    "address",
+    "gps"
+  ],
   "menu": [
     "hamburger",
     "navigation",
@@ -281,11 +353,25 @@
     "list",
     "lines"
   ],
+  "microphone": [
+    "mic",
+    "audio",
+    "record",
+    "voice",
+    "sound"
+  ],
   "minus": [
     "remove",
     "subtract",
     "collapse",
     "less"
+  ],
+  "moon": [
+    "dark mode",
+    "night",
+    "sleep",
+    "crescent",
+    "theme"
   ],
   "more-horizontal": [
     "menu",
@@ -300,6 +386,34 @@
     "kebab",
     "dots",
     "overflow"
+  ],
+  "paperclip": [
+    "attachment",
+    "attach",
+    "clip",
+    "file",
+    "upload"
+  ],
+  "pause": [
+    "stop",
+    "hold",
+    "media",
+    "break",
+    "wait"
+  ],
+  "phone": [
+    "call",
+    "telephone",
+    "contact",
+    "dial",
+    "handset"
+  ],
+  "play": [
+    "start",
+    "resume",
+    "media",
+    "video",
+    "audio"
   ],
   "plus": [
     "add",
@@ -342,6 +456,13 @@
     "infrastructure",
     "storage"
   ],
+  "settings": [
+    "gear",
+    "cog",
+    "preferences",
+    "options",
+    "configuration"
+  ],
   "share": [
     "network",
     "connect",
@@ -378,6 +499,20 @@
     "bookmark",
     "featured"
   ],
+  "sun": [
+    "light mode",
+    "day",
+    "brightness",
+    "weather",
+    "sunny"
+  ],
+  "tag": [
+    "label",
+    "price",
+    "category",
+    "badge",
+    "sale"
+  ],
   "terminal": [
     "console",
     "command line",
@@ -413,6 +548,13 @@
     "avatar",
     "member",
     "people"
+  ],
+  "video": [
+    "camera",
+    "recording",
+    "film",
+    "movie",
+    "meeting"
   ],
   "wallet": [
     "money",
