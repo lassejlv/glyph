@@ -1287,12 +1287,75 @@
     "from cloud",
     "storage"
   ],
+  "cloud-drizzle": [
+    "weather",
+    "drizzle",
+    "light rain",
+    "showers",
+    "forecast"
+  ],
+  "cloud-fog": [
+    "weather",
+    "fog",
+    "mist",
+    "haze",
+    "forecast"
+  ],
+  "cloud-lightning": [
+    "weather",
+    "storm",
+    "thunder",
+    "lightning",
+    "thunderstorm"
+  ],
+  "cloud-moon": [
+    "weather",
+    "night",
+    "partly cloudy",
+    "evening",
+    "forecast"
+  ],
+  "cloud-off": [
+    "offline",
+    "disconnected",
+    "no cloud",
+    "sync off",
+    "disabled"
+  ],
+  "cloud-rain": [
+    "weather",
+    "rain",
+    "rainy",
+    "shower",
+    "forecast"
+  ],
+  "cloud-snow": [
+    "weather",
+    "snow",
+    "snowy",
+    "winter",
+    "forecast"
+  ],
+  "cloud-sun": [
+    "weather",
+    "partly cloudy",
+    "sunny",
+    "day",
+    "forecast"
+  ],
   "cloud-upload": [
     "upload",
     "sync",
     "backup",
     "send to cloud",
     "storage"
+  ],
+  "cloudy": [
+    "weather",
+    "clouds",
+    "overcast",
+    "cloud cover",
+    "forecast"
   ],
   "code": [
     "developer",
@@ -1322,6 +1385,13 @@
     "change",
     "payment",
     "savings"
+  ],
+  "comet": [
+    "space",
+    "meteor",
+    "shooting star",
+    "astronomy",
+    "asteroid"
   ],
   "command": [
     "cmd",
@@ -1542,6 +1612,20 @@
     "menu",
     "picker",
     "form"
+  ],
+  "droplet": [
+    "water",
+    "drop",
+    "liquid",
+    "humidity",
+    "rain"
+  ],
+  "earth": [
+    "world",
+    "planet",
+    "globe",
+    "international",
+    "environment"
   ],
   "edit": [
     "pencil",
@@ -1819,12 +1903,26 @@
     "country",
     "goal"
   ],
+  "flame": [
+    "fire",
+    "hot",
+    "trending",
+    "burn",
+    "heat"
+  ],
   "flask": [
     "lab",
     "chemistry",
     "experiment",
     "science",
     "erlenmeyer"
+  ],
+  "flower": [
+    "nature",
+    "blossom",
+    "plant",
+    "garden",
+    "spring"
   ],
   "folder": [
     "directory",
@@ -2317,6 +2415,13 @@
     "split",
     "aside"
   ],
+  "leaf": [
+    "nature",
+    "plant",
+    "eco",
+    "green",
+    "organic"
+  ],
   "link": [
     "url",
     "chain",
@@ -2569,6 +2674,13 @@
     "crescent",
     "theme"
   ],
+  "moon-star": [
+    "night",
+    "dark mode",
+    "sleep",
+    "bedtime",
+    "crescent"
+  ],
   "more-horizontal": [
     "menu",
     "options",
@@ -2582,6 +2694,13 @@
     "kebab",
     "dots",
     "overflow"
+  ],
+  "mountain": [
+    "nature",
+    "landscape",
+    "peak",
+    "hiking",
+    "terrain"
   ],
   "mouse": [
     "pointer",
@@ -2814,6 +2933,13 @@
     "dropper",
     "pick"
   ],
+  "planet": [
+    "space",
+    "saturn",
+    "astronomy",
+    "orbit",
+    "universe"
+  ],
   "play": [
     "start",
     "resume",
@@ -2957,6 +3083,13 @@
     "choice",
     "select",
     "form"
+  ],
+  "rainbow": [
+    "weather",
+    "colors",
+    "spectrum",
+    "pride",
+    "arc"
   ],
   "receipt": [
     "bill",
@@ -3364,6 +3497,13 @@
     "zzz",
     "remind"
   ],
+  "snowflake": [
+    "snow",
+    "winter",
+    "cold",
+    "freeze",
+    "frost"
+  ],
   "sort": [
     "order",
     "arrange",
@@ -3428,6 +3568,13 @@
     "excel",
     "data"
   ],
+  "sprout": [
+    "plant",
+    "growth",
+    "seedling",
+    "garden",
+    "eco"
+  ],
   "square": [
     "box",
     "shape",
@@ -3454,6 +3601,13 @@
     "rating",
     "bookmark",
     "featured"
+  ],
+  "stars": [
+    "night",
+    "sky",
+    "favorites",
+    "rating",
+    "space"
   ],
   "stop": [
     "stop",
@@ -3511,6 +3665,20 @@
     "brightness",
     "weather",
     "sunny"
+  ],
+  "sunrise": [
+    "dawn",
+    "morning",
+    "sun",
+    "daybreak",
+    "horizon"
+  ],
+  "sunset": [
+    "dusk",
+    "evening",
+    "sun",
+    "twilight",
+    "horizon"
   ],
   "superscript": [
     "text",
@@ -3575,6 +3743,13 @@
     "scale",
     "typography"
   ],
+  "thermometer": [
+    "temperature",
+    "heat",
+    "weather",
+    "fever",
+    "degrees"
+  ],
   "thumbs-up": [
     "like",
     "approve",
@@ -3631,12 +3806,26 @@
     "utilities",
     "maintenance"
   ],
+  "tornado": [
+    "weather",
+    "twister",
+    "cyclone",
+    "storm",
+    "whirlwind"
+  ],
   "trash": [
     "delete",
     "remove",
     "bin",
     "garbage",
     "discard"
+  ],
+  "tree": [
+    "nature",
+    "forest",
+    "park",
+    "plant",
+    "outdoors"
   ],
   "trending-down": [
     "decline",
@@ -3677,6 +3866,13 @@
     "typography",
     "letter",
     "typeface"
+  ],
+  "umbrella": [
+    "rain",
+    "protection",
+    "weather",
+    "insurance",
+    "cover"
   ],
   "underline": [
     "text",
@@ -3951,6 +4147,13 @@
     "time",
     "wearable"
   ],
+  "waves": [
+    "water",
+    "sea",
+    "ocean",
+    "beach",
+    "tide"
+  ],
   "webcam": [
     "camera",
     "video call",
@@ -3976,6 +4179,13 @@
     "disconnected",
     "no internet",
     "wireless"
+  ],
+  "wind": [
+    "weather",
+    "breeze",
+    "air",
+    "gust",
+    "windy"
   ],
   "workflow": [
     "flow",
