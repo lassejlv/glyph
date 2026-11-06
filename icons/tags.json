@@ -609,6 +609,14 @@
     "energy",
     "warning"
   ],
+  "battery-warning": [
+    "battery",
+    "warning",
+    "alert",
+    "power",
+    "charge",
+    "error"
+  ],
   "beaker": [
     "lab",
     "chemistry",
@@ -691,6 +699,14 @@
     "alert",
     "alarm",
     "reminder"
+  ],
+  "bell-ring-off": [
+    "bell",
+    "ringing",
+    "mute",
+    "silent",
+    "notifications off",
+    "alarm"
   ],
   "bell-x": [
     "notification",
@@ -837,6 +853,13 @@
     "favorite",
     "read later",
     "new"
+  ],
+  "bookmark-star": [
+    "bookmark",
+    "favorite",
+    "starred",
+    "save",
+    "featured"
   ],
   "bookmark-x": [
     "remove",
@@ -991,6 +1014,14 @@
     "coach",
     "vehicle",
     "commute"
+  ],
+  "bus-stop": [
+    "bus",
+    "stop",
+    "station",
+    "transit",
+    "public transport",
+    "sign"
   ],
   "butterfly": [
     "insect",
@@ -1150,6 +1181,14 @@
     "drive",
     "transport",
     "road"
+  ],
+  "car-front": [
+    "car",
+    "vehicle",
+    "auto",
+    "drive",
+    "transport",
+    "front"
   ],
   "caret-down": [
     "triangle",
@@ -2305,6 +2344,14 @@
     "humidity",
     "rain"
   ],
+  "droplets": [
+    "water",
+    "rain",
+    "liquid",
+    "humidity",
+    "drops",
+    "wet"
+  ],
   "duck": [
     "bird",
     "duckling",
@@ -2726,6 +2773,27 @@
     "country",
     "goal"
   ],
+  "flag-off": [
+    "flag",
+    "unflag",
+    "off",
+    "unmark",
+    "remove"
+  ],
+  "flag-plus": [
+    "flag",
+    "add",
+    "new",
+    "mark",
+    "report"
+  ],
+  "flag-triangle": [
+    "pennant",
+    "flag",
+    "marker",
+    "golf",
+    "milestone"
+  ],
   "flame": [
     "fire",
     "hot",
@@ -3069,6 +3137,14 @@
     "language",
     "international"
   ],
+  "globe-lock": [
+    "globe",
+    "secure",
+    "vpn",
+    "private",
+    "web",
+    "internet"
+  ],
   "golf": [
     "flag",
     "hole",
@@ -3232,6 +3308,14 @@
     "cardiogram",
     "health",
     "vital signs"
+  ],
+  "helicopter": [
+    "helicopter",
+    "aircraft",
+    "chopper",
+    "flight",
+    "rescue",
+    "transport"
   ],
   "hexagon": [
     "shape",
@@ -3464,6 +3548,14 @@
     "unlock",
     "credentials",
     "login"
+  ],
+  "key-plus": [
+    "key",
+    "add",
+    "new key",
+    "credential",
+    "access",
+    "password"
   ],
   "key-round": [
     "key",
@@ -3739,6 +3831,14 @@
     "lock",
     "security"
   ],
+  "lock-x": [
+    "lock",
+    "denied",
+    "security",
+    "error",
+    "blocked",
+    "remove"
+  ],
   "log-in": [
     "sign in",
     "login",
@@ -3885,6 +3985,21 @@
     "marker",
     "pin",
     "save place"
+  ],
+  "map-plus": [
+    "map",
+    "add",
+    "new",
+    "location",
+    "place"
+  ],
+  "map-search": [
+    "map",
+    "search",
+    "find",
+    "explore",
+    "location",
+    "lookup"
   ],
   "mask": [
     "masquerade",
@@ -4131,6 +4246,14 @@
     "direction",
     "current location",
     "navigate"
+  ],
+  "navigation-off": [
+    "navigation",
+    "off",
+    "gps",
+    "location",
+    "disabled",
+    "direction"
   ],
   "network": [
     "nodes",
@@ -4521,6 +4644,22 @@
     "aircraft",
     "travel"
   ],
+  "plane-landing": [
+    "plane",
+    "arrival",
+    "landing",
+    "flight",
+    "airport",
+    "travel"
+  ],
+  "plane-takeoff": [
+    "plane",
+    "departure",
+    "takeoff",
+    "flight",
+    "airport",
+    "travel"
+  ],
   "planet": [
     "space",
     "saturn",
@@ -4570,6 +4709,14 @@
     "socket",
     "connect",
     "outlet"
+  ],
+  "plug-zap": [
+    "plug",
+    "charging",
+    "electric",
+    "power",
+    "socket",
+    "energy"
   ],
   "plus": [
     "add",
@@ -4638,6 +4785,13 @@
     "shutdown",
     "switch",
     "toggle"
+  ],
+  "power-off": [
+    "power",
+    "off",
+    "shutdown",
+    "disabled",
+    "switch"
   ],
   "presentation": [
     "slides",
@@ -4881,6 +5035,14 @@
     "journey",
     "trip",
     "waypoints"
+  ],
+  "route-off": [
+    "route",
+    "off",
+    "path",
+    "directions",
+    "disabled",
+    "trip"
   ],
   "router": [
     "modem",
@@ -5189,6 +5351,14 @@
     "sea",
     "vessel"
   ],
+  "ship-wheel": [
+    "helm",
+    "wheel",
+    "ship",
+    "navigation",
+    "sailing",
+    "steering"
+  ],
   "shopping-bag": [
     "bag",
     "purchase",
@@ -5253,6 +5423,14 @@
     "reception",
     "bars",
     "strength",
+    "network"
+  ],
+  "signal-low": [
+    "signal",
+    "cellular",
+    "weak",
+    "bars",
+    "reception",
     "network"
   ],
   "signpost": [
@@ -5755,6 +5933,20 @@
     "badge",
     "sale"
   ],
+  "tag-check": [
+    "tag",
+    "verified",
+    "label",
+    "approved",
+    "done"
+  ],
+  "tag-x": [
+    "tag",
+    "remove",
+    "label",
+    "delete",
+    "untag"
+  ],
   "target": [
     "bullseye",
     "goal",
@@ -5818,6 +6010,22 @@
     "weather",
     "fever",
     "degrees"
+  ],
+  "thermometer-snow": [
+    "temperature",
+    "cold",
+    "freezing",
+    "weather",
+    "winter",
+    "snowflake"
+  ],
+  "thermometer-sun": [
+    "temperature",
+    "hot",
+    "heat",
+    "weather",
+    "warm",
+    "summer"
   ],
   "thumbs-down": [
     "dislike",
@@ -5924,6 +6132,14 @@
     "subway",
     "transit",
     "rail"
+  ],
+  "train-front": [
+    "train",
+    "high-speed",
+    "bullet train",
+    "rail",
+    "transport",
+    "railway"
   ],
   "translate": [
     "language",
@@ -6346,6 +6562,14 @@
     "time",
     "wearable"
   ],
+  "wave-sine": [
+    "sine",
+    "wave",
+    "frequency",
+    "signal",
+    "oscillation",
+    "audio"
+  ],
   "waves": [
     "water",
     "sea",
@@ -6400,6 +6624,14 @@
     "network",
     "connection",
     "signal"
+  ],
+  "wifi-low": [
+    "wifi",
+    "wireless",
+    "weak",
+    "signal",
+    "connection",
+    "network"
   ],
   "wifi-off": [
     "offline",
