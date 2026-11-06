@@ -1,23 +1,281 @@
 {
-  "arrow-right": ["next", "forward", "continue", "direction"],
-  "bell": ["notification", "alert", "alarm", "reminder"],
-  "bookmark": ["save", "favorite", "read later", "ribbon"],
-  "calendar": ["date", "schedule", "event", "month", "day"],
-  "chat": ["message", "comment", "conversation", "bubble", "talk"],
-  "check": ["done", "success", "confirm", "tick", "ok", "complete"],
-  "chevron-down": ["expand", "dropdown", "open", "caret", "more"],
-  "document": ["file", "page", "paper", "text", "note"],
-  "folder": ["directory", "files", "collection", "archive"],
-  "heart": ["like", "love", "favorite", "health"],
-  "home": ["house", "dashboard", "start", "main"],
-  "lock": ["secure", "password", "private", "security", "locked"],
-  "mail": ["email", "envelope", "inbox", "message", "letter"],
-  "menu": ["hamburger", "navigation", "bars", "list", "lines"],
-  "minus": ["remove", "subtract", "collapse", "less"],
-  "plus": ["add", "new", "create", "more", "expand"],
-  "search": ["find", "magnifier", "lookup", "zoom", "magnifying glass"],
-  "star": ["favorite", "rating", "bookmark", "featured"],
-  "trash": ["delete", "remove", "bin", "garbage", "discard"],
-  "user": ["person", "profile", "account", "avatar", "member", "people"],
-  "x-mark": ["close", "cancel", "dismiss", "remove", "exit", "cross"]
+  "arrow-down": [
+    "direction",
+    "south",
+    "bottom",
+    "decrease"
+  ],
+  "arrow-left": [
+    "back",
+    "previous",
+    "direction",
+    "west"
+  ],
+  "arrow-right": [
+    "next",
+    "forward",
+    "continue",
+    "direction"
+  ],
+  "arrow-up": [
+    "direction",
+    "north",
+    "top",
+    "increase"
+  ],
+  "bell": [
+    "notification",
+    "alert",
+    "alarm",
+    "reminder"
+  ],
+  "bookmark": [
+    "save",
+    "favorite",
+    "read later",
+    "ribbon"
+  ],
+  "calendar": [
+    "date",
+    "schedule",
+    "event",
+    "month",
+    "day"
+  ],
+  "chat": [
+    "message",
+    "comment",
+    "conversation",
+    "bubble",
+    "talk"
+  ],
+  "check": [
+    "done",
+    "success",
+    "confirm",
+    "tick",
+    "ok",
+    "complete"
+  ],
+  "chevron-down": [
+    "expand",
+    "dropdown",
+    "open",
+    "caret",
+    "more"
+  ],
+  "chevron-left": [
+    "back",
+    "previous",
+    "caret",
+    "prev"
+  ],
+  "chevron-right": [
+    "next",
+    "forward",
+    "caret",
+    "more"
+  ],
+  "chevron-up": [
+    "collapse",
+    "caret",
+    "less",
+    "expand"
+  ],
+  "copy": [
+    "duplicate",
+    "clone",
+    "clipboard",
+    "paste"
+  ],
+  "document": [
+    "file",
+    "page",
+    "paper",
+    "text",
+    "note"
+  ],
+  "download": [
+    "save",
+    "import",
+    "get",
+    "tray",
+    "arrow"
+  ],
+  "edit": [
+    "pencil",
+    "write",
+    "modify",
+    "change",
+    "compose"
+  ],
+  "external-link": [
+    "open",
+    "new tab",
+    "new window",
+    "launch",
+    "outside"
+  ],
+  "filter": [
+    "funnel",
+    "refine",
+    "narrow",
+    "sieve"
+  ],
+  "folder": [
+    "directory",
+    "files",
+    "collection",
+    "archive"
+  ],
+  "heart": [
+    "like",
+    "love",
+    "favorite",
+    "health"
+  ],
+  "home": [
+    "house",
+    "dashboard",
+    "start",
+    "main"
+  ],
+  "lock": [
+    "secure",
+    "password",
+    "private",
+    "security",
+    "locked"
+  ],
+  "log-in": [
+    "sign in",
+    "login",
+    "enter",
+    "door",
+    "access"
+  ],
+  "log-out": [
+    "sign out",
+    "logout",
+    "exit",
+    "leave",
+    "door"
+  ],
+  "mail": [
+    "email",
+    "envelope",
+    "inbox",
+    "message",
+    "letter"
+  ],
+  "menu": [
+    "hamburger",
+    "navigation",
+    "bars",
+    "list",
+    "lines"
+  ],
+  "minus": [
+    "remove",
+    "subtract",
+    "collapse",
+    "less"
+  ],
+  "more-horizontal": [
+    "menu",
+    "options",
+    "ellipsis",
+    "dots",
+    "overflow"
+  ],
+  "more-vertical": [
+    "menu",
+    "options",
+    "kebab",
+    "dots",
+    "overflow"
+  ],
+  "plus": [
+    "add",
+    "new",
+    "create",
+    "more",
+    "expand"
+  ],
+  "redo": [
+    "forward",
+    "repeat",
+    "history",
+    "again"
+  ],
+  "refresh": [
+    "reload",
+    "sync",
+    "rotate",
+    "update",
+    "retry"
+  ],
+  "search": [
+    "find",
+    "magnifier",
+    "lookup",
+    "zoom",
+    "magnifying glass"
+  ],
+  "share": [
+    "network",
+    "connect",
+    "send",
+    "social",
+    "nodes"
+  ],
+  "sort": [
+    "order",
+    "arrange",
+    "ascending",
+    "descending",
+    "reorder"
+  ],
+  "star": [
+    "favorite",
+    "rating",
+    "bookmark",
+    "featured"
+  ],
+  "trash": [
+    "delete",
+    "remove",
+    "bin",
+    "garbage",
+    "discard"
+  ],
+  "undo": [
+    "back",
+    "revert",
+    "history",
+    "reverse"
+  ],
+  "upload": [
+    "send",
+    "export",
+    "import",
+    "tray",
+    "arrow"
+  ],
+  "user": [
+    "person",
+    "profile",
+    "account",
+    "avatar",
+    "member",
+    "people"
+  ],
+  "x-mark": [
+    "close",
+    "cancel",
+    "dismiss",
+    "remove",
+    "exit",
+    "cross"
+  ]
 }
