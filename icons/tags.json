@@ -749,6 +749,38 @@
     "geometry",
     "ring"
   ],
+  "clipboard": [
+    "paste",
+    "board",
+    "notes",
+    "copy"
+  ],
+  "clipboard-check": [
+    "task",
+    "done",
+    "complete",
+    "checklist",
+    "approved"
+  ],
+  "clipboard-copy": [
+    "copy",
+    "paste",
+    "arrow",
+    "duplicate"
+  ],
+  "clipboard-list": [
+    "checklist",
+    "tasks",
+    "todo",
+    "inventory",
+    "items"
+  ],
+  "clipboard-x": [
+    "clear",
+    "remove",
+    "cancel",
+    "delete"
+  ],
   "clock": [
     "time",
     "watch",
@@ -926,6 +958,171 @@
     "invisible",
     "private",
     "unwatch"
+  ],
+  "file": [
+    "document",
+    "page",
+    "blank",
+    "new"
+  ],
+  "file-audio": [
+    "music",
+    "sound",
+    "song",
+    "note",
+    "media"
+  ],
+  "file-chart": [
+    "report",
+    "analytics",
+    "statistics",
+    "bar",
+    "graph"
+  ],
+  "file-check": [
+    "done",
+    "approved",
+    "verified",
+    "complete",
+    "document"
+  ],
+  "file-clock": [
+    "recent",
+    "history",
+    "time",
+    "pending",
+    "schedule"
+  ],
+  "file-code": [
+    "source",
+    "script",
+    "developer",
+    "programming",
+    "brackets"
+  ],
+  "file-download": [
+    "save",
+    "import",
+    "arrow",
+    "down"
+  ],
+  "file-heart": [
+    "favorite",
+    "like",
+    "love",
+    "saved"
+  ],
+  "file-image": [
+    "picture",
+    "photo",
+    "graphic",
+    "media"
+  ],
+  "file-lock": [
+    "secure",
+    "private",
+    "protected",
+    "encrypted",
+    "locked"
+  ],
+  "file-minus": [
+    "remove",
+    "delete",
+    "subtract",
+    "document"
+  ],
+  "file-pdf": [
+    "document",
+    "print",
+    "export",
+    "portable",
+    "layout"
+  ],
+  "file-pen": [
+    "edit",
+    "write",
+    "sign",
+    "pencil",
+    "draft"
+  ],
+  "file-plus": [
+    "add",
+    "new",
+    "create",
+    "document"
+  ],
+  "file-question": [
+    "help",
+    "unknown",
+    "missing",
+    "faq"
+  ],
+  "file-search": [
+    "find",
+    "lookup",
+    "magnifier",
+    "browse",
+    "document"
+  ],
+  "file-spreadsheet": [
+    "table",
+    "sheet",
+    "grid",
+    "data",
+    "excel"
+  ],
+  "file-star": [
+    "favorite",
+    "starred",
+    "important",
+    "bookmark"
+  ],
+  "file-text": [
+    "document",
+    "text",
+    "notes",
+    "lines",
+    "article"
+  ],
+  "file-upload": [
+    "export",
+    "send",
+    "arrow",
+    "up"
+  ],
+  "file-video": [
+    "movie",
+    "film",
+    "play",
+    "media",
+    "clip"
+  ],
+  "file-warning": [
+    "alert",
+    "error",
+    "exclamation",
+    "caution",
+    "problem"
+  ],
+  "file-x": [
+    "delete",
+    "remove",
+    "cancel",
+    "error",
+    "document"
+  ],
+  "file-zip": [
+    "archive",
+    "compressed",
+    "zipper",
+    "package"
+  ],
+  "files": [
+    "documents",
+    "pages",
+    "multiple",
+    "copy",
+    "stack"
   ],
   "filter": [
     "funnel",
