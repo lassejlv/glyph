@@ -2,12 +2,6 @@
 
 Clean, consistent SVG icons in two styles: **outline** and **solid**.
 
-| Icon   | Outline                      | Solid                      |
-| ------ | ---------------------------- | -------------------------- |
-| `user` | ![](icons/outline/user.svg)  | ![](icons/solid/user.svg)  |
-
-![User icon in outline and solid at several sizes, on light and dark backgrounds](docs/preview.png)
-
 ## Browse the icons
 
 Open `index.html` in a browser, or serve the repo with GitHub Pages. You can search by name or keyword, switch between outline and solid, change the preview size, and click an icon to copy its SVG or download it. Press `/` to jump to the search box.
@@ -79,8 +73,10 @@ Following these rules keeps new icons consistent with the existing ones.
 
 - **Grid:** 24×24, with content inside a 2px safe area (x/y between 2 and 22).
 - **Outline:** `stroke-width="1.5"`, round caps and joins, `fill="none"`. Put coordinates on 0.25 increments.
-- **Solid:** `fill="currentColor"`. The solid shape should match the outer edge of the outline version, which means the outline path grown by 0.75 (half the stroke). The `user` icon's outline head has `r=3.5` and its solid head has `r=4.25`.
-- **Corners:** soften them. Outline corner radius 1 becomes 1.75 in solid.
+- **Solid, shapes:** reuse the outline geometry with `fill="currentColor"` *and* the same 1.5 round stroke. The silhouette then matches the outline exactly, with the same rounded corners. Details such as the slots in `trash` or the V in `mail` are cut-outs (`fill-rule="evenodd"`). Because the stroke also runs along a cut-out's edge, draw each cut-out 0.75 larger on every side than it should appear.
+- **Solid, line icons** (`plus`, `check`, `arrow-right` and similar): use the same paths as the outline with `stroke-width="2"`.
+- **Corners:** soften them. Round joins handle sharp vertices; give rectangles a radius of 1.5–2.25.
+- **Optical size:** filled shapes such as `star` and `heart` should span about the same area as rectangular ones (roughly 3–21 including the stroke).
 - **Detail:** both variants should read clearly at 16px.
 
 ## Adding a variant

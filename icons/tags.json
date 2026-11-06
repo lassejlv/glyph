@@ -1,3 +1,23 @@
 {
-  "user": ["person", "profile", "account", "avatar", "member", "people"]
+  "arrow-right": ["next", "forward", "continue", "direction"],
+  "bell": ["notification", "alert", "alarm", "reminder"],
+  "bookmark": ["save", "favorite", "read later", "ribbon"],
+  "calendar": ["date", "schedule", "event", "month", "day"],
+  "chat": ["message", "comment", "conversation", "bubble", "talk"],
+  "check": ["done", "success", "confirm", "tick", "ok", "complete"],
+  "chevron-down": ["expand", "dropdown", "open", "caret", "more"],
+  "document": ["file", "page", "paper", "text", "note"],
+  "folder": ["directory", "files", "collection", "archive"],
+  "heart": ["like", "love", "favorite", "health"],
+  "home": ["house", "dashboard", "start", "main"],
+  "lock": ["secure", "password", "private", "security", "locked"],
+  "mail": ["email", "envelope", "inbox", "message", "letter"],
+  "menu": ["hamburger", "navigation", "bars", "list", "lines"],
+  "minus": ["remove", "subtract", "collapse", "less"],
+  "plus": ["add", "new", "create", "more", "expand"],
+  "search": ["find", "magnifier", "lookup", "zoom", "magnifying glass"],
+  "star": ["favorite", "rating", "bookmark", "featured"],
+  "trash": ["delete", "remove", "bin", "garbage", "discard"],
+  "user": ["person", "profile", "account", "avatar", "member", "people"],
+  "x-mark": ["close", "cancel", "dismiss", "remove", "exit", "cross"]
 }
