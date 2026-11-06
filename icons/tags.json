@@ -353,6 +353,20 @@
     "at",
     "handle"
   ],
+  "badge-check": [
+    "badge",
+    "verified",
+    "approved",
+    "seal",
+    "check"
+  ],
+  "ban": [
+    "block",
+    "forbidden",
+    "prohibited",
+    "cancel",
+    "not allowed"
+  ],
   "battery": [
     "power",
     "energy",
@@ -531,6 +545,20 @@
     "wireless",
     "mirror",
     "tv"
+  ],
+  "cctv": [
+    "security camera",
+    "surveillance",
+    "camera",
+    "monitoring",
+    "video"
+  ],
+  "certificate": [
+    "diploma",
+    "award",
+    "credential",
+    "license",
+    "document"
   ],
   "chart-bar": [
     "graph",
@@ -911,6 +939,20 @@
     "text",
     "note"
   ],
+  "door-closed": [
+    "door",
+    "exit",
+    "entrance",
+    "room",
+    "closed"
+  ],
+  "door-open": [
+    "door",
+    "exit",
+    "entrance",
+    "leave",
+    "open"
+  ],
   "download": [
     "save",
     "import",
@@ -989,6 +1031,13 @@
     "invisible",
     "private",
     "unwatch"
+  ],
+  "face-id": [
+    "face recognition",
+    "biometric",
+    "unlock",
+    "authentication",
+    "identity"
   ],
   "fast-forward": [
     "fast forward",
@@ -1175,6 +1224,13 @@
     "narrow",
     "sieve"
   ],
+  "fingerprint": [
+    "biometric",
+    "touch id",
+    "identity",
+    "authentication",
+    "scan"
+  ],
   "flag": [
     "report",
     "mark",
@@ -1222,6 +1278,13 @@
     "console",
     "play",
     "gaming"
+  ],
+  "gavel": [
+    "law",
+    "judge",
+    "auction",
+    "court",
+    "legal"
   ],
   "gift": [
     "present",
@@ -1314,6 +1377,13 @@
     "incoming",
     "received"
   ],
+  "incognito": [
+    "private",
+    "anonymous",
+    "spy",
+    "hidden",
+    "browsing"
+  ],
   "indent": [
     "text",
     "increase indent",
@@ -1363,11 +1433,25 @@
     "credentials",
     "login"
   ],
+  "key-round": [
+    "key",
+    "password",
+    "access",
+    "unlock",
+    "credential"
+  ],
   "keyboard": [
     "typing",
     "keys",
     "input",
     "type"
+  ],
+  "keys": [
+    "key",
+    "keychain",
+    "access",
+    "credentials",
+    "unlock"
   ],
   "laptop": [
     "computer",
@@ -1473,6 +1557,34 @@
     "security",
     "locked"
   ],
+  "lock-check": [
+    "padlock",
+    "secured",
+    "locked",
+    "verified",
+    "check"
+  ],
+  "lock-keyhole": [
+    "padlock",
+    "keyhole",
+    "locked",
+    "secure",
+    "security"
+  ],
+  "lock-open": [
+    "unlock",
+    "unlocked",
+    "padlock",
+    "open",
+    "security"
+  ],
+  "lock-plus": [
+    "padlock",
+    "add",
+    "new",
+    "lock",
+    "security"
+  ],
   "log-in": [
     "sign in",
     "login",
@@ -1543,6 +1655,13 @@
     "map",
     "address",
     "gps"
+  ],
+  "mask": [
+    "masquerade",
+    "anonymous",
+    "disguise",
+    "privacy",
+    "costume"
   ],
   "maximize": [
     "maximize",
@@ -1723,6 +1842,14 @@
     "block",
     "format",
     "section"
+  ],
+  "password": [
+    "passcode",
+    "pin",
+    "secret",
+    "credentials",
+    "login",
+    "input"
   ],
   "pause": [
     "stop",
@@ -2033,6 +2160,27 @@
     "internet",
     "wifi"
   ],
+  "scan": [
+    "scanner",
+    "frame",
+    "focus",
+    "capture",
+    "viewfinder"
+  ],
+  "scan-eye": [
+    "iris",
+    "retina",
+    "biometric",
+    "vision",
+    "detect"
+  ],
+  "scan-face": [
+    "face recognition",
+    "biometric",
+    "detect",
+    "selfie",
+    "identity"
+  ],
   "scanner": [
     "scan",
     "flatbed",
@@ -2103,12 +2251,54 @@
     "guard",
     "privacy"
   ],
+  "shield-alert": [
+    "security",
+    "warning",
+    "threat",
+    "risk",
+    "exclamation"
+  ],
   "shield-check": [
     "secure",
     "verified",
     "protected",
     "trusted",
     "safety"
+  ],
+  "shield-lock": [
+    "security",
+    "protection",
+    "secure",
+    "encrypted",
+    "privacy"
+  ],
+  "shield-minus": [
+    "security",
+    "protection",
+    "remove",
+    "reduce",
+    "minus"
+  ],
+  "shield-off": [
+    "security",
+    "unprotected",
+    "disabled",
+    "insecure",
+    "off"
+  ],
+  "shield-plus": [
+    "security",
+    "protection",
+    "add",
+    "insurance",
+    "health"
+  ],
+  "shield-x": [
+    "security",
+    "unprotected",
+    "blocked",
+    "threat",
+    "remove"
   ],
   "shopping-bag": [
     "bag",
@@ -2153,6 +2343,13 @@
     "bars",
     "strength",
     "network"
+  ],
+  "siren": [
+    "alarm",
+    "emergency",
+    "alert",
+    "police",
+    "beacon"
   ],
   "skip-back": [
     "previous",
@@ -2218,6 +2415,13 @@
     "descending",
     "z to a",
     "largest first"
+  ],
+  "spam": [
+    "junk",
+    "mail",
+    "report",
+    "warning",
+    "unwanted"
   ],
   "sparkles": [
     "ai",
@@ -2453,6 +2657,13 @@
     "math",
     "placeholder",
     "brackets"
+  ],
+  "verified": [
+    "badge",
+    "approved",
+    "certified",
+    "check",
+    "trusted"
   ],
   "video": [
     "camera",
