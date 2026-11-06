@@ -1,4 +1,11 @@
 {
+  "accessibility": [
+    "a11y",
+    "inclusive",
+    "disability",
+    "universal access",
+    "figure"
+  ],
   "alert-circle": [
     "exclamation",
     "error",
@@ -352,6 +359,20 @@
     "address",
     "at",
     "handle"
+  ],
+  "baby": [
+    "child",
+    "infant",
+    "kid",
+    "newborn",
+    "face"
+  ],
+  "badge": [
+    "employee badge",
+    "name tag",
+    "identity",
+    "pass",
+    "lanyard"
   ],
   "badge-check": [
     "badge",
@@ -861,6 +882,13 @@
     "source",
     "developer"
   ],
+  "contact-book": [
+    "address book",
+    "contacts",
+    "directory",
+    "phonebook",
+    "people"
+  ],
   "copy": [
     "duplicate",
     "clone",
@@ -887,6 +915,13 @@
     "image",
     "frame",
     "cut"
+  ],
+  "crown": [
+    "king",
+    "queen",
+    "premium",
+    "royal",
+    "leader"
   ],
   "cube": [
     "box",
@@ -1316,6 +1351,20 @@
     "link",
     "finger"
   ],
+  "hand-wave": [
+    "hello",
+    "wave",
+    "greeting",
+    "goodbye",
+    "hi"
+  ],
+  "handshake": [
+    "deal",
+    "agreement",
+    "partnership",
+    "greeting",
+    "trust"
+  ],
   "hash": [
     "hashtag",
     "number",
@@ -1362,6 +1411,13 @@
     "dashboard",
     "start",
     "main"
+  ],
+  "id-card": [
+    "identity",
+    "license",
+    "membership",
+    "profile card",
+    "badge"
   ],
   "image": [
     "photo",
@@ -1885,6 +1941,20 @@
     "rate",
     "ratio",
     "math"
+  ],
+  "person-running": [
+    "run",
+    "jog",
+    "exercise",
+    "sport",
+    "fitness"
+  ],
+  "person-walking": [
+    "walk",
+    "pedestrian",
+    "steps",
+    "activity",
+    "figure"
   ],
   "phone": [
     "call",
@@ -2637,6 +2707,83 @@
     "member",
     "people"
   ],
+  "user-arrow": [
+    "transfer user",
+    "assign",
+    "forward",
+    "share profile",
+    "move"
+  ],
+  "user-block": [
+    "banned",
+    "blocked user",
+    "restrict",
+    "forbidden",
+    "person"
+  ],
+  "user-check": [
+    "verified user",
+    "approved",
+    "confirm member",
+    "person",
+    "account"
+  ],
+  "user-circle": [
+    "avatar",
+    "profile",
+    "account",
+    "person",
+    "user"
+  ],
+  "user-clock": [
+    "pending user",
+    "waiting",
+    "history",
+    "schedule",
+    "shift"
+  ],
+  "user-cog": [
+    "user settings",
+    "account settings",
+    "admin",
+    "profile",
+    "preferences"
+  ],
+  "user-group": [
+    "team",
+    "group",
+    "people",
+    "community",
+    "members"
+  ],
+  "user-heart": [
+    "favorite",
+    "follow",
+    "liked",
+    "friend",
+    "person"
+  ],
+  "user-lock": [
+    "private account",
+    "locked user",
+    "security",
+    "permissions",
+    "person"
+  ],
+  "user-minus": [
+    "remove user",
+    "unfollow",
+    "delete member",
+    "person",
+    "account"
+  ],
+  "user-pen": [
+    "edit profile",
+    "edit user",
+    "author",
+    "writer",
+    "account"
+  ],
   "user-plus": [
     "add user",
     "invite",
@@ -2644,12 +2791,75 @@
     "person",
     "signup"
   ],
+  "user-question": [
+    "unknown user",
+    "help",
+    "support",
+    "guest",
+    "person"
+  ],
+  "user-search": [
+    "find user",
+    "lookup",
+    "people search",
+    "member",
+    "recruit"
+  ],
+  "user-shield": [
+    "admin",
+    "moderator",
+    "protected",
+    "security",
+    "role"
+  ],
+  "user-square": [
+    "avatar",
+    "profile",
+    "contact",
+    "portrait",
+    "person"
+  ],
+  "user-star": [
+    "favorite user",
+    "vip",
+    "featured",
+    "rating",
+    "person"
+  ],
+  "user-voice": [
+    "speak",
+    "voice",
+    "talk",
+    "announce",
+    "speaker"
+  ],
+  "user-x": [
+    "remove user",
+    "reject",
+    "delete account",
+    "person",
+    "cancel"
+  ],
   "users": [
     "people",
     "group",
     "team",
     "members",
     "contacts"
+  ],
+  "users-minus": [
+    "remove members",
+    "leave group",
+    "team",
+    "people",
+    "delete"
+  ],
+  "users-plus": [
+    "add members",
+    "invite",
+    "group add",
+    "team",
+    "people"
   ],
   "variable": [
     "parameter",
