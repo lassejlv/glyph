@@ -13,6 +13,21 @@
     "health",
     "signal"
   ],
+  "alarm-clock": [
+    "alarm",
+    "wake",
+    "morning",
+    "reminder",
+    "time",
+    "bells"
+  ],
+  "alarm-clock-off": [
+    "alarm",
+    "disabled",
+    "silence",
+    "mute",
+    "time"
+  ],
   "alert-circle": [
     "exclamation",
     "error",
@@ -657,6 +672,89 @@
     "month",
     "day"
   ],
+  "calendar-check": [
+    "confirmed",
+    "done",
+    "booked",
+    "date",
+    "available"
+  ],
+  "calendar-clock": [
+    "schedule",
+    "appointment",
+    "time",
+    "date",
+    "deadline"
+  ],
+  "calendar-days": [
+    "month",
+    "dates",
+    "grid",
+    "schedule",
+    "planner"
+  ],
+  "calendar-heart": [
+    "favorite",
+    "anniversary",
+    "date",
+    "love",
+    "special day"
+  ],
+  "calendar-minus": [
+    "remove event",
+    "delete",
+    "schedule",
+    "date"
+  ],
+  "calendar-off": [
+    "disabled",
+    "no events",
+    "unavailable",
+    "date",
+    "hidden"
+  ],
+  "calendar-plus": [
+    "add event",
+    "new",
+    "schedule",
+    "date",
+    "create"
+  ],
+  "calendar-range": [
+    "period",
+    "span",
+    "dates",
+    "booking",
+    "duration"
+  ],
+  "calendar-search": [
+    "find date",
+    "lookup",
+    "schedule",
+    "search",
+    "event"
+  ],
+  "calendar-star": [
+    "event",
+    "highlight",
+    "important",
+    "date",
+    "favorite"
+  ],
+  "calendar-week": [
+    "weekly",
+    "days",
+    "schedule",
+    "row",
+    "planner"
+  ],
+  "calendar-x": [
+    "cancel",
+    "unavailable",
+    "remove",
+    "date",
+    "busy"
+  ],
   "camera": [
     "photo",
     "capture",
@@ -1111,6 +1209,62 @@
     "hour",
     "schedule",
     "history"
+  ],
+  "clock-alert": [
+    "overdue",
+    "late",
+    "warning",
+    "deadline",
+    "clock"
+  ],
+  "clock-arrow-down": [
+    "decrease",
+    "earlier",
+    "sort time",
+    "download",
+    "clock"
+  ],
+  "clock-arrow-up": [
+    "increase",
+    "later",
+    "sort time",
+    "upload",
+    "clock"
+  ],
+  "clock-check": [
+    "on time",
+    "done",
+    "completed",
+    "approved",
+    "clock"
+  ],
+  "clock-pause": [
+    "paused",
+    "hold",
+    "suspend",
+    "wait",
+    "clock"
+  ],
+  "clock-play": [
+    "start",
+    "resume",
+    "run",
+    "begin",
+    "clock"
+  ],
+  "clock-plus": [
+    "add time",
+    "extend",
+    "more time",
+    "schedule",
+    "clock"
+  ],
+  "clock-x": [
+    "expired",
+    "cancel",
+    "late",
+    "timeout",
+    "clock"
   ],
   "cloud": [
     "weather",
@@ -1969,11 +2123,26 @@
     "pen",
     "emphasis"
   ],
+  "history": [
+    "recent",
+    "past",
+    "log",
+    "rewind",
+    "restore",
+    "time"
+  ],
   "home": [
     "house",
     "dashboard",
     "start",
     "main"
+  ],
+  "hourglass": [
+    "sandglass",
+    "wait",
+    "loading",
+    "pending",
+    "time"
   ],
   "id-card": [
     "identity",
@@ -3187,6 +3356,14 @@
     "reaction",
     "feedback"
   ],
+  "snooze": [
+    "sleep",
+    "later",
+    "delay",
+    "bell",
+    "zzz",
+    "remind"
+  ],
   "sort": [
     "order",
     "arrange",
@@ -3291,6 +3468,14 @@
     "media",
     "player",
     "button"
+  ],
+  "stopwatch": [
+    "chronometer",
+    "lap",
+    "race",
+    "measure",
+    "time",
+    "elapsed"
   ],
   "store": [
     "shop",
@@ -3403,6 +3588,20 @@
     "pass",
     "entry",
     "booking"
+  ],
+  "timer": [
+    "countdown",
+    "kitchen",
+    "duration",
+    "time",
+    "remaining"
+  ],
+  "timer-off": [
+    "countdown",
+    "disabled",
+    "stop",
+    "duration",
+    "time"
   ],
   "tip-jar": [
     "tips",
