@@ -416,12 +416,47 @@
     "seal",
     "check"
   ],
+  "bag-check": [
+    "checkout",
+    "shopping",
+    "purchased",
+    "order",
+    "done"
+  ],
+  "bag-plus": [
+    "add to bag",
+    "shopping",
+    "purchase",
+    "buy",
+    "add"
+  ],
   "ban": [
     "block",
     "forbidden",
     "prohibited",
     "cancel",
     "not allowed"
+  ],
+  "bank": [
+    "finance",
+    "institution",
+    "building",
+    "money",
+    "banking"
+  ],
+  "banknote": [
+    "money",
+    "cash",
+    "bill",
+    "payment",
+    "currency"
+  ],
+  "barcode": [
+    "scan",
+    "product",
+    "sku",
+    "code",
+    "label"
   ],
   "battery": [
     "power",
@@ -487,6 +522,13 @@
     "zero one",
     "data",
     "digital"
+  ],
+  "bitcoin": [
+    "btc",
+    "crypto",
+    "cryptocurrency",
+    "currency",
+    "money"
   ],
   "blocks": [
     "building blocks",
@@ -656,6 +698,34 @@
     "collapse",
     "increase",
     "up"
+  ],
+  "cart-check": [
+    "checkout",
+    "shopping",
+    "basket",
+    "added",
+    "done"
+  ],
+  "cart-minus": [
+    "remove from cart",
+    "shopping",
+    "basket",
+    "remove",
+    "subtract"
+  ],
+  "cart-plus": [
+    "add to cart",
+    "shopping",
+    "basket",
+    "buy",
+    "add"
+  ],
+  "cash-register": [
+    "till",
+    "checkout",
+    "point of sale",
+    "pos",
+    "register"
   ],
   "cast": [
     "cast",
@@ -1092,6 +1162,13 @@
     "developer",
     "markup"
   ],
+  "coins": [
+    "money",
+    "cash",
+    "change",
+    "payment",
+    "savings"
+  ],
   "command": [
     "cmd",
     "keyboard",
@@ -1119,6 +1196,13 @@
     "clipboard",
     "paste"
   ],
+  "coupon": [
+    "voucher",
+    "promo",
+    "deal",
+    "discount",
+    "offer"
+  ],
   "cpu": [
     "processor",
     "chip",
@@ -1132,6 +1216,13 @@
     "bank",
     "billing",
     "checkout"
+  ],
+  "credit-card-plus": [
+    "add card",
+    "payment method",
+    "new card",
+    "billing",
+    "add"
   ],
   "crop": [
     "trim",
@@ -1219,6 +1310,13 @@
     "disk",
     "media"
   ],
+  "discount": [
+    "sale",
+    "percent",
+    "offer",
+    "promo",
+    "deal"
+  ],
   "divide": [
     "division",
     "math",
@@ -1239,6 +1337,13 @@
     "paper",
     "text",
     "note"
+  ],
+  "dollar": [
+    "usd",
+    "currency",
+    "money",
+    "price",
+    "cash"
   ],
   "door-closed": [
     "door",
@@ -1318,6 +1423,20 @@
     "clear",
     "remove",
     "delete"
+  ],
+  "euro": [
+    "eur",
+    "currency",
+    "money",
+    "price",
+    "europe"
+  ],
+  "exchange": [
+    "convert",
+    "currency exchange",
+    "swap",
+    "transfer",
+    "trade"
   ],
   "external-link": [
     "open",
@@ -1912,6 +2031,13 @@
     "form",
     "type"
   ],
+  "invoice": [
+    "bill",
+    "billing",
+    "payment",
+    "document",
+    "charge"
+  ],
   "italic": [
     "text",
     "format",
@@ -2350,6 +2476,13 @@
     "box",
     "order"
   ],
+  "package-check": [
+    "delivered",
+    "parcel",
+    "shipment",
+    "order",
+    "received"
+  ],
   "package-open": [
     "unbox",
     "open box",
@@ -2498,6 +2631,13 @@
     "geometry",
     "circle"
   ],
+  "piggy-bank": [
+    "savings",
+    "save",
+    "money",
+    "budget",
+    "finance"
+  ],
   "pipette": [
     "eyedropper",
     "color picker",
@@ -2574,6 +2714,13 @@
     "click",
     "select"
   ],
+  "pound": [
+    "gbp",
+    "sterling",
+    "currency",
+    "money",
+    "price"
+  ],
   "power": [
     "on",
     "off",
@@ -2607,6 +2754,13 @@
     "piece",
     "integration"
   ],
+  "qr-code": [
+    "scan",
+    "code",
+    "link",
+    "matrix",
+    "payment"
+  ],
   "question-circle": [
     "help",
     "faq",
@@ -2634,6 +2788,13 @@
     "choice",
     "select",
     "form"
+  ],
+  "receipt": [
+    "bill",
+    "purchase",
+    "transaction",
+    "proof",
+    "order"
   ],
   "record": [
     "record",
@@ -2751,11 +2912,25 @@
     "internet",
     "wifi"
   ],
+  "safe": [
+    "vault",
+    "secure",
+    "strongbox",
+    "money",
+    "protect"
+  ],
   "save": [
     "floppy disk",
     "store",
     "keep",
     "disk"
+  ],
+  "scale": [
+    "balance",
+    "justice",
+    "law",
+    "weigh",
+    "compare"
   ],
   "scan": [
     "scanner",
@@ -3117,6 +3292,13 @@
     "player",
     "button"
   ],
+  "store": [
+    "shop",
+    "shopfront",
+    "retail",
+    "market",
+    "merchant"
+  ],
   "strikethrough": [
     "text",
     "format",
@@ -3215,6 +3397,20 @@
     "good",
     "vote"
   ],
+  "ticket": [
+    "admission",
+    "event",
+    "pass",
+    "entry",
+    "booking"
+  ],
+  "tip-jar": [
+    "tips",
+    "donation",
+    "gratuity",
+    "support",
+    "jar"
+  ],
   "toggle-off": [
     "toggle",
     "switch",
@@ -3262,6 +3458,13 @@
     "delta",
     "geometry",
     "pyramid"
+  ],
+  "truck": [
+    "delivery",
+    "shipping",
+    "transport",
+    "lorry",
+    "logistics"
   ],
   "tv": [
     "television",
@@ -3611,5 +3814,12 @@
     "delete",
     "clear",
     "dismiss"
+  ],
+  "yen": [
+    "jpy",
+    "currency",
+    "money",
+    "price",
+    "japan"
   ]
 }
