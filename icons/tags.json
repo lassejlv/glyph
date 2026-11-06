@@ -6,6 +6,34 @@
     "notice",
     "important"
   ],
+  "align-center": [
+    "text",
+    "alignment",
+    "center",
+    "middle",
+    "paragraph"
+  ],
+  "align-justify": [
+    "text",
+    "alignment",
+    "justify",
+    "paragraph",
+    "format"
+  ],
+  "align-left": [
+    "text",
+    "alignment",
+    "left",
+    "paragraph",
+    "format"
+  ],
+  "align-right": [
+    "text",
+    "alignment",
+    "right",
+    "paragraph",
+    "format"
+  ],
   "archive": [
     "box",
     "storage",
@@ -324,6 +352,13 @@
     "data",
     "digital"
   ],
+  "bold": [
+    "text",
+    "format",
+    "strong",
+    "weight",
+    "font"
+  ],
   "bolt": [
     "lightning",
     "flash",
@@ -352,6 +387,13 @@
     "portfolio",
     "career",
     "office"
+  ],
+  "brush": [
+    "paint",
+    "paintbrush",
+    "art",
+    "draw",
+    "style"
   ],
   "calendar": [
     "date",
@@ -574,6 +616,13 @@
     "brackets",
     "embed"
   ],
+  "code-block": [
+    "code",
+    "snippet",
+    "pre",
+    "source",
+    "developer"
+  ],
   "copy": [
     "duplicate",
     "clone",
@@ -587,6 +636,13 @@
     "bank",
     "billing",
     "checkout"
+  ],
+  "crop": [
+    "trim",
+    "resize",
+    "image",
+    "frame",
+    "cut"
   ],
   "cube": [
     "box",
@@ -651,6 +707,13 @@
     "result",
     "same",
     "operator"
+  ],
+  "eraser": [
+    "erase",
+    "rubber",
+    "clear",
+    "remove",
+    "delete"
   ],
   "external-link": [
     "open",
@@ -728,6 +791,13 @@
     "channel",
     "tag"
   ],
+  "heading": [
+    "text",
+    "title",
+    "header",
+    "h1",
+    "format"
+  ],
   "heart": [
     "like",
     "love",
@@ -740,6 +810,13 @@
     "six",
     "geometry",
     "honeycomb"
+  ],
+  "highlighter": [
+    "marker",
+    "highlight",
+    "annotate",
+    "pen",
+    "emphasis"
   ],
   "home": [
     "house",
@@ -761,6 +838,13 @@
     "incoming",
     "received"
   ],
+  "indent": [
+    "text",
+    "increase indent",
+    "tab",
+    "paragraph",
+    "format"
+  ],
   "infinity": [
     "endless",
     "unlimited",
@@ -774,6 +858,13 @@
     "details",
     "help",
     "tooltip"
+  ],
+  "italic": [
+    "text",
+    "format",
+    "emphasis",
+    "slant",
+    "font"
   ],
   "key": [
     "password",
@@ -796,12 +887,33 @@
     "connect",
     "attach"
   ],
+  "link-off": [
+    "unlink",
+    "broken link",
+    "remove link",
+    "disconnect",
+    "url"
+  ],
   "list": [
     "bullets",
     "items",
     "unordered",
     "checklist",
     "lines"
+  ],
+  "list-checks": [
+    "checklist",
+    "todo",
+    "tasks",
+    "items",
+    "list"
+  ],
+  "list-ordered": [
+    "numbered list",
+    "ordered",
+    "numbers",
+    "items",
+    "list"
   ],
   "lock": [
     "secure",
@@ -908,6 +1020,20 @@
     "stop sign",
     "geometry"
   ],
+  "outdent": [
+    "text",
+    "decrease indent",
+    "unindent",
+    "paragraph",
+    "format"
+  ],
+  "palette": [
+    "colors",
+    "paint",
+    "art",
+    "theme",
+    "design"
+  ],
   "paperclip": [
     "attachment",
     "attach",
@@ -915,12 +1041,27 @@
     "file",
     "upload"
   ],
+  "paragraph": [
+    "text",
+    "pilcrow",
+    "block",
+    "format",
+    "section"
+  ],
   "pause": [
     "stop",
     "hold",
     "media",
     "break",
     "wait"
+  ],
+  "pen": [
+    "fountain pen",
+    "nib",
+    "write",
+    "sign",
+    "vector",
+    "draw"
   ],
   "pentagon": [
     "shape",
@@ -948,6 +1089,13 @@
     "greek",
     "geometry",
     "circle"
+  ],
+  "pipette": [
+    "eyedropper",
+    "color picker",
+    "sample",
+    "dropper",
+    "pick"
   ],
   "play": [
     "start",
@@ -990,6 +1138,13 @@
     "unknown",
     "ask"
   ],
+  "quote": [
+    "blockquote",
+    "citation",
+    "testimonial",
+    "text",
+    "quotation"
+  ],
   "rectangle-horizontal": [
     "landscape",
     "shape",
@@ -1030,6 +1185,13 @@
     "turn",
     "reload",
     "spin"
+  ],
+  "scissors": [
+    "cut",
+    "clip",
+    "trim",
+    "snip",
+    "tool"
   ],
   "search": [
     "find",
@@ -1147,6 +1309,13 @@
     "shine",
     "generate"
   ],
+  "spell-check": [
+    "spelling",
+    "proofread",
+    "grammar",
+    "text",
+    "check"
+  ],
   "square": [
     "box",
     "shape",
@@ -1167,12 +1336,33 @@
     "bookmark",
     "featured"
   ],
+  "strikethrough": [
+    "text",
+    "format",
+    "strike",
+    "delete",
+    "cross out"
+  ],
+  "subscript": [
+    "text",
+    "format",
+    "lower",
+    "index",
+    "math"
+  ],
   "sun": [
     "light mode",
     "day",
     "brightness",
     "weather",
     "sunny"
+  ],
+  "superscript": [
+    "text",
+    "format",
+    "exponent",
+    "power",
+    "math"
   ],
   "tag": [
     "label",
@@ -1188,6 +1378,13 @@
     "cli",
     "prompt",
     "bash"
+  ],
+  "text-size": [
+    "font size",
+    "text",
+    "resize",
+    "scale",
+    "typography"
   ],
   "thumbs-up": [
     "like",
@@ -1222,6 +1419,19 @@
     "delta",
     "geometry",
     "pyramid"
+  ],
+  "type": [
+    "text",
+    "font",
+    "typography",
+    "letter",
+    "typeface"
+  ],
+  "underline": [
+    "text",
+    "format",
+    "underscore",
+    "font"
   ],
   "undo": [
     "back",
