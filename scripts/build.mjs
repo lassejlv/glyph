@@ -215,7 +215,23 @@ await Promise.all([
 // The website: browser, llms.txt and per-icon endpoints.
 await rm(SITE, { recursive: true, force: true });
 await Promise.all([...VARIANTS, "brands"].map((d) => mkdir(join(SITE, d), { recursive: true })));
+// Cloudflare Pages reads _headers from the output dir. Keep the page and text
+// endpoints fresh so a deploy shows up right away; let SVGs cache for a day.
+const headers = `/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.svg
+  Cache-Control: public, max-age=86400
+
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+
+/*.txt
+  Content-Type: text/plain; charset=utf-8
+`;
 const files = [
+  ["_headers", headers],
   ["index.html", site],
   ["llms.txt", llmsTxt({ icons, tags, variants: VARIANTS, brands, brandTags })],
 ];
